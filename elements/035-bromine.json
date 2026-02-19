@@ -1,0 +1,155 @@
+{
+  "name": "Bromine",
+  "symbol": "Br",
+  "atomic_number": 35,
+  "atomic_mass_u": 79.904,
+  "atomic_mass_uncertainty_u": 0.001,
+  "classification": {
+    "group": 17,
+    "period": 4,
+    "block": "p",
+    "category": "reactive nonmetal",
+    "series": "halogen",
+    "natural_occurrence": "primordial"
+  },
+  "atomic_structure": {
+    "electron_configuration": "[Ar] 3d10 4s2 4p5",
+    "electron_configuration_long": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p5",
+    "electron_shells": [
+      2,
+      8,
+      18,
+      7
+    ],
+    "valence_electrons": 7,
+    "oxidation_states": [
+      -1,
+      1,
+      3,
+      4,
+      5,
+      7
+    ],
+    "common_oxidation_states": [
+      -1,
+      1,
+      5
+    ],
+    "electronegativity_pauling": 2.96,
+    "ionization_energies_kj_mol": [
+      1139.9
+    ],
+    "electron_affinity_kj_mol": 324.537,
+    "atomic_radius_pm": 94,
+    "covalent_radius_pm": 120,
+    "van_der_waals_radius_pm": 185
+  },
+  "physical_properties": {
+    "phase_at_stp": "liquid",
+    "melting_point_k": 265.8,
+    "boiling_point_k": 332.0,
+    "density_kg_m3": 3120.0,
+    "density_liquid_kg_m3": 3028.0,
+    "triple_point_k": null,
+    "triple_point_kpa": null,
+    "critical_point_k": null,
+    "critical_point_mpa": null,
+    "heat_of_fusion_kj_mol": 10.57,
+    "heat_of_vaporization_kj_mol": 29.96,
+    "molar_heat_capacity_j_mol_k": 75.69,
+    "color": "reddish-brown",
+    "crystal_structure": "orthorhombic",
+    "magnetic_ordering": "diamagnetic",
+    "speed_of_sound_m_s": null,
+    "thermal_conductivity_w_m_k": 0.122,
+    "thermal_expansion_per_k": null,
+    "mohs_hardness": null,
+    "bulk_modulus_gpa": null,
+    "shear_modulus_gpa": null,
+    "young_modulus_gpa": null,
+    "poisson_ratio": null
+  },
+  "nuclear_properties": {
+    "radioactive": false,
+    "half_life": null,
+    "decay_mode": null,
+    "stable_isotopes": [
+      79,
+      81
+    ],
+    "isotopes": [
+      {
+        "mass_number": 80,
+        "symbol": "80Br",
+        "name": null,
+        "neutrons": 45,
+        "abundance_percent": null,
+        "mass_u": 79.904,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": null
+      }
+    ]
+  },
+  "abundance": {
+    "universe_percent": null,
+    "solar_percent": null,
+    "earth_crust_ppm": 2.4,
+    "ocean_ppm": null,
+    "human_body_percent": 0.00029
+  },
+  "discovery": {
+    "year": 1826,
+    "discoverers": [
+      "Antoine Jerome Balard",
+      "Carl Jacob Lowig"
+    ],
+    "country": "France/Germany",
+    "named_by": "Antoine Jerome Balard",
+    "name_origin": "Greek 'bromos' (stench)"
+  },
+  "applications": [
+    "Flame retardants",
+    "Photography (silver bromide)",
+    "Pesticides",
+    "Water purification",
+    "Pharmaceuticals"
+  ],
+  "hazards": {
+    "ghs_pictograms": [
+      "GHS06",
+      "GHS05",
+      "GHS09"
+    ],
+    "signal_word": "Danger",
+    "nfpa_704": null,
+    "hazard_statements": [],
+    "autoignition_temp_k": null,
+    "flash_point_k": null,
+    "explosive_limits_percent": null
+  },
+  "reactions": [
+    {
+      "id": "Br-laboratory-001",
+      "name": "Bromine water test for unsaturation",
+      "equation": "C2H4(g) + Br2(aq) -> C2H4Br2(l)",
+      "type": "addition",
+      "category": "laboratory",
+      "delta_h_kj": null,
+      "conditions": null,
+      "description": "Decolorization of bromine water indicates C=C double bond. Classic qualitative test.",
+      "reversible": false
+    },
+    {
+      "id": "C-laboratory-004",
+      "name": "Grignard reaction (general)",
+      "equation": "RMgBr(ether) + R'CHO(l) -> R'CH(OH)R(aq)",
+      "type": "addition",
+      "category": "laboratory",
+      "delta_h_kj": null,
+      "conditions": "anhydrous diethyl ether; strictly dry glassware; N2 atmosphere",
+      "description": "Grignard reagent adds to carbonyl. Produces secondary alcohol from aldehyde. Nobel Prize 1912.",
+      "reversible": false
+    }
+  ]
+}

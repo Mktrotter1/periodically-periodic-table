@@ -1,0 +1,128 @@
+{
+  "name": "Thallium",
+  "symbol": "Tl",
+  "atomic_number": 81,
+  "atomic_mass_u": 204.38,
+  "atomic_mass_uncertainty_u": 0.01,
+  "classification": {
+    "group": 13,
+    "period": 6,
+    "block": "p",
+    "category": "post-transition metal",
+    "series": "poor metal",
+    "natural_occurrence": "primordial"
+  },
+  "atomic_structure": {
+    "electron_configuration": "[Xe] 4f14 5d10 6s2 6p1",
+    "electron_configuration_long": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p1",
+    "electron_shells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      3
+    ],
+    "valence_electrons": 3,
+    "oxidation_states": [
+      1,
+      3
+    ],
+    "common_oxidation_states": [
+      1,
+      3
+    ],
+    "electronegativity_pauling": 1.62,
+    "ionization_energies_kj_mol": [
+      589.4
+    ],
+    "electron_affinity_kj_mol": 36.4,
+    "atomic_radius_pm": 156,
+    "covalent_radius_pm": 145,
+    "van_der_waals_radius_pm": 196
+  },
+  "physical_properties": {
+    "phase_at_stp": "solid",
+    "melting_point_k": 577.0,
+    "boiling_point_k": 1746.0,
+    "density_kg_m3": 11850.0,
+    "density_liquid_kg_m3": null,
+    "triple_point_k": null,
+    "triple_point_kpa": null,
+    "critical_point_k": null,
+    "critical_point_mpa": null,
+    "heat_of_fusion_kj_mol": 4.14,
+    "heat_of_vaporization_kj_mol": 165.0,
+    "molar_heat_capacity_j_mol_k": 26.32,
+    "color": "silvery-white",
+    "crystal_structure": "hexagonal close-packed",
+    "magnetic_ordering": "diamagnetic",
+    "speed_of_sound_m_s": 818,
+    "thermal_conductivity_w_m_k": 46.1,
+    "thermal_expansion_per_k": 2.99e-05,
+    "mohs_hardness": 1.2,
+    "bulk_modulus_gpa": 43,
+    "shear_modulus_gpa": null,
+    "young_modulus_gpa": 8,
+    "poisson_ratio": null
+  },
+  "nuclear_properties": {
+    "radioactive": false,
+    "half_life": null,
+    "decay_mode": null,
+    "stable_isotopes": [
+      203,
+      205
+    ],
+    "isotopes": [
+      {
+        "mass_number": 204,
+        "symbol": "204Tl",
+        "name": null,
+        "neutrons": 123,
+        "abundance_percent": null,
+        "mass_u": 204.38,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": null
+      }
+    ]
+  },
+  "abundance": {
+    "universe_percent": null,
+    "solar_percent": null,
+    "earth_crust_ppm": 0.85,
+    "ocean_ppm": null,
+    "human_body_percent": null
+  },
+  "discovery": {
+    "year": 1861,
+    "discoverers": [
+      "William Crookes"
+    ],
+    "country": "England",
+    "named_by": "William Crookes",
+    "name_origin": "Greek 'thallos' (green shoot)"
+  },
+  "applications": [
+    "Medical imaging (201Tl cardiac)",
+    "Infrared detectors",
+    "Superconductors (TlBaCaCuO)",
+    "Photocells (historical)",
+    "Rat poison (historical, now banned)"
+  ],
+  "hazards": {
+    "ghs_pictograms": [
+      "GHS06",
+      "GHS08",
+      "GHS09"
+    ],
+    "signal_word": null,
+    "nfpa_704": null,
+    "hazard_statements": [],
+    "autoignition_temp_k": null,
+    "flash_point_k": null,
+    "explosive_limits_percent": null
+  },
+  "reactions": []
+}

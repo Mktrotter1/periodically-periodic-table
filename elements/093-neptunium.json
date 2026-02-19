@@ -1,0 +1,124 @@
+{
+  "name": "Neptunium",
+  "symbol": "Np",
+  "atomic_number": 93,
+  "atomic_mass_u": 237.0,
+  "atomic_mass_uncertainty_u": null,
+  "classification": {
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "category": "actinide",
+    "series": "actinide",
+    "natural_occurrence": "from decay"
+  },
+  "atomic_structure": {
+    "electron_configuration": "[Rn] 5f4 6d1 7s2",
+    "electron_configuration_long": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f4 6d1 7s2",
+    "electron_shells": [
+      2,
+      8,
+      18,
+      32,
+      22,
+      9,
+      2
+    ],
+    "valence_electrons": 7,
+    "oxidation_states": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "common_oxidation_states": [
+      5
+    ],
+    "electronegativity_pauling": 1.36,
+    "ionization_energies_kj_mol": [
+      604.5
+    ],
+    "electron_affinity_kj_mol": 45.85,
+    "atomic_radius_pm": null,
+    "covalent_radius_pm": 190,
+    "van_der_waals_radius_pm": null
+  },
+  "physical_properties": {
+    "phase_at_stp": "solid",
+    "melting_point_k": 917.0,
+    "boiling_point_k": 4175.0,
+    "density_kg_m3": 20450.0,
+    "density_liquid_kg_m3": null,
+    "triple_point_k": null,
+    "triple_point_kpa": null,
+    "critical_point_k": null,
+    "critical_point_mpa": null,
+    "heat_of_fusion_kj_mol": 3.2,
+    "heat_of_vaporization_kj_mol": 336.0,
+    "molar_heat_capacity_j_mol_k": 29.46,
+    "color": "silvery",
+    "crystal_structure": "orthorhombic",
+    "magnetic_ordering": null,
+    "speed_of_sound_m_s": null,
+    "thermal_conductivity_w_m_k": 6.3,
+    "thermal_expansion_per_k": null,
+    "mohs_hardness": null,
+    "bulk_modulus_gpa": null,
+    "shear_modulus_gpa": null,
+    "young_modulus_gpa": null,
+    "poisson_ratio": null
+  },
+  "nuclear_properties": {
+    "radioactive": true,
+    "half_life": "2.144e6 y",
+    "decay_mode": "alpha",
+    "stable_isotopes": [],
+    "isotopes": [
+      {
+        "mass_number": 237,
+        "symbol": "237Np",
+        "name": null,
+        "neutrons": 144,
+        "abundance_percent": null,
+        "mass_u": 237.0,
+        "half_life": "2.144e6 y",
+        "decay_mode": "alpha",
+        "spin": null
+      }
+    ]
+  },
+  "abundance": {
+    "universe_percent": null,
+    "solar_percent": null,
+    "earth_crust_ppm": null,
+    "ocean_ppm": null,
+    "human_body_percent": null
+  },
+  "discovery": {
+    "year": 1940,
+    "discoverers": [
+      "Edwin McMillan",
+      "Philip Abelson"
+    ],
+    "country": "United States",
+    "named_by": "Edwin McMillan",
+    "name_origin": "Planet Neptune"
+  },
+  "applications": [
+    "Neutron detection",
+    "Nuclear research",
+    "Radioisotope thermoelectric generators"
+  ],
+  "hazards": {
+    "ghs_pictograms": [],
+    "signal_word": null,
+    "nfpa_704": null,
+    "hazard_statements": [],
+    "autoignition_temp_k": null,
+    "flash_point_k": null,
+    "explosive_limits_percent": null
+  },
+  "reactions": []
+}

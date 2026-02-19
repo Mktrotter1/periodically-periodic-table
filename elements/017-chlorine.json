@@ -1,0 +1,362 @@
+{
+  "name": "Chlorine",
+  "symbol": "Cl",
+  "atomic_number": 17,
+  "atomic_mass_u": 35.45,
+  "atomic_mass_uncertainty_u": 0.01,
+  "classification": {
+    "group": 17,
+    "period": 3,
+    "block": "p",
+    "category": "reactive nonmetal",
+    "series": "halogen",
+    "natural_occurrence": "primordial"
+  },
+  "atomic_structure": {
+    "electron_configuration": "[Ne] 3s2 3p5",
+    "electron_configuration_long": "1s2 2s2 2p6 3s2 3p5",
+    "electron_shells": [
+      2,
+      8,
+      7
+    ],
+    "valence_electrons": 7,
+    "oxidation_states": [
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "common_oxidation_states": [
+      -1,
+      1,
+      5,
+      7
+    ],
+    "electronegativity_pauling": 3.16,
+    "ionization_energies_kj_mol": [
+      1251.2
+    ],
+    "electron_affinity_kj_mol": 348.575,
+    "atomic_radius_pm": 79,
+    "covalent_radius_pm": 102,
+    "van_der_waals_radius_pm": 175
+  },
+  "physical_properties": {
+    "phase_at_stp": "gas",
+    "melting_point_k": 171.6,
+    "boiling_point_k": 239.11,
+    "density_kg_m3": 3.214,
+    "density_liquid_kg_m3": 1563.0,
+    "triple_point_k": null,
+    "triple_point_kpa": null,
+    "critical_point_k": 416.9,
+    "critical_point_mpa": 7.991,
+    "heat_of_fusion_kj_mol": 6.406,
+    "heat_of_vaporization_kj_mol": 20.41,
+    "molar_heat_capacity_j_mol_k": 33.949,
+    "color": "pale yellow-green",
+    "crystal_structure": "orthorhombic",
+    "magnetic_ordering": "diamagnetic",
+    "speed_of_sound_m_s": 206,
+    "thermal_conductivity_w_m_k": 0.0089,
+    "thermal_expansion_per_k": null,
+    "mohs_hardness": null,
+    "bulk_modulus_gpa": null,
+    "shear_modulus_gpa": null,
+    "young_modulus_gpa": null,
+    "poisson_ratio": null
+  },
+  "nuclear_properties": {
+    "radioactive": false,
+    "half_life": null,
+    "decay_mode": null,
+    "stable_isotopes": [
+      35,
+      37
+    ],
+    "isotopes": [
+      {
+        "mass_number": 35,
+        "symbol": "35Cl",
+        "name": null,
+        "neutrons": 18,
+        "abundance_percent": 75.76,
+        "mass_u": 34.968853,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": "3/2+"
+      },
+      {
+        "mass_number": 37,
+        "symbol": "37Cl",
+        "name": null,
+        "neutrons": 20,
+        "abundance_percent": 24.24,
+        "mass_u": 36.965903,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": "3/2+"
+      }
+    ]
+  },
+  "abundance": {
+    "universe_percent": 0.0001,
+    "solar_percent": 0.0001,
+    "earth_crust_ppm": 145,
+    "ocean_ppm": 19400,
+    "human_body_percent": 0.15
+  },
+  "discovery": {
+    "year": 1774,
+    "discoverers": [
+      "Carl Wilhelm Scheele"
+    ],
+    "country": "Sweden",
+    "named_by": "Humphry Davy",
+    "name_origin": "Greek 'chloros' (pale green)"
+  },
+  "applications": [
+    "Water purification (chlorination)",
+    "PVC production",
+    "Bleach (sodium hypochlorite)",
+    "Disinfectants",
+    "Paper production",
+    "Hydrochloric acid",
+    "Swimming pool treatment"
+  ],
+  "hazards": {
+    "ghs_pictograms": [
+      "GHS04",
+      "GHS06",
+      "GHS05",
+      "GHS09"
+    ],
+    "signal_word": "Danger",
+    "nfpa_704": {
+      "health": 3,
+      "flammability": 0,
+      "reactivity": 0,
+      "special": ""
+    },
+    "hazard_statements": [],
+    "autoignition_temp_k": null,
+    "flash_point_k": null,
+    "explosive_limits_percent": null
+  },
+  "reactions": [
+    {
+      "id": "O-environmental-002",
+      "name": "Ozone depletion by CFCs",
+      "equation": "O3(g) + Cl(g) -> O2(g) + ClO(g)",
+      "type": "catalytic destruction",
+      "category": "environmental",
+      "delta_h_kj": null,
+      "conditions": "Cl radical from CFC photolysis; one Cl atom destroys ~100,000 O3 molecules",
+      "description": "Catalytic ozone destruction cycle. Cl regenerated: ClO + O -> Cl + O2. Montreal Protocol banned CFCs.",
+      "reversible": false
+    },
+    {
+      "id": "Cl-industrial-001",
+      "name": "Chloralkali electrolysis",
+      "equation": "2 NaCl(aq) + 2 H2O(l) -> Cl2(g) + 2 NaOH(aq) + H2(g)",
+      "type": "electrolysis",
+      "category": "industrial",
+      "delta_h_kj": 422,
+      "conditions": "membrane cell electrolysis at ~3.5 V",
+      "description": "Produces chlorine, sodium hydroxide, and hydrogen simultaneously.",
+      "reversible": false
+    },
+    {
+      "id": "Cl-industrial-002",
+      "name": "PVC production (vinyl chloride)",
+      "equation": "C2H4(g) + Cl2(g) -> C2H4Cl2(l)",
+      "type": "addition",
+      "category": "industrial",
+      "delta_h_kj": -218,
+      "conditions": "FeCl3",
+      "description": "Direct chlorination of ethylene to 1,2-dichloroethane (EDC). Precursor to PVC.",
+      "reversible": false
+    },
+    {
+      "id": "Na-industrial-001",
+      "name": "Solvay process (overall)",
+      "equation": "2 NaCl(aq) + CaCO3(s) -> Na2CO3(s) + CaCl2(aq)",
+      "type": "double displacement",
+      "category": "industrial",
+      "delta_h_kj": null,
+      "conditions": "multi-step process using NH3 as intermediate",
+      "description": "Overall Solvay process for soda ash (Na2CO3). Key step involves NaHCO3 precipitation.",
+      "reversible": false
+    },
+    {
+      "id": "Na-industrial-002",
+      "name": "Solvay process (key precipitation step)",
+      "equation": "NaCl(aq) + NH3(aq) + CO2(g) + H2O(l) -> NaHCO3(s) + NH4Cl(aq)",
+      "type": "precipitation",
+      "category": "industrial",
+      "delta_h_kj": null,
+      "conditions": "288 K; CO2 bubbled through ammoniacal brine",
+      "description": "NaHCO3 precipitates due to low solubility. Filtered and calcined to Na2CO3.",
+      "reversible": false
+    },
+    {
+      "id": "Ti-industrial-001",
+      "name": "Kroll process step 1 (chlorination)",
+      "equation": "TiO2(s) + 2 Cl2(g) + 2 C(s) -> TiCl4(l) + 2 CO(g)",
+      "type": "chlorination",
+      "category": "industrial",
+      "delta_h_kj": -258,
+      "conditions": "1173 K",
+      "description": "Rutile ore converted to titanium tetrachloride. First step of Kroll process.",
+      "reversible": false
+    },
+    {
+      "id": "Ti-industrial-002",
+      "name": "Kroll process step 2 (reduction)",
+      "equation": "TiCl4(l) + 2 Mg(l) -> Ti(s) + 2 MgCl2(l)",
+      "type": "reduction",
+      "category": "industrial",
+      "delta_h_kj": -512,
+      "conditions": "1073 K; argon atmosphere to prevent oxidation",
+      "description": "Magnesium reduces TiCl4 to titanium sponge. Batch process, very energy-intensive.",
+      "reversible": false
+    },
+    {
+      "id": "Ag-laboratory-001",
+      "name": "Silver chloride precipitation",
+      "equation": "AgNO3(aq) + NaCl(aq) -> AgCl(s) + NaNO3(aq)",
+      "type": "precipitation",
+      "category": "laboratory",
+      "delta_h_kj": -65.5,
+      "conditions": null,
+      "description": "Classic precipitation. White curdy precipitate. Ksp = 1.77e-10. Used in chloride analysis.",
+      "reversible": false
+    },
+    {
+      "id": "Ba-laboratory-001",
+      "name": "Barium sulfate precipitation (sulfate test)",
+      "equation": "BaCl2(aq) + Na2SO4(aq) -> BaSO4(s) + 2 NaCl(aq)",
+      "type": "precipitation",
+      "category": "laboratory",
+      "delta_h_kj": null,
+      "conditions": "add BaCl2 in dilute HCl to acidified sample",
+      "description": "Confirmatory test for sulfate ions. White precipitate insoluble in dilute HCl. Ksp = 1.1e-10.",
+      "reversible": false
+    },
+    {
+      "id": "C-laboratory-001",
+      "name": "CO2 generation (marble + HCl)",
+      "equation": "CaCO3(s) + 2 HCl(aq) -> CaCl2(aq) + H2O(l) + CO2(g)",
+      "type": "acid-carbonate",
+      "category": "laboratory",
+      "delta_h_kj": -16,
+      "conditions": null,
+      "description": "Reaction of marble chips (CaCO3) with hydrochloric acid. Common CO2 source in lab.",
+      "reversible": false
+    },
+    {
+      "id": "Ca-laboratory-001",
+      "name": "Calcium carbonate precipitation",
+      "equation": "CaCl2(aq) + Na2CO3(aq) -> CaCO3(s) + 2 NaCl(aq)",
+      "type": "precipitation",
+      "category": "laboratory",
+      "delta_h_kj": null,
+      "conditions": null,
+      "description": "White precipitate of calcium carbonate. Dissolves in dilute acid with effervescence.",
+      "reversible": false
+    },
+    {
+      "id": "Cl-laboratory-001",
+      "name": "Chlorine generation (MnO2 + HCl)",
+      "equation": "MnO2(s) + 4 HCl(aq) -> MnCl2(aq) + 2 H2O(l) + Cl2(g)",
+      "type": "oxidation",
+      "category": "laboratory",
+      "delta_h_kj": null,
+      "conditions": "use concentrated HCl; fume hood required",
+      "description": "Laboratory chlorine preparation. Scheele's original 1774 method.",
+      "reversible": false
+    },
+    {
+      "id": "H-laboratory-001",
+      "name": "Strong acid-base neutralization (HCl + NaOH)",
+      "equation": "HCl(aq) + NaOH(aq) -> NaCl(aq) + H2O(l)",
+      "type": "neutralization",
+      "category": "laboratory",
+      "delta_h_kj": -57.1,
+      "conditions": null,
+      "description": "Fundamental acid-base neutralization. Enthalpy is -57.1 kJ/mol for all strong acid-strong base pairs.",
+      "reversible": false
+    },
+    {
+      "id": "H-laboratory-004",
+      "name": "Hydrogen generation (Zn + HCl)",
+      "equation": "Zn(s) + 2 HCl(aq) -> ZnCl2(aq) + H2(g)",
+      "type": "single displacement",
+      "category": "laboratory",
+      "delta_h_kj": -153,
+      "conditions": null,
+      "description": "Standard lab preparation of hydrogen gas. Collect by downward displacement of water.",
+      "reversible": false
+    },
+    {
+      "id": "K-laboratory-002",
+      "name": "Potassium chlorate decomposition",
+      "equation": "2 KClO3(s) -> 2 KCl(s) + 3 O2(g)",
+      "type": "decomposition",
+      "category": "laboratory",
+      "delta_h_kj": -89.4,
+      "conditions": "673 K; MnO2 lowers temperature to ~523K",
+      "description": "Thermal decomposition accelerated by MnO2 catalyst. Historically used for O2 preparation.",
+      "reversible": false
+    },
+    {
+      "id": "N-laboratory-001",
+      "name": "Ammonia from ammonium salt + base",
+      "equation": "NH4Cl(s) + NaOH(s) -> NaCl(s) + H2O(l) + NH3(g)",
+      "type": "base displacement",
+      "category": "laboratory",
+      "delta_h_kj": null,
+      "conditions": "gentle heating",
+      "description": "Lab preparation of ammonia. Detected by moist red litmus turning blue.",
+      "reversible": false
+    },
+    {
+      "id": "Au-notable-001",
+      "name": "Gold dissolution in aqua regia",
+      "equation": "Au(s) + 3 HCl(aq) + HNO3(aq) -> HAuCl4(aq) + NO(g) + 2 H2O(l)",
+      "type": "dissolution",
+      "category": "notable",
+      "delta_h_kj": null,
+      "conditions": "3:1 HCl:HNO3 mixture; chloride complexation drives dissolution",
+      "description": "Aqua regia dissolves gold. Neither acid alone works. Cl- complexation (AuCl4-) shifts equilibrium. de Hevesy saved Nobel medals this way in WWII.",
+      "reversible": false
+    },
+    {
+      "id": "Bi-notable-001",
+      "name": "Bismuth subsalicylate (Pepto-Bismol pink)",
+      "equation": "Bi2O3(s) + 6 HCl(aq) -> 2 BiCl3(aq) + 3 H2O(l)",
+      "type": "acid dissolution",
+      "category": "notable",
+      "delta_h_kj": null,
+      "conditions": null,
+      "description": "Bismuth is the heaviest non-radioactive element used in medicine. Pepto-Bismol's pink active ingredient.",
+      "reversible": false
+    },
+    {
+      "id": "Pt-notable-001",
+      "name": "Platinum dissolution in aqua regia",
+      "equation": "3 Pt(s) + 4 HNO3(aq) + 12 HCl(aq) -> 3 H2PtCl4(aq) + 4 NO(g) + 8 H2O(l)",
+      "type": "dissolution",
+      "category": "notable",
+      "delta_h_kj": null,
+      "conditions": "aqua regia ('royal water') named for dissolving noble metals",
+      "description": "Aqua regia dissolves platinum. Named 'royal water' by alchemists. Only method for dissolving Pt.",
+      "reversible": false
+    }
+  ]
+}

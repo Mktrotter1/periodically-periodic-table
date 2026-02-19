@@ -1,0 +1,218 @@
+{
+  "name": "Magnesium",
+  "symbol": "Mg",
+  "atomic_number": 12,
+  "atomic_mass_u": 24.305,
+  "atomic_mass_uncertainty_u": 0.001,
+  "classification": {
+    "group": 2,
+    "period": 3,
+    "block": "s",
+    "category": "alkaline earth metal",
+    "series": "alkaline earth metal",
+    "natural_occurrence": "primordial"
+  },
+  "atomic_structure": {
+    "electron_configuration": "[Ne] 3s2",
+    "electron_configuration_long": "1s2 2s2 2p6 3s2",
+    "electron_shells": [
+      2,
+      8,
+      2
+    ],
+    "valence_electrons": 2,
+    "oxidation_states": [
+      1,
+      2
+    ],
+    "common_oxidation_states": [
+      2
+    ],
+    "electronegativity_pauling": 1.31,
+    "ionization_energies_kj_mol": [
+      737.7
+    ],
+    "electron_affinity_kj_mol": -40.0,
+    "atomic_radius_pm": 145,
+    "covalent_radius_pm": 141,
+    "van_der_waals_radius_pm": 173
+  },
+  "physical_properties": {
+    "phase_at_stp": "solid",
+    "melting_point_k": 923.0,
+    "boiling_point_k": 1363.0,
+    "density_kg_m3": 1738.0,
+    "density_liquid_kg_m3": null,
+    "triple_point_k": null,
+    "triple_point_kpa": null,
+    "critical_point_k": null,
+    "critical_point_mpa": null,
+    "heat_of_fusion_kj_mol": 8.48,
+    "heat_of_vaporization_kj_mol": 128.0,
+    "molar_heat_capacity_j_mol_k": 24.869,
+    "color": "shiny grey",
+    "crystal_structure": "hexagonal close-packed",
+    "magnetic_ordering": "paramagnetic",
+    "speed_of_sound_m_s": 4602,
+    "thermal_conductivity_w_m_k": 156.0,
+    "thermal_expansion_per_k": 2.48e-05,
+    "mohs_hardness": 2.5,
+    "bulk_modulus_gpa": 45,
+    "shear_modulus_gpa": 17,
+    "young_modulus_gpa": 45,
+    "poisson_ratio": 0.29
+  },
+  "nuclear_properties": {
+    "radioactive": false,
+    "half_life": null,
+    "decay_mode": null,
+    "stable_isotopes": [
+      24,
+      25,
+      26
+    ],
+    "isotopes": [
+      {
+        "mass_number": 24,
+        "symbol": "24Mg",
+        "name": null,
+        "neutrons": 12,
+        "abundance_percent": 78.99,
+        "mass_u": 23.985042,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": "0+"
+      },
+      {
+        "mass_number": 25,
+        "symbol": "25Mg",
+        "name": null,
+        "neutrons": 13,
+        "abundance_percent": 10.0,
+        "mass_u": 24.985837,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": "5/2+"
+      },
+      {
+        "mass_number": 26,
+        "symbol": "26Mg",
+        "name": null,
+        "neutrons": 14,
+        "abundance_percent": 11.01,
+        "mass_u": 25.982593,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": "0+"
+      }
+    ]
+  },
+  "abundance": {
+    "universe_percent": 0.06,
+    "solar_percent": 0.06,
+    "earth_crust_ppm": 23300,
+    "ocean_ppm": 1290,
+    "human_body_percent": 0.05
+  },
+  "discovery": {
+    "year": 1755,
+    "discoverers": [
+      "Joseph Black"
+    ],
+    "country": "Scotland",
+    "named_by": null,
+    "name_origin": "Magnesia district, Greece"
+  },
+  "applications": [
+    "Automotive and aerospace alloys",
+    "Fireworks and flares (bright white)",
+    "Flash photography",
+    "Antacids (milk of magnesia)",
+    "Fire-resistant materials (MgO)",
+    "Electronics (magnesium alloy casings)"
+  ],
+  "hazards": {
+    "ghs_pictograms": [
+      "GHS02"
+    ],
+    "signal_word": "Danger",
+    "nfpa_704": {
+      "health": 0,
+      "flammability": 1,
+      "reactivity": 1,
+      "special": ""
+    },
+    "hazard_statements": [],
+    "autoignition_temp_k": null,
+    "flash_point_k": null,
+    "explosive_limits_percent": null
+  },
+  "reactions": [
+    {
+      "id": "Mg-biological-001",
+      "name": "Chlorophyll light absorption",
+      "equation": "Chl + hv -> Chl*",
+      "type": "photoexcitation",
+      "category": "biological",
+      "delta_h_kj": null,
+      "conditions": "absorbs red (680 nm) and blue (430 nm); Mg2+ coordinated by porphyrin ring",
+      "description": "Chlorophyll absorbs light via Mg-porphyrin chromophore. Excited electron enters photosystem.",
+      "reversible": false
+    },
+    {
+      "id": "Mg-industrial-001",
+      "name": "Pidgeon process (magnesium production)",
+      "equation": "2 MgO(s) + Si(s) -> 2 Mg(g) + SiO2(s)",
+      "type": "reduction",
+      "category": "industrial",
+      "delta_h_kj": null,
+      "conditions": "1473 K; 0.01 atm; vacuum retort; Mg vapor condensed",
+      "description": "Pidgeon process: silicothermic reduction of MgO. Dominant in China.",
+      "reversible": false
+    },
+    {
+      "id": "Ti-industrial-002",
+      "name": "Kroll process step 2 (reduction)",
+      "equation": "TiCl4(l) + 2 Mg(l) -> Ti(s) + 2 MgCl2(l)",
+      "type": "reduction",
+      "category": "industrial",
+      "delta_h_kj": -512,
+      "conditions": "1073 K; argon atmosphere to prevent oxidation",
+      "description": "Magnesium reduces TiCl4 to titanium sponge. Batch process, very energy-intensive.",
+      "reversible": false
+    },
+    {
+      "id": "C-laboratory-004",
+      "name": "Grignard reaction (general)",
+      "equation": "RMgBr(ether) + R'CHO(l) -> R'CH(OH)R(aq)",
+      "type": "addition",
+      "category": "laboratory",
+      "delta_h_kj": null,
+      "conditions": "anhydrous diethyl ether; strictly dry glassware; N2 atmosphere",
+      "description": "Grignard reagent adds to carbonyl. Produces secondary alcohol from aldehyde. Nobel Prize 1912.",
+      "reversible": false
+    },
+    {
+      "id": "Mg-notable-001",
+      "name": "Magnesium ribbon burning",
+      "equation": "2 Mg(s) + O2(g) -> 2 MgO(s)",
+      "type": "combustion",
+      "category": "notable",
+      "delta_h_kj": -1204,
+      "conditions": "brilliant white light; do not look directly; burns at ~3100C; cannot be extinguished with water",
+      "description": "Brilliant white flame used in fireworks and flares. Burns hot enough to ignite in CO2 and N2.",
+      "reversible": false
+    },
+    {
+      "id": "Mg-notable-002",
+      "name": "Magnesium in dry ice",
+      "equation": "2 Mg(s) + CO2(g) -> 2 MgO(s) + C(s)",
+      "type": "combustion",
+      "category": "notable",
+      "delta_h_kj": null,
+      "conditions": "Mg ribbon burns inside CO2; demonstrates that CO2 fire extinguisher fails for Mg fires",
+      "description": "Magnesium burns in CO2, reducing it to carbon. Demonstrates that CO2 extinguishers are useless for metal fires.",
+      "reversible": false
+    }
+  ]
+}

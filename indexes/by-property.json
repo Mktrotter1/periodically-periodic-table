@@ -1,0 +1,171 @@
+{
+  "atomic_mass_u": {
+    "min": {
+      "value": 1.008,
+      "element": "H"
+    },
+    "max": {
+      "value": 294.0,
+      "element": "Og"
+    },
+    "mean": 146.5646,
+    "median": 142.575,
+    "count": 118
+  },
+  "electronegativity_pauling": {
+    "min": {
+      "value": 0.79,
+      "element": "Cs"
+    },
+    "max": {
+      "value": 3.98,
+      "element": "F"
+    },
+    "mean": 1.7074,
+    "median": 1.605,
+    "count": 100
+  },
+  "first_ionization_energy_kj_mol": {
+    "min": {
+      "value": 375.7,
+      "element": "Cs"
+    },
+    "max": {
+      "value": 2372.3,
+      "element": "He"
+    },
+    "mean": 770.2441,
+    "median": 705.0,
+    "count": 118
+  },
+  "electron_affinity_kj_mol": {
+    "min": {
+      "value": -223.22,
+      "element": "No"
+    },
+    "max": {
+      "value": 348.575,
+      "element": "Cl"
+    },
+    "mean": 54.433,
+    "median": 45.85,
+    "count": 103
+  },
+  "atomic_radius_pm": {
+    "min": {
+      "value": 31,
+      "element": "He"
+    },
+    "max": {
+      "value": 298,
+      "element": "Cs"
+    },
+    "mean": 148.3056,
+    "median": 155.0,
+    "count": 72
+  },
+  "covalent_radius_pm": {
+    "min": {
+      "value": 28,
+      "element": "He"
+    },
+    "max": {
+      "value": 260,
+      "element": "Fr"
+    },
+    "mean": 151.9896,
+    "median": 146.0,
+    "count": 96
+  },
+  "melting_point_k": {
+    "min": {
+      "value": 0.95,
+      "element": "He"
+    },
+    "max": {
+      "value": 3823.0,
+      "element": "C"
+    },
+    "mean": 1272.8805,
+    "median": 1193.0,
+    "count": 103
+  },
+  "boiling_point_k": {
+    "min": {
+      "value": 4.222,
+      "element": "He"
+    },
+    "max": {
+      "value": 5869.0,
+      "element": "Re"
+    },
+    "mean": 2500.5136,
+    "median": 2792.0,
+    "count": 99
+  },
+  "density_kg_m3": {
+    "min": {
+      "value": 0.08988,
+      "element": "H"
+    },
+    "max": {
+      "value": 22590.0,
+      "element": "Os"
+    },
+    "mean": 7644.686,
+    "median": 7134.0,
+    "count": 99
+  },
+  "thermal_conductivity_w_m_k": {
+    "min": {
+      "value": 0.00361,
+      "element": "Rn"
+    },
+    "max": {
+      "value": 429.0,
+      "element": "Ag"
+    },
+    "mean": 56.1725,
+    "median": 22.25,
+    "count": 98
+  },
+  "heat_of_fusion_kj_mol": {
+    "min": {
+      "value": 0.0138,
+      "element": "He"
+    },
+    "max": {
+      "value": 117.0,
+      "element": "C"
+    },
+    "mean": 14.9567,
+    "median": 10.15,
+    "count": 95
+  },
+  "heat_of_vaporization_kj_mol": {
+    "min": {
+      "value": 0.0829,
+      "element": "He"
+    },
+    "max": {
+      "value": 806.7,
+      "element": "W"
+    },
+    "mean": 273.4025,
+    "median": 272.5,
+    "count": 94
+  },
+  "molar_heat_capacity_j_mol_k": {
+    "min": {
+      "value": 8.517,
+      "element": "C"
+    },
+    "max": {
+      "value": 75.69,
+      "element": "Br"
+    },
+    "mean": 27.0044,
+    "median": 25.929,
+    "count": 91
+  }
+}

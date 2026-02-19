@@ -1,0 +1,138 @@
+{
+  "name": "Rubidium",
+  "symbol": "Rb",
+  "atomic_number": 37,
+  "atomic_mass_u": 85.468,
+  "atomic_mass_uncertainty_u": 0.002,
+  "classification": {
+    "group": 1,
+    "period": 5,
+    "block": "s",
+    "category": "alkali metal",
+    "series": "alkali metal",
+    "natural_occurrence": "primordial"
+  },
+  "atomic_structure": {
+    "electron_configuration": "[Kr] 5s1",
+    "electron_configuration_long": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 5s1",
+    "electron_shells": [
+      2,
+      8,
+      18,
+      8,
+      1
+    ],
+    "valence_electrons": 1,
+    "oxidation_states": [
+      -1,
+      1
+    ],
+    "common_oxidation_states": [
+      1
+    ],
+    "electronegativity_pauling": 0.82,
+    "ionization_energies_kj_mol": [
+      403.0
+    ],
+    "electron_affinity_kj_mol": 46.884,
+    "atomic_radius_pm": 265,
+    "covalent_radius_pm": 220,
+    "van_der_waals_radius_pm": 303
+  },
+  "physical_properties": {
+    "phase_at_stp": "solid",
+    "melting_point_k": 312.45,
+    "boiling_point_k": 961.0,
+    "density_kg_m3": 1532.0,
+    "density_liquid_kg_m3": 1460.0,
+    "triple_point_k": null,
+    "triple_point_kpa": null,
+    "critical_point_k": null,
+    "critical_point_mpa": null,
+    "heat_of_fusion_kj_mol": 2.19,
+    "heat_of_vaporization_kj_mol": 75.77,
+    "molar_heat_capacity_j_mol_k": 31.06,
+    "color": "silvery-white",
+    "crystal_structure": "body-centered cubic",
+    "magnetic_ordering": "paramagnetic",
+    "speed_of_sound_m_s": 1300,
+    "thermal_conductivity_w_m_k": 58.2,
+    "thermal_expansion_per_k": 9e-05,
+    "mohs_hardness": 0.3,
+    "bulk_modulus_gpa": 2.5,
+    "shear_modulus_gpa": null,
+    "young_modulus_gpa": null,
+    "poisson_ratio": null
+  },
+  "nuclear_properties": {
+    "radioactive": false,
+    "half_life": null,
+    "decay_mode": null,
+    "stable_isotopes": [
+      85,
+      87
+    ],
+    "isotopes": [
+      {
+        "mass_number": 85,
+        "symbol": "85Rb",
+        "name": null,
+        "neutrons": 48,
+        "abundance_percent": null,
+        "mass_u": 85.468,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": null
+      }
+    ]
+  },
+  "abundance": {
+    "universe_percent": null,
+    "solar_percent": null,
+    "earth_crust_ppm": 90,
+    "ocean_ppm": null,
+    "human_body_percent": 0.00046
+  },
+  "discovery": {
+    "year": 1861,
+    "discoverers": [
+      "Robert Bunsen",
+      "Gustav Kirchhoff"
+    ],
+    "country": "Germany",
+    "named_by": "Robert Bunsen",
+    "name_origin": "Latin 'rubidus' (dark red)"
+  },
+  "applications": [
+    "Atomic clocks (rubidium oscillators)",
+    "Photocells",
+    "Fireworks (purple)",
+    "GPS satellites",
+    "Medical imaging (82Rb PET)"
+  ],
+  "hazards": {
+    "ghs_pictograms": [
+      "GHS02",
+      "GHS05"
+    ],
+    "signal_word": "Danger",
+    "nfpa_704": null,
+    "hazard_statements": [],
+    "autoignition_temp_k": 485,
+    "flash_point_k": null,
+    "explosive_limits_percent": null
+  },
+  "reactions": [
+    {
+      "id": "Rb-notable-001",
+      "name": "Rubidium in water",
+      "equation": "2 Rb(s) + 2 H2O(l) -> 2 RbOH(aq) + H2(g)",
+      "type": "single displacement",
+      "category": "notable",
+      "delta_h_kj": null,
+      "conditions": "extremely violent; spontaneous ignition of H2; handled only in inert atmosphere",
+      "description": "Extremely violent reaction. Ignites immediately on contact with water. Must handle under argon.",
+      "reversible": false
+    }
+  ]
+}

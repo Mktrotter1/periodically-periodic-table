@@ -1,0 +1,2560 @@
+[
+  {
+    "id": "H-industrial-001",
+    "name": "Hydrogen combustion",
+    "equation": "2 H2(g) + O2(g) -> 2 H2O(l)",
+    "equation_latex": "2\\,\\text{H}_2(g) + \\text{O}_2(g) \\rightarrow 2\\,\\text{H}_2\\text{O}(l)",
+    "type": "combustion",
+    "category": "industrial",
+    "elements_involved": [
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "H2",
+        "moles": 2,
+        "state": "g"
+      },
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -572,
+      "delta_g_kj": -474.4,
+      "delta_s_j_k": -326.7,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "ignition or spark required"
+    },
+    "reversible": false,
+    "description": "Highly exothermic combustion producing water."
+  },
+  {
+    "id": "N-industrial-001",
+    "name": "Haber process (ammonia synthesis)",
+    "equation": "N2(g) + 3 H2(g) <=> 2 NH3(g)",
+    "equation_latex": "\\text{N}_2(g) + 3\\,\\text{H}_2(g) \\rightleftharpoons 2\\,\\text{NH}_3(g)",
+    "type": "synthesis",
+    "category": "industrial",
+    "elements_involved": [
+      "N",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "N2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2",
+        "moles": 3,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "NH3",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -92.2,
+      "delta_g_kj": -33.3,
+      "delta_s_j_k": -198.7,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 723,
+      "pressure_atm": 200,
+      "catalyst": "iron with K2O/Al2O3 promoters",
+      "other": null
+    },
+    "reversible": true,
+    "description": "Primary industrial route to ammonia. ~150 million tonnes/year globally."
+  },
+  {
+    "id": "H-industrial-002",
+    "name": "Steam methane reforming",
+    "equation": "CH4(g) + H2O(g) -> CO(g) + 3 H2(g)",
+    "equation_latex": "\\text{CH}_4(g) + \\text{H}_2\\text{O}(g) \\rightarrow \\text{CO}(g) + 3\\,\\text{H}_2(g)",
+    "type": "reforming",
+    "category": "industrial",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "CH4",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2",
+        "moles": 3,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": 206,
+      "delta_g_kj": 142,
+      "delta_s_j_k": 215,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": 1100,
+      "pressure_atm": 20,
+      "catalyst": "nickel on alumina",
+      "other": null
+    },
+    "reversible": true,
+    "description": "Primary industrial hydrogen production method. Produces syngas."
+  },
+  {
+    "id": "H-industrial-003",
+    "name": "Water-gas shift reaction",
+    "equation": "CO(g) + H2O(g) <=> CO2(g) + H2(g)",
+    "equation_latex": "\\text{CO}(g) + \\text{H}_2\\text{O}(g) \\rightleftharpoons \\text{CO}_2(g) + \\text{H}_2(g)",
+    "type": "shift",
+    "category": "industrial",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "CO",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -41.2,
+      "delta_g_kj": -28.6,
+      "delta_s_j_k": -42.1,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 623,
+      "pressure_atm": null,
+      "catalyst": "iron oxide (HTS) or Cu-ZnO-Al2O3 (LTS)",
+      "other": null
+    },
+    "reversible": true,
+    "description": "Converts CO and steam to CO2 and H2. Used after steam reforming."
+  },
+  {
+    "id": "H-industrial-004",
+    "name": "Water electrolysis",
+    "equation": "2 H2O(l) -> 2 H2(g) + O2(g)",
+    "equation_latex": "2\\,\\text{H}_2\\text{O}(l) \\rightarrow 2\\,\\text{H}_2(g) + \\text{O}_2(g)",
+    "type": "electrolysis",
+    "category": "industrial",
+    "elements_involved": [
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "H2",
+        "moles": 2,
+        "state": "g"
+      },
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": 572,
+      "delta_g_kj": 474.4,
+      "delta_s_j_k": 326.7,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "electrolysis; PEM or alkaline electrolyzer"
+    },
+    "reversible": false,
+    "description": "Green hydrogen production via electrolysis. Growing rapidly for decarbonization."
+  },
+  {
+    "id": "S-industrial-001",
+    "name": "Contact process step 1 (sulfur combustion)",
+    "equation": "S(s) + O2(g) -> SO2(g)",
+    "equation_latex": "\\text{S}(s) + \\text{O}_2(g) \\rightarrow \\text{SO}_2(g)",
+    "type": "combustion",
+    "category": "industrial",
+    "elements_involved": [
+      "S",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "S",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "SO2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -296.8,
+      "delta_g_kj": -300.1,
+      "delta_s_j_k": 11.1,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "First step of the Contact process for sulfuric acid production."
+  },
+  {
+    "id": "S-industrial-002",
+    "name": "Contact process step 2 (SO2 oxidation)",
+    "equation": "2 SO2(g) + O2(g) <=> 2 SO3(g)",
+    "equation_latex": "2\\,\\text{SO}_2(g) + \\text{O}_2(g) \\rightleftharpoons 2\\,\\text{SO}_3(g)",
+    "type": "oxidation",
+    "category": "industrial",
+    "elements_involved": [
+      "S",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "SO2",
+        "moles": 2,
+        "state": "g"
+      },
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "SO3",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -198,
+      "delta_g_kj": -140,
+      "delta_s_j_k": -187,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 723,
+      "pressure_atm": null,
+      "catalyst": "vanadium(V) oxide (V2O5)",
+      "other": null
+    },
+    "reversible": true,
+    "description": "Key catalytic step of the Contact process. ~99.5% conversion."
+  },
+  {
+    "id": "S-industrial-003",
+    "name": "Contact process step 3 (oleum formation)",
+    "equation": "SO3(g) + H2SO4(l) -> H2S2O7(l)",
+    "equation_latex": "\\text{SO}_3(g) + \\text{H}_2\\text{SO}_4(l) \\rightarrow \\text{H}_2\\text{S}_2\\text{O}_7(l)",
+    "type": "absorption",
+    "category": "industrial",
+    "elements_involved": [
+      "S",
+      "O",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "SO3",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2SO4",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "H2S2O7",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -113,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "SO3 absorbed into concentrated H2SO4 to form oleum (fuming sulfuric acid)."
+  },
+  {
+    "id": "S-industrial-004",
+    "name": "Oleum dilution to sulfuric acid",
+    "equation": "H2S2O7(l) + H2O(l) -> 2 H2SO4(l)",
+    "equation_latex": "\\text{H}_2\\text{S}_2\\text{O}_7(l) + \\text{H}_2\\text{O}(l) \\rightarrow 2\\,\\text{H}_2\\text{SO}_4(l)",
+    "type": "hydrolysis",
+    "category": "industrial",
+    "elements_involved": [
+      "S",
+      "O",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "H2S2O7",
+        "moles": 1,
+        "state": "l"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "H2SO4",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -80,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Oleum diluted with water to produce concentrated sulfuric acid."
+  },
+  {
+    "id": "N-industrial-002",
+    "name": "Ostwald process step 1 (ammonia oxidation)",
+    "equation": "4 NH3(g) + 5 O2(g) -> 4 NO(g) + 6 H2O(g)",
+    "equation_latex": "4\\,\\text{NH}_3(g) + 5\\,\\text{O}_2(g) \\rightarrow 4\\,\\text{NO}(g) + 6\\,\\text{H}_2\\text{O}(g)",
+    "type": "oxidation",
+    "category": "industrial",
+    "elements_involved": [
+      "N",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "NH3",
+        "moles": 4,
+        "state": "g"
+      },
+      {
+        "formula": "O2",
+        "moles": 5,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "NO",
+        "moles": 4,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 6,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -905.2,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 1100,
+      "pressure_atm": null,
+      "catalyst": "platinum-rhodium gauze (90% Pt / 10% Rh)",
+      "other": null
+    },
+    "reversible": false,
+    "description": "First step of Ostwald process for nitric acid. ~95% yield with Pt-Rh catalyst."
+  },
+  {
+    "id": "N-industrial-003",
+    "name": "Ostwald process step 2 (NO oxidation)",
+    "equation": "2 NO(g) + O2(g) -> 2 NO2(g)",
+    "equation_latex": "2\\,\\text{NO}(g) + \\text{O}_2(g) \\rightarrow 2\\,\\text{NO}_2(g)",
+    "type": "oxidation",
+    "category": "industrial",
+    "elements_involved": [
+      "N",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "NO",
+        "moles": 2,
+        "state": "g"
+      },
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "NO2",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -114,
+      "delta_g_kj": -70.4,
+      "delta_s_j_k": -146.5,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Spontaneous oxidation of nitric oxide to nitrogen dioxide."
+  },
+  {
+    "id": "N-industrial-004",
+    "name": "Ostwald process step 3 (nitric acid formation)",
+    "equation": "3 NO2(g) + H2O(l) -> 2 HNO3(aq) + NO(g)",
+    "equation_latex": "3\\,\\text{NO}_2(g) + \\text{H}_2\\text{O}(l) \\rightarrow 2\\,\\text{HNO}_3(aq) + \\text{NO}(g)",
+    "type": "disproportionation",
+    "category": "industrial",
+    "elements_involved": [
+      "N",
+      "O",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "NO2",
+        "moles": 3,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "HNO3",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "NO",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -138,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Final step producing nitric acid. The NO byproduct is recycled to step 2."
+  },
+  {
+    "id": "Na-industrial-001",
+    "name": "Solvay process (overall)",
+    "equation": "2 NaCl(aq) + CaCO3(s) -> Na2CO3(s) + CaCl2(aq)",
+    "equation_latex": "2\\,\\text{NaCl}(aq) + \\text{CaCO}_3(s) \\rightarrow \\text{Na}_2\\text{CO}_3(s) + \\text{CaCl}_2(aq)",
+    "type": "double displacement",
+    "category": "industrial",
+    "elements_involved": [
+      "Na",
+      "Cl",
+      "Ca",
+      "C",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "NaCl",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "CaCO3",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Na2CO3",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "CaCl2",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": null
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "multi-step process using NH3 as intermediate"
+    },
+    "reversible": false,
+    "description": "Overall Solvay process for soda ash (Na2CO3). Key step involves NaHCO3 precipitation."
+  },
+  {
+    "id": "Na-industrial-002",
+    "name": "Solvay process (key precipitation step)",
+    "equation": "NaCl(aq) + NH3(aq) + CO2(g) + H2O(l) -> NaHCO3(s) + NH4Cl(aq)",
+    "equation_latex": "\\text{NaCl}(aq) + \\text{NH}_3(aq) + \\text{CO}_2(g) + \\text{H}_2\\text{O}(l) \\rightarrow \\text{NaHCO}_3(s) + \\text{NH}_4\\text{Cl}(aq)",
+    "type": "precipitation",
+    "category": "industrial",
+    "elements_involved": [
+      "Na",
+      "Cl",
+      "N",
+      "H",
+      "C",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "NaCl",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "NH3",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "CO2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "NaHCO3",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "NH4Cl",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 288,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "CO2 bubbled through ammoniacal brine"
+    },
+    "reversible": false,
+    "description": "NaHCO3 precipitates due to low solubility. Filtered and calcined to Na2CO3."
+  },
+  {
+    "id": "Al-industrial-001",
+    "name": "Hall-Heroult process",
+    "equation": "2 Al2O3(l) + 3 C(s) -> 4 Al(l) + 3 CO2(g)",
+    "equation_latex": "2\\,\\text{Al}_2\\text{O}_3(l) + 3\\,\\text{C}(s) \\rightarrow 4\\,\\text{Al}(l) + 3\\,\\text{CO}_2(g)",
+    "type": "electrolysis",
+    "category": "industrial",
+    "elements_involved": [
+      "Al",
+      "O",
+      "C"
+    ],
+    "reactants": [
+      {
+        "formula": "Al2O3",
+        "moles": 2,
+        "state": "l"
+      },
+      {
+        "formula": "C",
+        "moles": 3,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Al",
+        "moles": 4,
+        "state": "l"
+      },
+      {
+        "formula": "CO2",
+        "moles": 3,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": 2170,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": 1233,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "electrolysis in molten cryolite (Na3AlF6) bath; carbon anodes consumed"
+    },
+    "reversible": false,
+    "description": "Primary aluminium smelting. Consumes ~15 kWh per kg Al. Dissolved in cryolite at ~960C."
+  },
+  {
+    "id": "Al-industrial-002",
+    "name": "Bayer process (alumina extraction)",
+    "equation": "Al2O3 * 3H2O(s) + 2 NaOH(aq) -> 2 NaAlO2(aq) + 4 H2O(l)",
+    "equation_latex": "\\text{Al}_2\\text{O}_3 \\cdot 3\\text{H}_2\\text{O}(s) + 2\\,\\text{NaOH}(aq) \\rightarrow 2\\,\\text{NaAlO}_2(aq) + 4\\,\\text{H}_2\\text{O}(l)",
+    "type": "dissolution",
+    "category": "industrial",
+    "elements_involved": [
+      "Al",
+      "O",
+      "Na",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "Al2O3*3H2O",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "NaOH",
+        "moles": 2,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "NaAlO2",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 4,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": null
+    },
+    "conditions": {
+      "temperature_k": 523,
+      "pressure_atm": 30,
+      "catalyst": null,
+      "other": "digestion of bauxite in hot caustic soda"
+    },
+    "reversible": false,
+    "description": "Bayer process extracts alumina from bauxite ore. Precursor to Hall-Heroult."
+  },
+  {
+    "id": "Fe-industrial-001",
+    "name": "Blast furnace iron smelting (overall)",
+    "equation": "Fe2O3(s) + 3 CO(g) -> 2 Fe(l) + 3 CO2(g)",
+    "equation_latex": "\\text{Fe}_2\\text{O}_3(s) + 3\\,\\text{CO}(g) \\rightarrow 2\\,\\text{Fe}(l) + 3\\,\\text{CO}_2(g)",
+    "type": "reduction",
+    "category": "industrial",
+    "elements_involved": [
+      "Fe",
+      "O",
+      "C"
+    ],
+    "reactants": [
+      {
+        "formula": "Fe2O3",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "CO",
+        "moles": 3,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Fe",
+        "moles": 2,
+        "state": "l"
+      },
+      {
+        "formula": "CO2",
+        "moles": 3,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -24.8,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 1773,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "blast furnace with coke as reductant"
+    },
+    "reversible": false,
+    "description": "Primary iron ore reduction. CO generated in situ from coke + hot air."
+  },
+  {
+    "id": "Fe-industrial-002",
+    "name": "Coke combustion in blast furnace",
+    "equation": "2 C(s) + O2(g) -> 2 CO(g)",
+    "equation_latex": "2\\,\\text{C}(s) + \\text{O}_2(g) \\rightarrow 2\\,\\text{CO}(g)",
+    "type": "combustion",
+    "category": "industrial",
+    "elements_involved": [
+      "C",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "C",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -221,
+      "delta_g_kj": -274.4,
+      "delta_s_j_k": 179.4,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 1773,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "blast furnace tuyere zone"
+    },
+    "reversible": false,
+    "description": "Limited combustion of coke produces CO reductant gas in blast furnace."
+  },
+  {
+    "id": "Fe-industrial-003",
+    "name": "Basic oxygen steelmaking",
+    "equation": "2 C(s) + O2(g) -> 2 CO(g)",
+    "equation_latex": "2\\,\\text{C}(s) + \\text{O}_2(g) \\rightarrow 2\\,\\text{CO}(g)",
+    "type": "oxidation",
+    "category": "industrial",
+    "elements_involved": [
+      "C",
+      "O",
+      "Fe"
+    ],
+    "reactants": [
+      {
+        "formula": "C",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -221,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 1923,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "pure O2 blown into molten pig iron; removes excess C as CO"
+    },
+    "reversible": false,
+    "description": "Basic oxygen furnace (BOF) converts pig iron to steel by blowing O2. ~70% of world steel."
+  },
+  {
+    "id": "Fe-industrial-004",
+    "name": "Slag formation in steelmaking",
+    "equation": "CaO(s) + SiO2(s) -> CaSiO3(l)",
+    "equation_latex": "\\text{CaO}(s) + \\text{SiO}_2(s) \\rightarrow \\text{CaSiO}_3(l)",
+    "type": "fusion",
+    "category": "industrial",
+    "elements_involved": [
+      "Ca",
+      "Si",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "CaO",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "SiO2",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CaSiO3",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -89,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 1873,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "limestone flux in blast furnace"
+    },
+    "reversible": false,
+    "description": "CaO flux combines with silica impurities to form slag."
+  },
+  {
+    "id": "Cl-industrial-001",
+    "name": "Chloralkali electrolysis",
+    "equation": "2 NaCl(aq) + 2 H2O(l) -> Cl2(g) + 2 NaOH(aq) + H2(g)",
+    "equation_latex": "2\\,\\text{NaCl}(aq) + 2\\,\\text{H}_2\\text{O}(l) \\rightarrow \\text{Cl}_2(g) + 2\\,\\text{NaOH}(aq) + \\text{H}_2(g)",
+    "type": "electrolysis",
+    "category": "industrial",
+    "elements_involved": [
+      "Na",
+      "Cl",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "NaCl",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Cl2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "NaOH",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "H2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": 422,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "membrane cell electrolysis at ~3.5 V"
+    },
+    "reversible": false,
+    "description": "Produces chlorine, sodium hydroxide, and hydrogen simultaneously."
+  },
+  {
+    "id": "Ti-industrial-001",
+    "name": "Kroll process step 1 (chlorination)",
+    "equation": "TiO2(s) + 2 Cl2(g) + 2 C(s) -> TiCl4(l) + 2 CO(g)",
+    "equation_latex": "\\text{TiO}_2(s) + 2\\,\\text{Cl}_2(g) + 2\\,\\text{C}(s) \\rightarrow \\text{TiCl}_4(l) + 2\\,\\text{CO}(g)",
+    "type": "chlorination",
+    "category": "industrial",
+    "elements_involved": [
+      "Ti",
+      "Cl",
+      "O",
+      "C"
+    ],
+    "reactants": [
+      {
+        "formula": "TiO2",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "Cl2",
+        "moles": 2,
+        "state": "g"
+      },
+      {
+        "formula": "C",
+        "moles": 2,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "TiCl4",
+        "moles": 1,
+        "state": "l"
+      },
+      {
+        "formula": "CO",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -258,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 1173,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Rutile ore converted to titanium tetrachloride. First step of Kroll process."
+  },
+  {
+    "id": "Ti-industrial-002",
+    "name": "Kroll process step 2 (reduction)",
+    "equation": "TiCl4(l) + 2 Mg(l) -> Ti(s) + 2 MgCl2(l)",
+    "equation_latex": "\\text{TiCl}_4(l) + 2\\,\\text{Mg}(l) \\rightarrow \\text{Ti}(s) + 2\\,\\text{MgCl}_2(l)",
+    "type": "reduction",
+    "category": "industrial",
+    "elements_involved": [
+      "Ti",
+      "Cl",
+      "Mg"
+    ],
+    "reactants": [
+      {
+        "formula": "TiCl4",
+        "moles": 1,
+        "state": "l"
+      },
+      {
+        "formula": "Mg",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Ti",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "MgCl2",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -512,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 1073,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "argon atmosphere to prevent oxidation"
+    },
+    "reversible": false,
+    "description": "Magnesium reduces TiCl4 to titanium sponge. Batch process, very energy-intensive."
+  },
+  {
+    "id": "Cu-industrial-001",
+    "name": "Copper matte smelting",
+    "equation": "2 Cu2S(s) + 3 O2(g) -> 2 Cu2O(s) + 2 SO2(g)",
+    "equation_latex": "2\\,\\text{Cu}_2\\text{S}(s) + 3\\,\\text{O}_2(g) \\rightarrow 2\\,\\text{Cu}_2\\text{O}(s) + 2\\,\\text{SO}_2(g)",
+    "type": "roasting",
+    "category": "industrial",
+    "elements_involved": [
+      "Cu",
+      "S",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "Cu2S",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "O2",
+        "moles": 3,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Cu2O",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "SO2",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -773,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 1473,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Partial roasting of copper matte in converting furnace."
+  },
+  {
+    "id": "Cu-industrial-002",
+    "name": "Copper blister formation",
+    "equation": "Cu2S(s) + 2 Cu2O(s) -> 6 Cu(l) + SO2(g)",
+    "equation_latex": "\\text{Cu}_2\\text{S}(s) + 2\\,\\text{Cu}_2\\text{O}(s) \\rightarrow 6\\,\\text{Cu}(l) + \\text{SO}_2(g)",
+    "type": "reduction",
+    "category": "industrial",
+    "elements_involved": [
+      "Cu",
+      "S",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "Cu2S",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "Cu2O",
+        "moles": 2,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Cu",
+        "moles": 6,
+        "state": "l"
+      },
+      {
+        "formula": "SO2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 1473,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Self-reduction of Cu2S by Cu2O to produce blister copper (~99% Cu)."
+  },
+  {
+    "id": "Cu-industrial-003",
+    "name": "Copper electrorefining",
+    "equation": "Cu(s, impure) -> Cu(s, pure)",
+    "equation_latex": "\\text{Cu}(s,\\,\\text{impure}) \\rightarrow \\text{Cu}(s,\\,\\text{pure})",
+    "type": "electrolysis",
+    "category": "industrial",
+    "elements_involved": [
+      "Cu"
+    ],
+    "reactants": [
+      {
+        "formula": "Cu",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Cu",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": null
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "electrolysis in CuSO4/H2SO4; impure Cu anode, pure Cu cathode; ~0.3V"
+    },
+    "reversible": false,
+    "description": "Electrorefining produces 99.99% pure copper. Precious metals recovered from anode slime."
+  },
+  {
+    "id": "Zn-industrial-001",
+    "name": "Zinc roasting",
+    "equation": "2 ZnS(s) + 3 O2(g) -> 2 ZnO(s) + 2 SO2(g)",
+    "equation_latex": "2\\,\\text{ZnS}(s) + 3\\,\\text{O}_2(g) \\rightarrow 2\\,\\text{ZnO}(s) + 2\\,\\text{SO}_2(g)",
+    "type": "roasting",
+    "category": "industrial",
+    "elements_involved": [
+      "Zn",
+      "S",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "ZnS",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "O2",
+        "moles": 3,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "ZnO",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "SO2",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -879,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 1173,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Roasting sphalerite (ZnS) to zinc oxide for subsequent reduction."
+  },
+  {
+    "id": "Zn-industrial-002",
+    "name": "Zinc smelting (carbothermic reduction)",
+    "equation": "ZnO(s) + C(s) -> Zn(g) + CO(g)",
+    "equation_latex": "\\text{ZnO}(s) + \\text{C}(s) \\rightarrow \\text{Zn}(g) + \\text{CO}(g)",
+    "type": "reduction",
+    "category": "industrial",
+    "elements_involved": [
+      "Zn",
+      "O",
+      "C"
+    ],
+    "reactants": [
+      {
+        "formula": "ZnO",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "C",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Zn",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "CO",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": 237,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": 1373,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "Imperial Smelting Process or retort"
+    },
+    "reversible": false,
+    "description": "Carbothermic reduction of ZnO. Zinc vapor condensed and collected."
+  },
+  {
+    "id": "S-industrial-005",
+    "name": "Claus process (main reaction)",
+    "equation": "2 H2S(g) + SO2(g) -> 3 S(s) + 2 H2O(g)",
+    "equation_latex": "2\\,\\text{H}_2\\text{S}(g) + \\text{SO}_2(g) \\rightarrow 3\\,\\text{S}(s) + 2\\,\\text{H}_2\\text{O}(g)",
+    "type": "redox",
+    "category": "industrial",
+    "elements_involved": [
+      "S",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "H2S",
+        "moles": 2,
+        "state": "g"
+      },
+      {
+        "formula": "SO2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "S",
+        "moles": 3,
+        "state": "s"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -146,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 573,
+      "pressure_atm": null,
+      "catalyst": "alumina or titanium dioxide",
+      "other": null
+    },
+    "reversible": false,
+    "description": "Recovers elemental sulfur from H2S in natural gas/refinery streams. >95% recovery."
+  },
+  {
+    "id": "S-industrial-006",
+    "name": "Frasch process sulfur melting",
+    "equation": "S(s) -> S(l)",
+    "equation_latex": "\\text{S}(s) \\rightarrow \\text{S}(l)",
+    "type": "phase change",
+    "category": "industrial",
+    "elements_involved": [
+      "S"
+    ],
+    "reactants": [
+      {
+        "formula": "S",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "S",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": 1.7,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": 388,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "superheated water (165C) injected underground to melt sulfur deposits"
+    },
+    "reversible": false,
+    "description": "Frasch process mines sulfur by melting underground deposits with superheated water."
+  },
+  {
+    "id": "C-industrial-001",
+    "name": "Fischer-Tropsch synthesis (general)",
+    "equation": "n CO(g) + (2n+1) H2(g) -> CnH(2n+2)(l) + n H2O(g)",
+    "equation_latex": "n\\,\\text{CO}(g) + (2n+1)\\,\\text{H}_2(g) \\rightarrow \\text{C}_n\\text{H}_{2n+2}(l) + n\\,\\text{H}_2\\text{O}(g)",
+    "type": "synthesis",
+    "category": "industrial",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "CO",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CH2",
+        "moles": 1,
+        "state": "l"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -165,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 523,
+      "pressure_atm": 25,
+      "catalyst": "iron or cobalt",
+      "other": null
+    },
+    "reversible": false,
+    "description": "Converts syngas to liquid hydrocarbons. Used for gas-to-liquids (GTL) and coal-to-liquids."
+  },
+  {
+    "id": "C-industrial-002",
+    "name": "Methanol synthesis",
+    "equation": "CO(g) + 2 H2(g) <=> CH3OH(g)",
+    "equation_latex": "\\text{CO}(g) + 2\\,\\text{H}_2(g) \\rightleftharpoons \\text{CH}_3\\text{OH}(g)",
+    "type": "synthesis",
+    "category": "industrial",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "CO",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CH3OH",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -90.5,
+      "delta_g_kj": -25.3,
+      "delta_s_j_k": -219,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 523,
+      "pressure_atm": 80,
+      "catalyst": "Cu/ZnO/Al2O3",
+      "other": null
+    },
+    "reversible": true,
+    "description": "Industrial methanol synthesis from syngas. ~100 million tonnes/year globally."
+  },
+  {
+    "id": "C-industrial-003",
+    "name": "Ethylene production (steam cracking)",
+    "equation": "C2H6(g) -> C2H4(g) + H2(g)",
+    "equation_latex": "\\text{C}_2\\text{H}_6(g) \\rightarrow \\text{C}_2\\text{H}_4(g) + \\text{H}_2(g)",
+    "type": "cracking",
+    "category": "industrial",
+    "elements_involved": [
+      "C",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "C2H6",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "C2H4",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": 136.4,
+      "delta_g_kj": 101,
+      "delta_s_j_k": 119,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": 1123,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "steam cracking; residence time <1 second"
+    },
+    "reversible": false,
+    "description": "Thermal dehydrogenation of ethane to ethylene. Largest-volume petrochemical."
+  },
+  {
+    "id": "C-industrial-004",
+    "name": "Polyethylene polymerization",
+    "equation": "n C2H4(g) -> (C2H4)n(s)",
+    "equation_latex": "n\\,\\text{C}_2\\text{H}_4(g) \\rightarrow (\\text{C}_2\\text{H}_4)_n(s)",
+    "type": "polymerization",
+    "category": "industrial",
+    "elements_involved": [
+      "C",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "C2H4",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "(C2H4)n",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -93,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": "Ziegler-Natta (TiCl4/AlEt3) or metallocene",
+      "other": "various pressures by process type"
+    },
+    "reversible": false,
+    "description": "Polymerization of ethylene to polyethylene. Most-produced plastic globally."
+  },
+  {
+    "id": "Ca-industrial-001",
+    "name": "Cement clinker formation (limestone calcination)",
+    "equation": "CaCO3(s) -> CaO(s) + CO2(g)",
+    "equation_latex": "\\text{CaCO}_3(s) \\rightarrow \\text{CaO}(s) + \\text{CO}_2(g)",
+    "type": "decomposition",
+    "category": "industrial",
+    "elements_involved": [
+      "Ca",
+      "C",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "CaCO3",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CaO",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "CO2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": 178,
+      "delta_g_kj": 130.4,
+      "delta_s_j_k": 160.6,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": 1173,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "rotary kiln"
+    },
+    "reversible": false,
+    "description": "Calcination of limestone. Major source of industrial CO2 emissions."
+  },
+  {
+    "id": "Ca-industrial-002",
+    "name": "Portland cement clinker (belite formation)",
+    "equation": "2 CaO(s) + SiO2(s) -> Ca2SiO4(s)",
+    "equation_latex": "2\\,\\text{CaO}(s) + \\text{SiO}_2(s) \\rightarrow \\text{Ca}_2\\text{SiO}_4(s)",
+    "type": "synthesis",
+    "category": "industrial",
+    "elements_involved": [
+      "Ca",
+      "Si",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "CaO",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "SiO2",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Ca2SiO4",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -127,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 1723,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "rotary kiln; belite (C2S) phase"
+    },
+    "reversible": false,
+    "description": "Calcium silicate (belite) formation in cement kiln. Key hydraulic phase."
+  },
+  {
+    "id": "Si-industrial-001",
+    "name": "Soda-lime glass production",
+    "equation": "Na2CO3(s) + SiO2(s) -> Na2SiO3(l) + CO2(g)",
+    "equation_latex": "\\text{Na}_2\\text{CO}_3(s) + \\text{SiO}_2(s) \\rightarrow \\text{Na}_2\\text{SiO}_3(l) + \\text{CO}_2(g)",
+    "type": "fusion",
+    "category": "industrial",
+    "elements_involved": [
+      "Na",
+      "Si",
+      "C",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "Na2CO3",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "SiO2",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Na2SiO3",
+        "moles": 1,
+        "state": "l"
+      },
+      {
+        "formula": "CO2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": 1773,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "glass furnace"
+    },
+    "reversible": false,
+    "description": "Sodium carbonate lowers melting point of silica in glass manufacture."
+  },
+  {
+    "id": "Si-industrial-002",
+    "name": "Silicon production (carbothermic reduction)",
+    "equation": "SiO2(s) + 2 C(s) -> Si(l) + 2 CO(g)",
+    "equation_latex": "\\text{SiO}_2(s) + 2\\,\\text{C}(s) \\rightarrow \\text{Si}(l) + 2\\,\\text{CO}(g)",
+    "type": "reduction",
+    "category": "industrial",
+    "elements_involved": [
+      "Si",
+      "O",
+      "C"
+    ],
+    "reactants": [
+      {
+        "formula": "SiO2",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "C",
+        "moles": 2,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Si",
+        "moles": 1,
+        "state": "l"
+      },
+      {
+        "formula": "CO",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": 689,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": 2173,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "electric arc furnace"
+    },
+    "reversible": false,
+    "description": "Metallurgical-grade silicon production. Purified further for semiconductor use."
+  },
+  {
+    "id": "Cl-industrial-002",
+    "name": "PVC production (vinyl chloride)",
+    "equation": "C2H4(g) + Cl2(g) -> C2H4Cl2(l)",
+    "equation_latex": "\\text{C}_2\\text{H}_4(g) + \\text{Cl}_2(g) \\rightarrow \\text{C}_2\\text{H}_4\\text{Cl}_2(l)",
+    "type": "addition",
+    "category": "industrial",
+    "elements_involved": [
+      "C",
+      "H",
+      "Cl"
+    ],
+    "reactants": [
+      {
+        "formula": "C2H4",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "Cl2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "C2H4Cl2",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -218,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": "FeCl3",
+      "other": null
+    },
+    "reversible": false,
+    "description": "Direct chlorination of ethylene to 1,2-dichloroethane (EDC). Precursor to PVC."
+  },
+  {
+    "id": "P-industrial-001",
+    "name": "Phosphorus production (electric arc furnace)",
+    "equation": "2 Ca3(PO4)2(s) + 6 SiO2(s) + 10 C(s) -> P4(g) + 6 CaSiO3(l) + 10 CO(g)",
+    "equation_latex": "2\\,\\text{Ca}_3(\\text{PO}_4)_2(s) + 6\\,\\text{SiO}_2(s) + 10\\,\\text{C}(s) \\rightarrow \\text{P}_4(g) + 6\\,\\text{CaSiO}_3(l) + 10\\,\\text{CO}(g)",
+    "type": "reduction",
+    "category": "industrial",
+    "elements_involved": [
+      "P",
+      "Ca",
+      "Si",
+      "O",
+      "C"
+    ],
+    "reactants": [
+      {
+        "formula": "Ca3(PO4)2",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "SiO2",
+        "moles": 6,
+        "state": "s"
+      },
+      {
+        "formula": "C",
+        "moles": 10,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "P4",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "CaSiO3",
+        "moles": 6,
+        "state": "l"
+      },
+      {
+        "formula": "CO",
+        "moles": 10,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": 1773,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "electric arc furnace; P4 vapor condensed under water"
+    },
+    "reversible": false,
+    "description": "White phosphorus production from phosphate rock via electric arc furnace."
+  },
+  {
+    "id": "P-industrial-002",
+    "name": "Phosphoric acid production (wet process)",
+    "equation": "Ca3(PO4)2(s) + 3 H2SO4(aq) -> 2 H3PO4(aq) + 3 CaSO4(s)",
+    "equation_latex": "\\text{Ca}_3(\\text{PO}_4)_2(s) + 3\\,\\text{H}_2\\text{SO}_4(aq) \\rightarrow 2\\,\\text{H}_3\\text{PO}_4(aq) + 3\\,\\text{CaSO}_4(s)",
+    "type": "acid digestion",
+    "category": "industrial",
+    "elements_involved": [
+      "P",
+      "Ca",
+      "S",
+      "O",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "Ca3(PO4)2",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "H2SO4",
+        "moles": 3,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "H3PO4",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "CaSO4",
+        "moles": 3,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 353,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Wet-process phosphoric acid for fertilizer production. Gypsum (CaSO4) byproduct."
+  },
+  {
+    "id": "Na-industrial-003",
+    "name": "Sodium hydroxide + CO2 (caustic scrubbing)",
+    "equation": "2 NaOH(aq) + CO2(g) -> Na2CO3(aq) + H2O(l)",
+    "equation_latex": "2\\,\\text{NaOH}(aq) + \\text{CO}_2(g) \\rightarrow \\text{Na}_2\\text{CO}_3(aq) + \\text{H}_2\\text{O}(l)",
+    "type": "absorption",
+    "category": "industrial",
+    "elements_involved": [
+      "Na",
+      "O",
+      "H",
+      "C"
+    ],
+    "reactants": [
+      {
+        "formula": "NaOH",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "CO2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Na2CO3",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -109.4,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Caustic scrubbing of CO2 from flue gas or process streams."
+  },
+  {
+    "id": "C-industrial-005",
+    "name": "Catalytic cracking (general)",
+    "equation": "C16H34(l) -> C8H18(l) + C8H16(g)",
+    "equation_latex": "\\text{C}_{16}\\text{H}_{34}(l) \\rightarrow \\text{C}_8\\text{H}_{18}(l) + \\text{C}_8\\text{H}_{16}(g)",
+    "type": "cracking",
+    "category": "industrial",
+    "elements_involved": [
+      "C",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "C16H34",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "C8H18",
+        "moles": 1,
+        "state": "l"
+      },
+      {
+        "formula": "C8H16",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": 773,
+      "pressure_atm": null,
+      "catalyst": "zeolite (USY or ZSM-5)",
+      "other": "FCC unit; 2-5 second contact time"
+    },
+    "reversible": false,
+    "description": "Fluid catalytic cracking (FCC) of heavy petroleum fractions into gasoline."
+  },
+  {
+    "id": "C-industrial-006",
+    "name": "Methane combustion",
+    "equation": "CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(g)",
+    "equation_latex": "\\text{CH}_4(g) + 2\\,\\text{O}_2(g) \\rightarrow \\text{CO}_2(g) + 2\\,\\text{H}_2\\text{O}(g)",
+    "type": "combustion",
+    "category": "industrial",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "CH4",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "O2",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -802.3,
+      "delta_g_kj": -800.8,
+      "delta_s_j_k": -5.1,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "ignition source required"
+    },
+    "reversible": false,
+    "description": "Natural gas combustion. Cleanest-burning fossil fuel."
+  },
+  {
+    "id": "Mg-industrial-001",
+    "name": "Pidgeon process (magnesium production)",
+    "equation": "2 MgO(s) + Si(s) -> 2 Mg(g) + SiO2(s)",
+    "equation_latex": "2\\,\\text{MgO}(s) + \\text{Si}(s) \\rightarrow 2\\,\\text{Mg}(g) + \\text{SiO}_2(s)",
+    "type": "reduction",
+    "category": "industrial",
+    "elements_involved": [
+      "Mg",
+      "O",
+      "Si"
+    ],
+    "reactants": [
+      {
+        "formula": "MgO",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "Si",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Mg",
+        "moles": 2,
+        "state": "g"
+      },
+      {
+        "formula": "SiO2",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": 1473,
+      "pressure_atm": 0.01,
+      "catalyst": null,
+      "other": "vacuum retort; Mg vapor condensed"
+    },
+    "reversible": false,
+    "description": "Pidgeon process: silicothermic reduction of MgO. Dominant in China."
+  },
+  {
+    "id": "Cr-industrial-001",
+    "name": "Chromium production (aluminothermic)",
+    "equation": "Cr2O3(s) + 2 Al(s) -> 2 Cr(s) + Al2O3(s)",
+    "equation_latex": "\\text{Cr}_2\\text{O}_3(s) + 2\\,\\text{Al}(s) \\rightarrow 2\\,\\text{Cr}(s) + \\text{Al}_2\\text{O}_3(s)",
+    "type": "aluminothermic",
+    "category": "industrial",
+    "elements_involved": [
+      "Cr",
+      "O",
+      "Al"
+    ],
+    "reactants": [
+      {
+        "formula": "Cr2O3",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "Al",
+        "moles": 2,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Cr",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "Al2O3",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -536,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "thermite-type reaction; used for ferrochrome alloy"
+    },
+    "reversible": false,
+    "description": "Aluminothermic reduction of chromium oxide for chromium metal production."
+  },
+  {
+    "id": "N-industrial-005",
+    "name": "Urea synthesis",
+    "equation": "2 NH3(g) + CO2(g) <=> NH2CONH2(s) + H2O(l)",
+    "equation_latex": "2\\,\\text{NH}_3(g) + \\text{CO}_2(g) \\rightleftharpoons \\text{NH}_2\\text{CONH}_2(s) + \\text{H}_2\\text{O}(l)",
+    "type": "synthesis",
+    "category": "industrial",
+    "elements_involved": [
+      "N",
+      "H",
+      "C",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "NH3",
+        "moles": 2,
+        "state": "g"
+      },
+      {
+        "formula": "CO2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "NH2CONH2",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -103.5,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 458,
+      "pressure_atm": 175,
+      "catalyst": null,
+      "other": "two-step via ammonium carbamate"
+    },
+    "reversible": true,
+    "description": "Bosch-Meiser process. World's most-produced chemical by mass (~180 Mt/y). Fertilizer."
+  },
+  {
+    "id": "Li-industrial-001",
+    "name": "Lithium carbonate to lithium metal",
+    "equation": "Li2CO3(s) -> Li2O(s) + CO2(g)",
+    "equation_latex": "\\text{Li}_2\\text{CO}_3(s) \\rightarrow \\text{Li}_2\\text{O}(s) + \\text{CO}_2(g)",
+    "type": "decomposition",
+    "category": "industrial",
+    "elements_involved": [
+      "Li",
+      "C",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "Li2CO3",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Li2O",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "CO2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": 234,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": 1583,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Thermal decomposition of lithium carbonate. Precursor to lithium metal electrolysis."
+  },
+  {
+    "id": "Mn-industrial-001",
+    "name": "Manganese dioxide reduction (ferromanganese)",
+    "equation": "MnO2(s) + 2 C(s) -> Mn(s) + 2 CO(g)",
+    "equation_latex": "\\text{MnO}_2(s) + 2\\,\\text{C}(s) \\rightarrow \\text{Mn}(s) + 2\\,\\text{CO}(g)",
+    "type": "reduction",
+    "category": "industrial",
+    "elements_involved": [
+      "Mn",
+      "O",
+      "C"
+    ],
+    "reactants": [
+      {
+        "formula": "MnO2",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "C",
+        "moles": 2,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Mn",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "CO",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": 1573,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "electric arc furnace for ferromanganese"
+    },
+    "reversible": false,
+    "description": "Carbothermic reduction of pyrolusite. 90% of Mn used in steel production."
+  },
+  {
+    "id": "Ni-industrial-001",
+    "name": "Mond process (nickel purification)",
+    "equation": "Ni(s) + 4 CO(g) <=> Ni(CO)4(g)",
+    "equation_latex": "\\text{Ni}(s) + 4\\,\\text{CO}(g) \\rightleftharpoons \\text{Ni}(\\text{CO})_4(g)",
+    "type": "carbonyl formation",
+    "category": "industrial",
+    "elements_involved": [
+      "Ni",
+      "C",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "Ni",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "CO",
+        "moles": 4,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Ni(CO)4",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -160,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 323,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "Ni(CO)4 decomposes at 230C to deposit pure Ni; extremely toxic gas"
+    },
+    "reversible": true,
+    "description": "Mond process: volatile Ni(CO)4 formed at 50C, decomposed at 230C for 99.99% pure Ni."
+  },
+  {
+    "id": "Pb-industrial-001",
+    "name": "Lead smelting",
+    "equation": "2 PbS(s) + 3 O2(g) -> 2 PbO(s) + 2 SO2(g)",
+    "equation_latex": "2\\,\\text{PbS}(s) + 3\\,\\text{O}_2(g) \\rightarrow 2\\,\\text{PbO}(s) + 2\\,\\text{SO}_2(g)",
+    "type": "roasting",
+    "category": "industrial",
+    "elements_involved": [
+      "Pb",
+      "S",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "PbS",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "O2",
+        "moles": 3,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "PbO",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "SO2",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -844,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 1173,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Roasting of galena (PbS) to lead oxide, then reduced with carbon to lead metal."
+  },
+  {
+    "id": "Sn-industrial-001",
+    "name": "Tin smelting",
+    "equation": "SnO2(s) + 2 C(s) -> Sn(l) + 2 CO(g)",
+    "equation_latex": "\\text{SnO}_2(s) + 2\\,\\text{C}(s) \\rightarrow \\text{Sn}(l) + 2\\,\\text{CO}(g)",
+    "type": "reduction",
+    "category": "industrial",
+    "elements_involved": [
+      "Sn",
+      "O",
+      "C"
+    ],
+    "reactants": [
+      {
+        "formula": "SnO2",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "C",
+        "moles": 2,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Sn",
+        "moles": 1,
+        "state": "l"
+      },
+      {
+        "formula": "CO",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": 1473,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "reverberatory furnace; one of the oldest smelting processes"
+    },
+    "reversible": false,
+    "description": "Carbothermic reduction of cassiterite. Bronze Age technology. Tin used in solder and tinplate."
+  }
+]

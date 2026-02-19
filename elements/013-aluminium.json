@@ -1,0 +1,168 @@
+{
+  "name": "Aluminium",
+  "symbol": "Al",
+  "atomic_number": 13,
+  "atomic_mass_u": 26.982,
+  "atomic_mass_uncertainty_u": 0.001,
+  "classification": {
+    "group": 13,
+    "period": 3,
+    "block": "p",
+    "category": "post-transition metal",
+    "series": "poor metal",
+    "natural_occurrence": "primordial"
+  },
+  "atomic_structure": {
+    "electron_configuration": "[Ne] 3s2 3p1",
+    "electron_configuration_long": "1s2 2s2 2p6 3s2 3p1",
+    "electron_shells": [
+      2,
+      8,
+      3
+    ],
+    "valence_electrons": 3,
+    "oxidation_states": [
+      1,
+      2,
+      3
+    ],
+    "common_oxidation_states": [
+      3
+    ],
+    "electronegativity_pauling": 1.61,
+    "ionization_energies_kj_mol": [
+      577.5
+    ],
+    "electron_affinity_kj_mol": 41.762,
+    "atomic_radius_pm": 118,
+    "covalent_radius_pm": 121,
+    "van_der_waals_radius_pm": 184
+  },
+  "physical_properties": {
+    "phase_at_stp": "solid",
+    "melting_point_k": 933.47,
+    "boiling_point_k": 2792.0,
+    "density_kg_m3": 2700.0,
+    "density_liquid_kg_m3": null,
+    "triple_point_k": null,
+    "triple_point_kpa": null,
+    "critical_point_k": null,
+    "critical_point_mpa": null,
+    "heat_of_fusion_kj_mol": 10.71,
+    "heat_of_vaporization_kj_mol": 284.0,
+    "molar_heat_capacity_j_mol_k": 24.2,
+    "color": "silvery-grey",
+    "crystal_structure": "face-centered cubic",
+    "magnetic_ordering": "paramagnetic",
+    "speed_of_sound_m_s": 5100,
+    "thermal_conductivity_w_m_k": 237.0,
+    "thermal_expansion_per_k": 2.31e-05,
+    "mohs_hardness": 2.75,
+    "bulk_modulus_gpa": 76,
+    "shear_modulus_gpa": 26,
+    "young_modulus_gpa": 70,
+    "poisson_ratio": 0.35
+  },
+  "nuclear_properties": {
+    "radioactive": false,
+    "half_life": null,
+    "decay_mode": null,
+    "stable_isotopes": [
+      27
+    ],
+    "isotopes": [
+      {
+        "mass_number": 27,
+        "symbol": "27Al",
+        "name": null,
+        "neutrons": 14,
+        "abundance_percent": 100.0,
+        "mass_u": 26.981539,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": "5/2+"
+      }
+    ]
+  },
+  "abundance": {
+    "universe_percent": 0.005,
+    "solar_percent": 0.005,
+    "earth_crust_ppm": 81300,
+    "ocean_ppm": 0.002,
+    "human_body_percent": 9e-05
+  },
+  "discovery": {
+    "year": 1825,
+    "discoverers": [
+      "Hans Christian Oersted"
+    ],
+    "country": "Denmark",
+    "named_by": "Humphry Davy",
+    "name_origin": "Latin 'alumen' (alum)"
+  },
+  "applications": [
+    "Beverage cans",
+    "Aircraft structures",
+    "Building construction (window frames)",
+    "Electrical transmission lines",
+    "Aluminum foil",
+    "Automotive parts",
+    "Cookware",
+    "Reflective coatings"
+  ],
+  "hazards": {
+    "ghs_pictograms": [],
+    "signal_word": null,
+    "nfpa_704": null,
+    "hazard_statements": [],
+    "autoignition_temp_k": null,
+    "flash_point_k": null,
+    "explosive_limits_percent": null
+  },
+  "reactions": [
+    {
+      "id": "Al-industrial-001",
+      "name": "Hall-Heroult process",
+      "equation": "2 Al2O3(l) + 3 C(s) -> 4 Al(l) + 3 CO2(g)",
+      "type": "electrolysis",
+      "category": "industrial",
+      "delta_h_kj": 2170,
+      "conditions": "1233 K; electrolysis in molten cryolite (Na3AlF6) bath; carbon anodes consumed",
+      "description": "Primary aluminium smelting. Consumes ~15 kWh per kg Al. Dissolved in cryolite at ~960C.",
+      "reversible": false
+    },
+    {
+      "id": "Al-industrial-002",
+      "name": "Bayer process (alumina extraction)",
+      "equation": "Al2O3 * 3H2O(s) + 2 NaOH(aq) -> 2 NaAlO2(aq) + 4 H2O(l)",
+      "type": "dissolution",
+      "category": "industrial",
+      "delta_h_kj": null,
+      "conditions": "523 K; 30 atm; digestion of bauxite in hot caustic soda",
+      "description": "Bayer process extracts alumina from bauxite ore. Precursor to Hall-Heroult.",
+      "reversible": false
+    },
+    {
+      "id": "Cr-industrial-001",
+      "name": "Chromium production (aluminothermic)",
+      "equation": "Cr2O3(s) + 2 Al(s) -> 2 Cr(s) + Al2O3(s)",
+      "type": "aluminothermic",
+      "category": "industrial",
+      "delta_h_kj": -536,
+      "conditions": "thermite-type reaction; used for ferrochrome alloy",
+      "description": "Aluminothermic reduction of chromium oxide for chromium metal production.",
+      "reversible": false
+    },
+    {
+      "id": "Fe-notable-001",
+      "name": "Thermite reaction",
+      "equation": "2 Al(s) + Fe2O3(s) -> Al2O3(s) + 2 Fe(l)",
+      "type": "aluminothermic",
+      "category": "notable",
+      "delta_h_kj": -851.5,
+      "conditions": "ignited with Mg ribbon; reaches ~2500C; used for rail welding",
+      "description": "Extremely exothermic aluminothermic reaction. Produces molten iron at >2500C. Used to weld railroad rails.",
+      "reversible": false
+    }
+  ]
+}

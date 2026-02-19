@@ -1,0 +1,170 @@
+{
+  "name": "Lead",
+  "symbol": "Pb",
+  "atomic_number": 82,
+  "atomic_mass_u": 207.2,
+  "atomic_mass_uncertainty_u": 0.1,
+  "classification": {
+    "group": 14,
+    "period": 6,
+    "block": "p",
+    "category": "post-transition metal",
+    "series": "poor metal",
+    "natural_occurrence": "primordial"
+  },
+  "atomic_structure": {
+    "electron_configuration": "[Xe] 4f14 5d10 6s2 6p2",
+    "electron_configuration_long": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p2",
+    "electron_shells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      4
+    ],
+    "valence_electrons": 4,
+    "oxidation_states": [
+      -4,
+      2,
+      4
+    ],
+    "common_oxidation_states": [
+      2,
+      4
+    ],
+    "electronegativity_pauling": 1.87,
+    "ionization_energies_kj_mol": [
+      715.6
+    ],
+    "electron_affinity_kj_mol": 34.4,
+    "atomic_radius_pm": 154,
+    "covalent_radius_pm": 146,
+    "van_der_waals_radius_pm": 202
+  },
+  "physical_properties": {
+    "phase_at_stp": "solid",
+    "melting_point_k": 600.61,
+    "boiling_point_k": 2022.0,
+    "density_kg_m3": 11340.0,
+    "density_liquid_kg_m3": null,
+    "triple_point_k": null,
+    "triple_point_kpa": null,
+    "critical_point_k": null,
+    "critical_point_mpa": null,
+    "heat_of_fusion_kj_mol": 4.77,
+    "heat_of_vaporization_kj_mol": 179.5,
+    "molar_heat_capacity_j_mol_k": 26.65,
+    "color": "silvery-blue-white",
+    "crystal_structure": "face-centered cubic",
+    "magnetic_ordering": "diamagnetic",
+    "speed_of_sound_m_s": 1260,
+    "thermal_conductivity_w_m_k": 35.3,
+    "thermal_expansion_per_k": 2.89e-05,
+    "mohs_hardness": 1.5,
+    "bulk_modulus_gpa": 46,
+    "shear_modulus_gpa": 5.6,
+    "young_modulus_gpa": 16,
+    "poisson_ratio": 0.44
+  },
+  "nuclear_properties": {
+    "radioactive": false,
+    "half_life": null,
+    "decay_mode": null,
+    "stable_isotopes": [
+      204,
+      206,
+      207,
+      208
+    ],
+    "isotopes": [
+      {
+        "mass_number": 207,
+        "symbol": "207Pb",
+        "name": null,
+        "neutrons": 125,
+        "abundance_percent": null,
+        "mass_u": 207.2,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": null
+      }
+    ]
+  },
+  "abundance": {
+    "universe_percent": null,
+    "solar_percent": null,
+    "earth_crust_ppm": 14,
+    "ocean_ppm": null,
+    "human_body_percent": null
+  },
+  "discovery": {
+    "year": null,
+    "discoverers": [
+      "Known since antiquity"
+    ],
+    "country": null,
+    "named_by": null,
+    "name_origin": "Anglo-Saxon 'lead' / Latin 'plumbum'"
+  },
+  "applications": [
+    "Lead-acid batteries",
+    "Radiation shielding",
+    "Ammunition",
+    "Soldering (historical, Pb-free now preferred)",
+    "Weights and ballast"
+  ],
+  "hazards": {
+    "ghs_pictograms": [
+      "GHS07",
+      "GHS08",
+      "GHS09"
+    ],
+    "signal_word": null,
+    "nfpa_704": {
+      "health": 2,
+      "flammability": 0,
+      "reactivity": 0,
+      "special": ""
+    },
+    "hazard_statements": [],
+    "autoignition_temp_k": null,
+    "flash_point_k": null,
+    "explosive_limits_percent": null
+  },
+  "reactions": [
+    {
+      "id": "Pb-environmental-001",
+      "name": "Lead pipe corrosion (historical)",
+      "equation": "Pb(s) + 1/2 O2(g) + H2O(l) -> Pb(OH)2(s)",
+      "type": "corrosion",
+      "category": "environmental",
+      "delta_h_kj": null,
+      "conditions": "soft water dissolves Pb(OH)2; hard water forms protective PbCO3 scale",
+      "description": "Lead leaching from pipes. Flint water crisis (2014). Roman plumbing (plumbum = lead).",
+      "reversible": false
+    },
+    {
+      "id": "Pb-industrial-001",
+      "name": "Lead smelting",
+      "equation": "2 PbS(s) + 3 O2(g) -> 2 PbO(s) + 2 SO2(g)",
+      "type": "roasting",
+      "category": "industrial",
+      "delta_h_kj": -844,
+      "conditions": "1173 K",
+      "description": "Roasting of galena (PbS) to lead oxide, then reduced with carbon to lead metal.",
+      "reversible": false
+    },
+    {
+      "id": "Pb-laboratory-001",
+      "name": "Lead(II) iodide precipitation",
+      "equation": "Pb(NO3)2(aq) + 2 KI(aq) -> PbI2(s) + 2 KNO3(aq)",
+      "type": "precipitation",
+      "category": "laboratory",
+      "delta_h_kj": null,
+      "conditions": "bright yellow precipitate; 'golden rain' demo when hot solution cooled",
+      "description": "Golden rain experiment. Bright yellow PbI2 crystallizes from hot solution on cooling.",
+      "reversible": false
+    }
+  ]
+}

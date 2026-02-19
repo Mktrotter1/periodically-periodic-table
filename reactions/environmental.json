@@ -1,0 +1,899 @@
+[
+  {
+    "id": "O-environmental-001",
+    "name": "Ozone formation (stratospheric)",
+    "equation": "3 O2(g) -> 2 O3(g)",
+    "equation_latex": "3\\,\\text{O}_2(g) \\rightarrow 2\\,\\text{O}_3(g)",
+    "type": "photochemical",
+    "category": "environmental",
+    "elements_involved": [
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "O2",
+        "moles": 3,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "O3",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": 285.4,
+      "delta_g_kj": 326.4,
+      "delta_s_j_k": -137.6,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "UV radiation (<240 nm); Chapman cycle; stratosphere 20-50 km"
+    },
+    "reversible": false,
+    "description": "Stratospheric ozone formation via UV photolysis of O2 then O + O2 -> O3."
+  },
+  {
+    "id": "O-environmental-002",
+    "name": "Ozone depletion by CFCs",
+    "equation": "O3(g) + Cl(g) -> O2(g) + ClO(g)",
+    "equation_latex": "\\text{O}_3(g) + \\text{Cl}(g) \\rightarrow \\text{O}_2(g) + \\text{ClO}(g)",
+    "type": "catalytic destruction",
+    "category": "environmental",
+    "elements_involved": [
+      "O",
+      "Cl"
+    ],
+    "reactants": [
+      {
+        "formula": "O3",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "Cl",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "ClO",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "Cl radical from CFC photolysis; one Cl atom destroys ~100,000 O3 molecules"
+    },
+    "reversible": false,
+    "description": "Catalytic ozone destruction cycle. Cl regenerated: ClO + O -> Cl + O2. Montreal Protocol banned CFCs."
+  },
+  {
+    "id": "N-environmental-001",
+    "name": "Acid rain from NO2",
+    "equation": "4 NO2(g) + O2(g) + 2 H2O(l) -> 4 HNO3(aq)",
+    "equation_latex": "4\\,\\text{NO}_2(g) + \\text{O}_2(g) + 2\\,\\text{H}_2\\text{O}(l) \\rightarrow 4\\,\\text{HNO}_3(aq)",
+    "type": "acid rain",
+    "category": "environmental",
+    "elements_involved": [
+      "N",
+      "O",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "NO2",
+        "moles": 4,
+        "state": "g"
+      },
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "HNO3",
+        "moles": 4,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "atmospheric; NOx from combustion engines and power plants"
+    },
+    "reversible": false,
+    "description": "NOx forms nitric acid in atmosphere. Contributes to acid rain (pH < 5.6)."
+  },
+  {
+    "id": "S-environmental-001",
+    "name": "Acid rain from SO2",
+    "equation": "2 SO2(g) + O2(g) + 2 H2O(l) -> 2 H2SO4(aq)",
+    "equation_latex": "2\\,\\text{SO}_2(g) + \\text{O}_2(g) + 2\\,\\text{H}_2\\text{O}(l) \\rightarrow 2\\,\\text{H}_2\\text{SO}_4(aq)",
+    "type": "acid rain",
+    "category": "environmental",
+    "elements_involved": [
+      "S",
+      "O",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "SO2",
+        "moles": 2,
+        "state": "g"
+      },
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "H2SO4",
+        "moles": 2,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "atmospheric oxidation; SO2 from coal/ore smelting"
+    },
+    "reversible": false,
+    "description": "Sulfuric acid formation in atmosphere. Major cause of acid rain. Addressed by Clean Air Act."
+  },
+  {
+    "id": "C-environmental-001",
+    "name": "Ocean acidification",
+    "equation": "CO2(g) + H2O(l) <=> H2CO3(aq) <=> HCO3-(aq) + H+(aq)",
+    "equation_latex": "\\text{CO}_2(g) + \\text{H}_2\\text{O}(l) \\rightleftharpoons \\text{H}_2\\text{CO}_3(aq) \\rightleftharpoons \\text{HCO}_3^-(aq) + \\text{H}^+(aq)",
+    "type": "acidification",
+    "category": "environmental",
+    "elements_involved": [
+      "C",
+      "O",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "CO2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "HCO3-",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "H+",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": null
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "oceans absorb ~30% of anthropogenic CO2; pH dropped from 8.2 to 8.1 since pre-industrial"
+    },
+    "reversible": true,
+    "description": "CO2 dissolution lowers ocean pH. Threatens coral reefs and shellfish (CaCO3 dissolution)."
+  },
+  {
+    "id": "Ca-environmental-001",
+    "name": "Chemical weathering of limestone",
+    "equation": "CaCO3(s) + CO2(g) + H2O(l) -> Ca(HCO3)2(aq)",
+    "equation_latex": "\\text{CaCO}_3(s) + \\text{CO}_2(g) + \\text{H}_2\\text{O}(l) \\rightarrow \\text{Ca}(\\text{HCO}_3)_2(aq)",
+    "type": "weathering",
+    "category": "environmental",
+    "elements_involved": [
+      "Ca",
+      "C",
+      "O",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "CaCO3",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "CO2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Ca(HCO3)2",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "rain dissolves atmospheric CO2 forming weak carbonic acid"
+    },
+    "reversible": true,
+    "description": "Creates caves, karst topography. Major CO2 sink on geological timescale. Causes hard water."
+  },
+  {
+    "id": "Si-environmental-001",
+    "name": "Silicate weathering (CO2 sink)",
+    "equation": "CaSiO3(s) + 2 CO2(g) + 3 H2O(l) -> Ca2+(aq) + 2 HCO3-(aq) + H4SiO4(aq)",
+    "equation_latex": "\\text{CaSiO}_3(s) + 2\\,\\text{CO}_2(g) + 3\\,\\text{H}_2\\text{O}(l) \\rightarrow \\text{Ca}^{2+}(aq) + 2\\,\\text{HCO}_3^-(aq) + \\text{H}_4\\text{SiO}_4(aq)",
+    "type": "weathering",
+    "category": "environmental",
+    "elements_involved": [
+      "Ca",
+      "Si",
+      "C",
+      "O",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "CaSiO3",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "CO2",
+        "moles": 2,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 3,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Ca2+",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "HCO3-",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "H4SiO4",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "geological timescale; thermostat of Earth's climate"
+    },
+    "reversible": false,
+    "description": "Silicate weathering is the primary geological CO2 sink. Urey reaction controls climate over millions of years."
+  },
+  {
+    "id": "Fe-environmental-001",
+    "name": "Iron rusting",
+    "equation": "4 Fe(s) + 3 O2(g) + 6 H2O(l) -> 4 Fe(OH)3(s)",
+    "equation_latex": "4\\,\\text{Fe}(s) + 3\\,\\text{O}_2(g) + 6\\,\\text{H}_2\\text{O}(l) \\rightarrow 4\\,\\text{Fe}(\\text{OH})_3(s)",
+    "type": "corrosion",
+    "category": "environmental",
+    "elements_involved": [
+      "Fe",
+      "O",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "Fe",
+        "moles": 4,
+        "state": "s"
+      },
+      {
+        "formula": "O2",
+        "moles": 3,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 6,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Fe(OH)3",
+        "moles": 4,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -1648,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "electrochemical process; accelerated by salt, acid, scratches in protective coating"
+    },
+    "reversible": false,
+    "description": "Iron corrosion is an electrochemical process. Costs ~3.4% of global GDP annually."
+  },
+  {
+    "id": "Fe-environmental-002",
+    "name": "Rust dehydration",
+    "equation": "2 Fe(OH)3(s) -> Fe2O3 * H2O(s) + 2 H2O(l)",
+    "equation_latex": "2\\,\\text{Fe}(\\text{OH})_3(s) \\rightarrow \\text{Fe}_2\\text{O}_3 \\cdot \\text{H}_2\\text{O}(s) + 2\\,\\text{H}_2\\text{O}(l)",
+    "type": "dehydration",
+    "category": "environmental",
+    "elements_involved": [
+      "Fe",
+      "O",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "Fe(OH)3",
+        "moles": 2,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Fe2O3*H2O",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "ambient conditions; Fe(OH)3 dehydrates to reddish-brown rust"
+    },
+    "reversible": false,
+    "description": "Hydrated iron(III) oxide (rust). Flaky, non-protective. Unlike Al2O3, does not passivate."
+  },
+  {
+    "id": "N-environmental-002",
+    "name": "Nitrogen fixation by lightning",
+    "equation": "N2(g) + O2(g) -> 2 NO(g)",
+    "equation_latex": "\\text{N}_2(g) + \\text{O}_2(g) \\rightarrow 2\\,\\text{NO}(g)",
+    "type": "fixation",
+    "category": "environmental",
+    "elements_involved": [
+      "N",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "N2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "NO",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": 180.6,
+      "delta_g_kj": 173.2,
+      "delta_s_j_k": 24.8,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": 3000,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "lightning provides extreme local temperature; ~5-8 Tg N/year globally"
+    },
+    "reversible": false,
+    "description": "Lightning fixes ~5-8 Tg N/year. High activation energy overcome by >30,000 K plasma temperature."
+  },
+  {
+    "id": "N-environmental-003",
+    "name": "Denitrification",
+    "equation": "2 NO3-(aq) + 10 e- + 12 H+(aq) -> N2(g) + 6 H2O(l)",
+    "equation_latex": "2\\,\\text{NO}_3^-(aq) + 10\\,e^- + 12\\,\\text{H}^+(aq) \\rightarrow \\text{N}_2(g) + 6\\,\\text{H}_2\\text{O}(l)",
+    "type": "denitrification",
+    "category": "environmental",
+    "elements_involved": [
+      "N",
+      "O",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "NO3-",
+        "moles": 2,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "N2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 6,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "anaerobic bacteria (Pseudomonas); wetlands; wastewater treatment"
+    },
+    "reversible": false,
+    "description": "Microbial conversion of nitrate back to N2. Closes the nitrogen cycle. Important in wastewater treatment."
+  },
+  {
+    "id": "N-environmental-004",
+    "name": "Nitrification (ammonia to nitrate)",
+    "equation": "NH3(aq) + 2 O2(g) -> NO3-(aq) + H2O(l) + H+(aq)",
+    "equation_latex": "\\text{NH}_3(aq) + 2\\,\\text{O}_2(g) \\rightarrow \\text{NO}_3^-(aq) + \\text{H}_2\\text{O}(l) + \\text{H}^+(aq)",
+    "type": "nitrification",
+    "category": "environmental",
+    "elements_involved": [
+      "N",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "NH3",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "O2",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "NO3-",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -349,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "two-step: Nitrosomonas (NH3->NO2-) then Nitrobacter (NO2-->NO3-); aerobic soil"
+    },
+    "reversible": false,
+    "description": "Two-step microbial oxidation. Converts ammonium fertilizer to plant-available nitrate."
+  },
+  {
+    "id": "C-environmental-002",
+    "name": "Methanogenesis",
+    "equation": "CO2(g) + 4 H2(g) -> CH4(g) + 2 H2O(l)",
+    "equation_latex": "\\text{CO}_2(g) + 4\\,\\text{H}_2(g) \\rightarrow \\text{CH}_4(g) + 2\\,\\text{H}_2\\text{O}(l)",
+    "type": "methanogenesis",
+    "category": "environmental",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "CO2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2",
+        "moles": 4,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CH4",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -130.7,
+      "delta_g_kj": -130.4,
+      "delta_s_j_k": -1.0,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "methanogenic archaea; strictly anaerobic; wetlands, ruminant guts, landfills"
+    },
+    "reversible": false,
+    "description": "Archaeal methanogenesis. Major biogenic CH4 source. Contributes to greenhouse effect."
+  },
+  {
+    "id": "C-environmental-003",
+    "name": "Methane oxidation (atmospheric sink)",
+    "equation": "CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(g)",
+    "equation_latex": "\\text{CH}_4(g) + 2\\,\\text{O}_2(g) \\rightarrow \\text{CO}_2(g) + 2\\,\\text{H}_2\\text{O}(g)",
+    "type": "oxidation",
+    "category": "environmental",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "CH4",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "O2",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -802,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "hydroxyl radical (OH*) initiated; tropospheric lifetime ~12 years"
+    },
+    "reversible": false,
+    "description": "Atmospheric methane removal by OH radical. Primary sink for CH4 greenhouse gas."
+  },
+  {
+    "id": "S-environmental-002",
+    "name": "Sulfate reduction (deep ocean)",
+    "equation": "SO4 2-(aq) + 2 CH2O(s) -> H2S(g) + 2 HCO3-(aq)",
+    "equation_latex": "\\text{SO}_4^{2-}(aq) + 2\\,\\text{CH}_2\\text{O}(s) \\rightarrow \\text{H}_2\\text{S}(g) + 2\\,\\text{HCO}_3^-(aq)",
+    "type": "sulfate reduction",
+    "category": "environmental",
+    "elements_involved": [
+      "S",
+      "O",
+      "C",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "SO4_2-",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "CH2O",
+        "moles": 2,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "H2S",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "HCO3-",
+        "moles": 2,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "sulfate-reducing bacteria (Desulfovibrio); anaerobic marine sediments"
+    },
+    "reversible": false,
+    "description": "Microbial sulfate reduction. Produces H2S (rotten egg smell). Forms black FeS in sediments."
+  },
+  {
+    "id": "O-environmental-003",
+    "name": "Tropospheric ozone formation (smog)",
+    "equation": "NO2(g) + hv -> NO(g) + O(g); O(g) + O2(g) -> O3(g)",
+    "equation_latex": "\\text{NO}_2(g) + h\\nu \\rightarrow \\text{NO}(g) + \\text{O}(g);\\quad \\text{O}(g) + \\text{O}_2(g) \\rightarrow \\text{O}_3(g)",
+    "type": "photochemical",
+    "category": "environmental",
+    "elements_involved": [
+      "N",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "NO2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "NO",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "O3",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "UV light; VOCs sustain cycle by converting NO back to NO2 without consuming O3"
+    },
+    "reversible": false,
+    "description": "Ground-level ozone is a harmful pollutant (photochemical smog). Good up high, bad nearby."
+  },
+  {
+    "id": "Pb-environmental-001",
+    "name": "Lead pipe corrosion (historical)",
+    "equation": "Pb(s) + 1/2 O2(g) + H2O(l) -> Pb(OH)2(s)",
+    "equation_latex": "\\text{Pb}(s) + \\tfrac{1}{2}\\,\\text{O}_2(g) + \\text{H}_2\\text{O}(l) \\rightarrow \\text{Pb}(\\text{OH})_2(s)",
+    "type": "corrosion",
+    "category": "environmental",
+    "elements_involved": [
+      "Pb",
+      "O",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "Pb",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "O2",
+        "moles": 0.5,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Pb(OH)2",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "soft water dissolves Pb(OH)2; hard water forms protective PbCO3 scale"
+    },
+    "reversible": false,
+    "description": "Lead leaching from pipes. Flint water crisis (2014). Roman plumbing (plumbum = lead)."
+  },
+  {
+    "id": "Hg-environmental-001",
+    "name": "Mercury methylation (bioaccumulation)",
+    "equation": "Hg2+(aq) + CH3-(aq) -> CH3Hg+(aq)",
+    "equation_latex": "\\text{Hg}^{2+}(aq) + \\text{CH}_3^-(aq) \\rightarrow \\text{CH}_3\\text{Hg}^+(aq)",
+    "type": "methylation",
+    "category": "environmental",
+    "elements_involved": [
+      "Hg",
+      "C",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "Hg2+",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "CH3-",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CH3Hg+",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": null
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "anaerobic sulfate-reducing bacteria; wetlands and sediments"
+    },
+    "reversible": false,
+    "description": "Methylmercury bioaccumulates in food chains. Minamata disease. Extremely neurotoxic."
+  }
+]

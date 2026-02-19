@@ -1,0 +1,153 @@
+{
+  "name": "Titanium",
+  "symbol": "Ti",
+  "atomic_number": 22,
+  "atomic_mass_u": 47.867,
+  "atomic_mass_uncertainty_u": 0.001,
+  "classification": {
+    "group": 4,
+    "period": 4,
+    "block": "d",
+    "category": "transition metal",
+    "series": "transition metal",
+    "natural_occurrence": "primordial"
+  },
+  "atomic_structure": {
+    "electron_configuration": "[Ar] 3d2 4s2",
+    "electron_configuration_long": "1s2 2s2 2p6 3s2 3p6 3d2 4s2",
+    "electron_shells": [
+      2,
+      8,
+      10,
+      2
+    ],
+    "valence_electrons": 4,
+    "oxidation_states": [
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4
+    ],
+    "common_oxidation_states": [
+      4
+    ],
+    "electronegativity_pauling": 1.54,
+    "ionization_energies_kj_mol": [
+      658.8
+    ],
+    "electron_affinity_kj_mol": 7.289,
+    "atomic_radius_pm": 176,
+    "covalent_radius_pm": 160,
+    "van_der_waals_radius_pm": null
+  },
+  "physical_properties": {
+    "phase_at_stp": "solid",
+    "melting_point_k": 1941.0,
+    "boiling_point_k": 3560.0,
+    "density_kg_m3": 4507.0,
+    "density_liquid_kg_m3": null,
+    "triple_point_k": null,
+    "triple_point_kpa": null,
+    "critical_point_k": null,
+    "critical_point_mpa": null,
+    "heat_of_fusion_kj_mol": 14.15,
+    "heat_of_vaporization_kj_mol": 425.0,
+    "molar_heat_capacity_j_mol_k": 25.06,
+    "color": "silvery-grey",
+    "crystal_structure": "hexagonal close-packed",
+    "magnetic_ordering": "paramagnetic",
+    "speed_of_sound_m_s": 4140,
+    "thermal_conductivity_w_m_k": 21.9,
+    "thermal_expansion_per_k": 8.6e-06,
+    "mohs_hardness": 6.0,
+    "bulk_modulus_gpa": 110,
+    "shear_modulus_gpa": 44,
+    "young_modulus_gpa": 116,
+    "poisson_ratio": 0.32
+  },
+  "nuclear_properties": {
+    "radioactive": false,
+    "half_life": null,
+    "decay_mode": null,
+    "stable_isotopes": [
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "isotopes": [
+      {
+        "mass_number": 48,
+        "symbol": "48Ti",
+        "name": null,
+        "neutrons": 26,
+        "abundance_percent": null,
+        "mass_u": 47.867,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": null
+      }
+    ]
+  },
+  "abundance": {
+    "universe_percent": 0.0003,
+    "solar_percent": 0.0003,
+    "earth_crust_ppm": 5650,
+    "ocean_ppm": 0.001,
+    "human_body_percent": 9.7e-05
+  },
+  "discovery": {
+    "year": 1791,
+    "discoverers": [
+      "William Gregor"
+    ],
+    "country": "England",
+    "named_by": "Martin Heinrich Klaproth",
+    "name_origin": "Greek 'Titans' (mythology)"
+  },
+  "applications": [
+    "Aerospace alloys (Ti-6Al-4V)",
+    "Medical implants (joints, dental)",
+    "Titanium dioxide pigment (white paint, sunscreen)",
+    "Corrosion-resistant chemical equipment",
+    "Sports equipment (golf clubs, bicycles)",
+    "Jewelry",
+    "Desalination plants"
+  ],
+  "hazards": {
+    "ghs_pictograms": [],
+    "signal_word": null,
+    "nfpa_704": null,
+    "hazard_statements": [],
+    "autoignition_temp_k": null,
+    "flash_point_k": null,
+    "explosive_limits_percent": null
+  },
+  "reactions": [
+    {
+      "id": "Ti-industrial-001",
+      "name": "Kroll process step 1 (chlorination)",
+      "equation": "TiO2(s) + 2 Cl2(g) + 2 C(s) -> TiCl4(l) + 2 CO(g)",
+      "type": "chlorination",
+      "category": "industrial",
+      "delta_h_kj": -258,
+      "conditions": "1173 K",
+      "description": "Rutile ore converted to titanium tetrachloride. First step of Kroll process.",
+      "reversible": false
+    },
+    {
+      "id": "Ti-industrial-002",
+      "name": "Kroll process step 2 (reduction)",
+      "equation": "TiCl4(l) + 2 Mg(l) -> Ti(s) + 2 MgCl2(l)",
+      "type": "reduction",
+      "category": "industrial",
+      "delta_h_kj": -512,
+      "conditions": "1073 K; argon atmosphere to prevent oxidation",
+      "description": "Magnesium reduces TiCl4 to titanium sponge. Batch process, very energy-intensive.",
+      "reversible": false
+    }
+  ]
+}

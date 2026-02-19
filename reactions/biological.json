@@ -1,0 +1,977 @@
+[
+  {
+    "id": "C-biological-001",
+    "name": "Photosynthesis (overall)",
+    "equation": "6 CO2(g) + 6 H2O(l) -> C6H12O6(s) + 6 O2(g)",
+    "equation_latex": "6\\,\\text{CO}_2(g) + 6\\,\\text{H}_2\\text{O}(l) \\rightarrow \\text{C}_6\\text{H}_{12}\\text{O}_6(s) + 6\\,\\text{O}_2(g)",
+    "type": "photosynthesis",
+    "category": "biological",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "CO2",
+        "moles": 6,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 6,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "C6H12O6",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "O2",
+        "moles": 6,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": 2803,
+      "delta_g_kj": 2879,
+      "delta_s_j_k": -256,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "chlorophyll; light energy (sunlight); thylakoid membranes"
+    },
+    "reversible": false,
+    "description": "Converts light energy to chemical energy. Produces all atmospheric O2. Calvin cycle fixes CO2."
+  },
+  {
+    "id": "C-biological-002",
+    "name": "Photosynthesis light reaction (water splitting)",
+    "equation": "2 H2O(l) -> O2(g) + 4 H+(aq) + 4 e-",
+    "equation_latex": "2\\,\\text{H}_2\\text{O}(l) \\rightarrow \\text{O}_2(g) + 4\\,\\text{H}^+(aq) + 4\\,e^-",
+    "type": "oxidation",
+    "category": "biological",
+    "elements_involved": [
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "photosystem II; Mn4CaO5 cluster (OEC); 680 nm light"
+    },
+    "reversible": false,
+    "description": "Water oxidation at PSII oxygen-evolving complex. Source of all biological O2."
+  },
+  {
+    "id": "C-biological-003",
+    "name": "Cellular respiration (overall)",
+    "equation": "C6H12O6(s) + 6 O2(g) -> 6 CO2(g) + 6 H2O(l)",
+    "equation_latex": "\\text{C}_6\\text{H}_{12}\\text{O}_6(s) + 6\\,\\text{O}_2(g) \\rightarrow 6\\,\\text{CO}_2(g) + 6\\,\\text{H}_2\\text{O}(l)",
+    "type": "respiration",
+    "category": "biological",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "C6H12O6",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "O2",
+        "moles": 6,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "moles": 6,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 6,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -2803,
+      "delta_g_kj": -2879,
+      "delta_s_j_k": 256,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "glycolysis + Krebs cycle + oxidative phosphorylation; ~30-32 ATP per glucose"
+    },
+    "reversible": false,
+    "description": "Complete oxidation of glucose. Exact reverse of photosynthesis. Powers all aerobic life."
+  },
+  {
+    "id": "C-biological-004",
+    "name": "Glycolysis (net reaction)",
+    "equation": "C6H12O6(s) + 2 NAD+(aq) + 2 ADP(aq) + 2 Pi(aq) -> 2 CH3COCOO-(aq) + 2 NADH(aq) + 2 ATP(aq) + 2 H2O(l)",
+    "equation_latex": "\\text{C}_6\\text{H}_{12}\\text{O}_6 + 2\\,\\text{NAD}^+ + 2\\,\\text{ADP} + 2\\,\\text{P}_i \\rightarrow 2\\,\\text{pyruvate} + 2\\,\\text{NADH} + 2\\,\\text{ATP} + 2\\,\\text{H}_2\\text{O}",
+    "type": "glycolysis",
+    "category": "biological",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "N",
+      "P"
+    ],
+    "reactants": [
+      {
+        "formula": "C6H12O6",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "NAD+",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "ADP",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "Pi",
+        "moles": 2,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "pyruvate",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "NADH",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "ATP",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -74,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "cytoplasm; 10 enzyme-catalyzed steps"
+    },
+    "reversible": false,
+    "description": "Glucose to 2 pyruvate. Net 2 ATP + 2 NADH. Universal pathway in all domains of life."
+  },
+  {
+    "id": "P-biological-001",
+    "name": "ATP hydrolysis",
+    "equation": "ATP(aq) + H2O(l) -> ADP(aq) + Pi(aq) + H+(aq)",
+    "equation_latex": "\\text{ATP}(aq) + \\text{H}_2\\text{O}(l) \\rightarrow \\text{ADP}(aq) + \\text{P}_i(aq) + \\text{H}^+(aq)",
+    "type": "hydrolysis",
+    "category": "biological",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "N",
+      "P"
+    ],
+    "reactants": [
+      {
+        "formula": "ATP",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "ADP",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "Pi",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -30.5,
+      "delta_g_kj": -30.5,
+      "delta_s_j_k": 0,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "Mg2+ cofactor; standard biochemical conditions (pH 7, 1mM)"
+    },
+    "reversible": false,
+    "description": "Universal energy currency of life. Drives endergonic reactions by coupling. ~100 kg ATP recycled/day in humans."
+  },
+  {
+    "id": "P-biological-002",
+    "name": "ATP synthesis (oxidative phosphorylation)",
+    "equation": "ADP(aq) + Pi(aq) + H+(aq) -> ATP(aq) + H2O(l)",
+    "equation_latex": "\\text{ADP}(aq) + \\text{P}_i(aq) + \\text{H}^+(aq) \\rightarrow \\text{ATP}(aq) + \\text{H}_2\\text{O}(l)",
+    "type": "phosphorylation",
+    "category": "biological",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "N",
+      "P"
+    ],
+    "reactants": [
+      {
+        "formula": "ADP",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "Pi",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "ATP",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": 30.5,
+      "delta_g_kj": 30.5,
+      "delta_s_j_k": 0,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "ATP synthase (Complex V); proton motive force across inner mitochondrial membrane"
+    },
+    "reversible": false,
+    "description": "Chemiosmotic synthesis of ATP. F1Fo-ATP synthase rotary motor. ~26-28 ATP from one glucose."
+  },
+  {
+    "id": "N-biological-001",
+    "name": "Biological nitrogen fixation",
+    "equation": "N2(g) + 8 H+(aq) + 8 e- + 16 ATP(aq) -> 2 NH3(aq) + H2(g) + 16 ADP(aq) + 16 Pi(aq)",
+    "equation_latex": "\\text{N}_2 + 8\\,\\text{H}^+ + 8\\,e^- + 16\\,\\text{ATP} \\rightarrow 2\\,\\text{NH}_3 + \\text{H}_2 + 16\\,\\text{ADP} + 16\\,\\text{P}_i",
+    "type": "nitrogen fixation",
+    "category": "biological",
+    "elements_involved": [
+      "N",
+      "H",
+      "Fe",
+      "Mo"
+    ],
+    "reactants": [
+      {
+        "formula": "N2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "ATP",
+        "moles": 16,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "NH3",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "H2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "ADP",
+        "moles": 16,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": "nitrogenase (Fe-Mo cofactor)",
+      "other": "obligate anaerobic conditions for enzyme; Rhizobium in legume root nodules"
+    },
+    "reversible": false,
+    "description": "Nitrogenase reduces N2 to NH3 at ambient conditions. Requires 16 ATP per N2. FeMo cofactor active site."
+  },
+  {
+    "id": "Fe-biological-001",
+    "name": "Hemoglobin oxygen binding",
+    "equation": "Hb(aq) + 4 O2(g) <=> Hb(O2)4(aq)",
+    "equation_latex": "\\text{Hb}(aq) + 4\\,\\text{O}_2(g) \\rightleftharpoons \\text{Hb}(\\text{O}_2)_4(aq)",
+    "type": "binding",
+    "category": "biological",
+    "elements_involved": [
+      "Fe",
+      "O",
+      "C",
+      "N",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "Hb",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "O2",
+        "moles": 4,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Hb(O2)4",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -67,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "cooperative binding (sigmoidal curve); Fe2+ in heme porphyrin; P50 = 26 mmHg"
+    },
+    "reversible": true,
+    "description": "Cooperative O2 binding to hemoglobin's four heme groups. Fe2+ does NOT oxidize to Fe3+."
+  },
+  {
+    "id": "C-biological-005",
+    "name": "Ethanol fermentation",
+    "equation": "C6H12O6(s) -> 2 C2H5OH(l) + 2 CO2(g)",
+    "equation_latex": "\\text{C}_6\\text{H}_{12}\\text{O}_6(s) \\rightarrow 2\\,\\text{C}_2\\text{H}_5\\text{OH}(l) + 2\\,\\text{CO}_2(g)",
+    "type": "fermentation",
+    "category": "biological",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "C6H12O6",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "C2H5OH",
+        "moles": 2,
+        "state": "l"
+      },
+      {
+        "formula": "CO2",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -69,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": "zymase (yeast enzymes)",
+      "other": "anaerobic conditions; Saccharomyces cerevisiae"
+    },
+    "reversible": false,
+    "description": "Anaerobic glucose metabolism by yeast. Produces beer, wine, bread (CO2 leavening)."
+  },
+  {
+    "id": "C-biological-006",
+    "name": "Lactic acid fermentation",
+    "equation": "C6H12O6(s) -> 2 CH3CH(OH)COOH(aq)",
+    "equation_latex": "\\text{C}_6\\text{H}_{12}\\text{O}_6(s) \\rightarrow 2\\,\\text{CH}_3\\text{CH}(\\text{OH})\\text{COOH}(aq)",
+    "type": "fermentation",
+    "category": "biological",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "C6H12O6",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CH3CH(OH)COOH",
+        "moles": 2,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -136,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": "lactate dehydrogenase",
+      "other": "anaerobic; muscle cells during intense exercise"
+    },
+    "reversible": false,
+    "description": "Anaerobic pathway in muscle. Also used by Lactobacillus in yogurt/sauerkraut production."
+  },
+  {
+    "id": "C-biological-007",
+    "name": "Krebs cycle (overall per acetyl-CoA)",
+    "equation": "Acetyl-CoA + 3 NAD+ + FAD + GDP + Pi + 2 H2O -> CoA-SH + 2 CO2 + 3 NADH + FADH2 + GTP",
+    "equation_latex": "\\text{Acetyl-CoA} + 3\\,\\text{NAD}^+ + \\text{FAD} + \\text{GDP} + \\text{P}_i + 2\\,\\text{H}_2\\text{O} \\rightarrow \\text{CoA-SH} + 2\\,\\text{CO}_2 + 3\\,\\text{NADH} + \\text{FADH}_2 + \\text{GTP}",
+    "type": "oxidative cycle",
+    "category": "biological",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "N",
+      "S",
+      "P"
+    ],
+    "reactants": [
+      {
+        "formula": "Acetyl-CoA",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "NAD+",
+        "moles": 3,
+        "state": "aq"
+      },
+      {
+        "formula": "FAD",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "GDP",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "Pi",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CoA-SH",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "CO2",
+        "moles": 2,
+        "state": "g"
+      },
+      {
+        "formula": "NADH",
+        "moles": 3,
+        "state": "aq"
+      },
+      {
+        "formula": "FADH2",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "GTP",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "mitochondrial matrix; 8 enzyme-catalyzed steps; regulated by [ATP]/[ADP]"
+    },
+    "reversible": false,
+    "description": "Central metabolic hub. Oxidizes acetyl groups to CO2, generating electron carriers for ETC."
+  },
+  {
+    "id": "Fe-biological-002",
+    "name": "Cytochrome c oxidase (Complex IV)",
+    "equation": "4 cytochrome c (Fe2+) + O2 + 8 H+(matrix) -> 4 cytochrome c (Fe3+) + 2 H2O + 4 H+(IMS)",
+    "equation_latex": "4\\,\\text{cyt c}(\\text{Fe}^{2+}) + \\text{O}_2 + 8\\,\\text{H}^+_{\\text{matrix}} \\rightarrow 4\\,\\text{cyt c}(\\text{Fe}^{3+}) + 2\\,\\text{H}_2\\text{O} + 4\\,\\text{H}^+_{\\text{IMS}}",
+    "type": "electron transfer",
+    "category": "biological",
+    "elements_involved": [
+      "Fe",
+      "Cu",
+      "O",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "cytochrome_c_Fe2+",
+        "moles": 4,
+        "state": "aq"
+      },
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "cytochrome_c_Fe3+",
+        "moles": 4,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "inner mitochondrial membrane; contains CuA, CuB, heme a, heme a3"
+    },
+    "reversible": false,
+    "description": "Terminal oxidase of electron transport chain. Reduces O2 to H2O. Pumps 4 H+ per O2."
+  },
+  {
+    "id": "N-biological-002",
+    "name": "Urease catalysis",
+    "equation": "NH2CONH2(aq) + H2O(l) -> 2 NH3(aq) + CO2(g)",
+    "equation_latex": "\\text{NH}_2\\text{CONH}_2(aq) + \\text{H}_2\\text{O}(l) \\rightarrow 2\\,\\text{NH}_3(aq) + \\text{CO}_2(g)",
+    "type": "enzyme catalysis",
+    "category": "biological",
+    "elements_involved": [
+      "N",
+      "H",
+      "C",
+      "O",
+      "Ni"
+    ],
+    "reactants": [
+      {
+        "formula": "NH2CONH2",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "NH3",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "CO2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -40,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": "urease (Ni2+ active site)",
+      "other": "rate enhancement: 10^14 over uncatalyzed"
+    },
+    "reversible": false,
+    "description": "Urease was the first enzyme crystallized (Sumner, 1926). Contains dinuclear Ni center."
+  },
+  {
+    "id": "Zn-biological-001",
+    "name": "Carbonic anhydrase",
+    "equation": "CO2(g) + H2O(l) <=> HCO3-(aq) + H+(aq)",
+    "equation_latex": "\\text{CO}_2(g) + \\text{H}_2\\text{O}(l) \\rightleftharpoons \\text{HCO}_3^-(aq) + \\text{H}^+(aq)",
+    "type": "enzyme catalysis",
+    "category": "biological",
+    "elements_involved": [
+      "C",
+      "O",
+      "H",
+      "Zn"
+    ],
+    "reactants": [
+      {
+        "formula": "CO2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "HCO3-",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "H+",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": null
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": "carbonic anhydrase (Zn2+ active site)",
+      "other": "kcat ~10^6 s-1; one of fastest enzymes"
+    },
+    "reversible": true,
+    "description": "Zinc metalloenzyme. Catalyzes CO2 hydration ~10^6 times faster than uncatalyzed. Critical for CO2 transport and pH regulation."
+  },
+  {
+    "id": "Mg-biological-001",
+    "name": "Chlorophyll light absorption",
+    "equation": "Chl + hv -> Chl*",
+    "equation_latex": "\\text{Chl} + h\\nu \\rightarrow \\text{Chl}^*",
+    "type": "photoexcitation",
+    "category": "biological",
+    "elements_involved": [
+      "Mg",
+      "C",
+      "N",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "Chl",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Chl*",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "absorbs red (680 nm) and blue (430 nm); Mg2+ coordinated by porphyrin ring"
+    },
+    "reversible": false,
+    "description": "Chlorophyll absorbs light via Mg-porphyrin chromophore. Excited electron enters photosystem."
+  },
+  {
+    "id": "S-biological-001",
+    "name": "Disulfide bond formation (protein folding)",
+    "equation": "2 R-SH -> R-S-S-R + 2 H+ + 2 e-",
+    "equation_latex": "2\\,\\text{R-SH} \\rightarrow \\text{R-S-S-R} + 2\\,\\text{H}^+ + 2\\,e^-",
+    "type": "oxidation",
+    "category": "biological",
+    "elements_involved": [
+      "S",
+      "C",
+      "H",
+      "O",
+      "N"
+    ],
+    "reactants": [
+      {
+        "formula": "R-SH",
+        "moles": 2,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "R-S-S-R",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": null
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "endoplasmic reticulum; protein disulfide isomerase (PDI)"
+    },
+    "reversible": true,
+    "description": "Cysteine disulfide bridges stabilize protein tertiary structure. Oxidizing environment of ER."
+  },
+  {
+    "id": "C-biological-008",
+    "name": "Beta-oxidation of fatty acids (per cycle)",
+    "equation": "Acyl-CoA(Cn) + FAD + NAD+ + CoA-SH + H2O -> Acyl-CoA(Cn-2) + FADH2 + NADH + Acetyl-CoA",
+    "equation_latex": "\\text{Acyl-CoA}(C_n) + \\text{FAD} + \\text{NAD}^+ + \\text{CoA-SH} + \\text{H}_2\\text{O} \\rightarrow \\text{Acyl-CoA}(C_{n-2}) + \\text{FADH}_2 + \\text{NADH} + \\text{Acetyl-CoA}",
+    "type": "oxidation",
+    "category": "biological",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "S",
+      "N"
+    ],
+    "reactants": [
+      {
+        "formula": "Acyl-CoA",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "FAD",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "NAD+",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "CoA-SH",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Acyl-CoA(n-2)",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "FADH2",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "NADH",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "Acetyl-CoA",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "mitochondrial matrix; 4 enzymes per cycle; each cycle removes 2 carbons"
+    },
+    "reversible": false,
+    "description": "Fatty acid catabolism. Each cycle yields 1 FADH2, 1 NADH, 1 acetyl-CoA (~14 ATP per cycle)."
+  },
+  {
+    "id": "Ca-biological-001",
+    "name": "Hydroxyapatite formation (bone mineralization)",
+    "equation": "10 Ca2+(aq) + 6 PO4 3-(aq) + 2 OH-(aq) -> Ca10(PO4)6(OH)2(s)",
+    "equation_latex": "10\\,\\text{Ca}^{2+}(aq) + 6\\,\\text{PO}_4^{3-}(aq) + 2\\,\\text{OH}^-(aq) \\rightarrow \\text{Ca}_{10}(\\text{PO}_4)_6(\\text{OH})_2(s)",
+    "type": "mineralization",
+    "category": "biological",
+    "elements_involved": [
+      "Ca",
+      "P",
+      "O",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "Ca2+",
+        "moles": 10,
+        "state": "aq"
+      },
+      {
+        "formula": "PO4_3-",
+        "moles": 6,
+        "state": "aq"
+      },
+      {
+        "formula": "OH-",
+        "moles": 2,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Ca10(PO4)6(OH)2",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "osteoblast-mediated; alkaline phosphatase; collagen matrix template"
+    },
+    "reversible": false,
+    "description": "Hydroxyapatite is the mineral component of bone and teeth. ~70% of bone mass."
+  }
+]

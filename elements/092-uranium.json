@@ -1,0 +1,161 @@
+{
+  "name": "Uranium",
+  "symbol": "U",
+  "atomic_number": 92,
+  "atomic_mass_u": 238.03,
+  "atomic_mass_uncertainty_u": 0.01,
+  "classification": {
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "category": "actinide",
+    "series": "actinide",
+    "natural_occurrence": "primordial"
+  },
+  "atomic_structure": {
+    "electron_configuration": "[Rn] 5f3 6d1 7s2",
+    "electron_configuration_long": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f3 6d1 7s2",
+    "electron_shells": [
+      2,
+      8,
+      18,
+      32,
+      21,
+      9,
+      2
+    ],
+    "valence_electrons": 6,
+    "oxidation_states": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "common_oxidation_states": [
+      4,
+      6
+    ],
+    "electronegativity_pauling": 1.38,
+    "ionization_energies_kj_mol": [
+      597.6
+    ],
+    "electron_affinity_kj_mol": 50.94,
+    "atomic_radius_pm": null,
+    "covalent_radius_pm": 196,
+    "van_der_waals_radius_pm": null
+  },
+  "physical_properties": {
+    "phase_at_stp": "solid",
+    "melting_point_k": 1405.3,
+    "boiling_point_k": 4404.0,
+    "density_kg_m3": 19050.0,
+    "density_liquid_kg_m3": null,
+    "triple_point_k": null,
+    "triple_point_kpa": null,
+    "critical_point_k": null,
+    "critical_point_mpa": null,
+    "heat_of_fusion_kj_mol": 9.14,
+    "heat_of_vaporization_kj_mol": 417.1,
+    "molar_heat_capacity_j_mol_k": 27.665,
+    "color": "silvery-grey",
+    "crystal_structure": "orthorhombic",
+    "magnetic_ordering": "paramagnetic",
+    "speed_of_sound_m_s": 3155,
+    "thermal_conductivity_w_m_k": 27.5,
+    "thermal_expansion_per_k": null,
+    "mohs_hardness": 6.0,
+    "bulk_modulus_gpa": 100,
+    "shear_modulus_gpa": 111,
+    "young_modulus_gpa": 208,
+    "poisson_ratio": 0.23
+  },
+  "nuclear_properties": {
+    "radioactive": true,
+    "half_life": "4.468e9 y",
+    "decay_mode": "alpha",
+    "stable_isotopes": [],
+    "isotopes": [
+      {
+        "mass_number": 234,
+        "symbol": "234U",
+        "name": null,
+        "neutrons": 142,
+        "abundance_percent": 0.0054,
+        "mass_u": 234.040952,
+        "half_life": "2.455e5 y",
+        "decay_mode": "alpha",
+        "spin": "0+"
+      },
+      {
+        "mass_number": 235,
+        "symbol": "235U",
+        "name": null,
+        "neutrons": 143,
+        "abundance_percent": 0.7204,
+        "mass_u": 235.04393,
+        "half_life": "7.04e8 y",
+        "decay_mode": "alpha",
+        "spin": "7/2-"
+      },
+      {
+        "mass_number": 238,
+        "symbol": "238U",
+        "name": null,
+        "neutrons": 146,
+        "abundance_percent": 99.2742,
+        "mass_u": 238.050788,
+        "half_life": "4.468e9 y",
+        "decay_mode": "alpha",
+        "spin": "0+"
+      }
+    ]
+  },
+  "abundance": {
+    "universe_percent": null,
+    "solar_percent": null,
+    "earth_crust_ppm": 2.7,
+    "ocean_ppm": null,
+    "human_body_percent": null
+  },
+  "discovery": {
+    "year": 1789,
+    "discoverers": [
+      "Martin Heinrich Klaproth"
+    ],
+    "country": "Germany",
+    "named_by": "Martin Heinrich Klaproth",
+    "name_origin": "Planet Uranus"
+  },
+  "applications": [
+    "Nuclear fuel (235U fission reactors)",
+    "Nuclear weapons",
+    "Radiation shielding (depleted uranium)",
+    "Armor-piercing ammunition (DU)",
+    "Counterweights (aircraft, ships)",
+    "Geological dating"
+  ],
+  "hazards": {
+    "ghs_pictograms": [],
+    "signal_word": null,
+    "nfpa_704": null,
+    "hazard_statements": [],
+    "autoignition_temp_k": null,
+    "flash_point_k": null,
+    "explosive_limits_percent": null
+  },
+  "reactions": [
+    {
+      "id": "U-notable-001",
+      "name": "Uranium-235 nuclear fission",
+      "equation": "U-235 + n -> Ba-141 + Kr-92 + 3 n",
+      "type": "nuclear fission",
+      "category": "notable",
+      "delta_h_kj": null,
+      "conditions": "thermal neutron capture; ~200 MeV per fission; chain reaction if k >= 1",
+      "description": "Nuclear fission of U-235. ~200 MeV per event. Powers nuclear reactors and weapons. Discovered 1938 by Hahn & Strassmann.",
+      "reversible": false
+    }
+  ]
+}

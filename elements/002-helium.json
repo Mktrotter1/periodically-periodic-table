@@ -1,0 +1,162 @@
+{
+  "name": "Helium",
+  "symbol": "He",
+  "atomic_number": 2,
+  "atomic_mass_u": 4.0026,
+  "atomic_mass_uncertainty_u": 0.0002,
+  "classification": {
+    "group": 18,
+    "period": 1,
+    "block": "s",
+    "category": "noble gas",
+    "series": "noble gas",
+    "natural_occurrence": "primordial"
+  },
+  "atomic_structure": {
+    "electron_configuration": "1s2",
+    "electron_configuration_long": "1s2",
+    "electron_shells": [
+      2
+    ],
+    "valence_electrons": 2,
+    "oxidation_states": [
+      0
+    ],
+    "common_oxidation_states": [
+      0
+    ],
+    "electronegativity_pauling": null,
+    "ionization_energies_kj_mol": [
+      2372.3
+    ],
+    "electron_affinity_kj_mol": -48.0,
+    "atomic_radius_pm": 31,
+    "covalent_radius_pm": 28,
+    "van_der_waals_radius_pm": 140
+  },
+  "physical_properties": {
+    "phase_at_stp": "gas",
+    "melting_point_k": 0.95,
+    "boiling_point_k": 4.222,
+    "density_kg_m3": 0.1786,
+    "density_liquid_kg_m3": 125.0,
+    "triple_point_k": 2.177,
+    "triple_point_kpa": 5.043,
+    "critical_point_k": 5.1953,
+    "critical_point_mpa": 0.22746,
+    "heat_of_fusion_kj_mol": 0.0138,
+    "heat_of_vaporization_kj_mol": 0.0829,
+    "molar_heat_capacity_j_mol_k": 20.786,
+    "color": "colorless",
+    "crystal_structure": "hexagonal close-packed",
+    "magnetic_ordering": "diamagnetic",
+    "speed_of_sound_m_s": 970,
+    "thermal_conductivity_w_m_k": 0.1513,
+    "thermal_expansion_per_k": null,
+    "mohs_hardness": null,
+    "bulk_modulus_gpa": null,
+    "shear_modulus_gpa": null,
+    "young_modulus_gpa": null,
+    "poisson_ratio": null
+  },
+  "nuclear_properties": {
+    "radioactive": false,
+    "half_life": null,
+    "decay_mode": null,
+    "stable_isotopes": [
+      3,
+      4
+    ],
+    "isotopes": [
+      {
+        "mass_number": 3,
+        "symbol": "3He",
+        "name": "helion",
+        "neutrons": 1,
+        "abundance_percent": 0.000134,
+        "mass_u": 3.0160293191,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": "1/2+"
+      },
+      {
+        "mass_number": 4,
+        "symbol": "4He",
+        "name": "alpha",
+        "neutrons": 2,
+        "abundance_percent": 99.999866,
+        "mass_u": 4.0026032541,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": "0+"
+      }
+    ]
+  },
+  "abundance": {
+    "universe_percent": 24.0,
+    "solar_percent": 24.0,
+    "earth_crust_ppm": 0.008,
+    "ocean_ppm": 7.2e-06,
+    "human_body_percent": null
+  },
+  "discovery": {
+    "year": 1868,
+    "discoverers": [
+      "Pierre Janssen",
+      "Joseph Norman Lockyer"
+    ],
+    "country": "France/England",
+    "named_by": "Joseph Norman Lockyer",
+    "name_origin": "Greek 'helios' (sun)"
+  },
+  "applications": [
+    "Cryogenics (liquid helium, 4.2 K)",
+    "MRI superconducting magnets",
+    "Leak detection",
+    "Breathing gas for deep diving (heliox)",
+    "Balloon inflation",
+    "Shielding gas for arc welding",
+    "Pressurizing liquid-fueled rockets",
+    "Semiconductor crystal growth atmosphere"
+  ],
+  "hazards": {
+    "ghs_pictograms": [
+      "GHS04"
+    ],
+    "signal_word": "Warning",
+    "nfpa_704": {
+      "health": 0,
+      "flammability": 0,
+      "reactivity": 0,
+      "special": "SA"
+    },
+    "hazard_statements": [],
+    "autoignition_temp_k": null,
+    "flash_point_k": null,
+    "explosive_limits_percent": null
+  },
+  "reactions": [
+    {
+      "id": "H-notable-001",
+      "name": "Hydrogen fusion (proton-proton chain)",
+      "equation": "4 H-1 -> He-4 + 2 e+ + 2 ve + energy",
+      "type": "nuclear fusion",
+      "category": "notable",
+      "delta_h_kj": null,
+      "conditions": "15000000 K; stellar core; requires ~15 million K to overcome Coulomb barrier",
+      "description": "Powers the Sun and main-sequence stars. Converts 4 protons to helium-4. E = mc^2: 0.7% mass converted to energy.",
+      "reversible": false
+    },
+    {
+      "id": "H-notable-002",
+      "name": "Deuterium-tritium fusion (ITER target)",
+      "equation": "D + T -> He-4 + n + 17.6 MeV",
+      "type": "nuclear fusion",
+      "category": "notable",
+      "delta_h_kj": null,
+      "conditions": "100000000 K; tokamak magnetic confinement; ITER target: Q >= 10",
+      "description": "Easiest fusion reaction to achieve. 17.6 MeV per event. ITER aims for net energy gain.",
+      "reversible": false
+    }
+  ]
+}

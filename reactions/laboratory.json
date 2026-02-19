@@ -1,0 +1,1803 @@
+[
+  {
+    "id": "H-laboratory-001",
+    "name": "Strong acid-base neutralization (HCl + NaOH)",
+    "equation": "HCl(aq) + NaOH(aq) -> NaCl(aq) + H2O(l)",
+    "equation_latex": "\\text{HCl}(aq) + \\text{NaOH}(aq) \\rightarrow \\text{NaCl}(aq) + \\text{H}_2\\text{O}(l)",
+    "type": "neutralization",
+    "category": "laboratory",
+    "elements_involved": [
+      "H",
+      "Cl",
+      "Na",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "HCl",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "NaOH",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "NaCl",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -57.1,
+      "delta_g_kj": -80.7,
+      "delta_s_j_k": 79.1,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Fundamental acid-base neutralization. Enthalpy is -57.1 kJ/mol for all strong acid-strong base pairs."
+  },
+  {
+    "id": "H-laboratory-002",
+    "name": "Sulfuric acid + sodium hydroxide",
+    "equation": "H2SO4(aq) + 2 NaOH(aq) -> Na2SO4(aq) + 2 H2O(l)",
+    "equation_latex": "\\text{H}_2\\text{SO}_4(aq) + 2\\,\\text{NaOH}(aq) \\rightarrow \\text{Na}_2\\text{SO}_4(aq) + 2\\,\\text{H}_2\\text{O}(l)",
+    "type": "neutralization",
+    "category": "laboratory",
+    "elements_involved": [
+      "H",
+      "S",
+      "O",
+      "Na"
+    ],
+    "reactants": [
+      {
+        "formula": "H2SO4",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "NaOH",
+        "moles": 2,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Na2SO4",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -114.2,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Diprotic acid neutralization. Two moles of NaOH required per mole of H2SO4."
+  },
+  {
+    "id": "H-laboratory-003",
+    "name": "Acetic acid + NaOH (weak acid titration)",
+    "equation": "CH3COOH(aq) + NaOH(aq) -> CH3COONa(aq) + H2O(l)",
+    "equation_latex": "\\text{CH}_3\\text{COOH}(aq) + \\text{NaOH}(aq) \\rightarrow \\text{CH}_3\\text{COONa}(aq) + \\text{H}_2\\text{O}(l)",
+    "type": "neutralization",
+    "category": "laboratory",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "Na"
+    ],
+    "reactants": [
+      {
+        "formula": "CH3COOH",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "NaOH",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CH3COONa",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -55.8,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "phenolphthalein indicator; endpoint pH ~8.7"
+    },
+    "reversible": false,
+    "description": "Weak acid-strong base titration. Equivalence point is basic due to conjugate base hydrolysis."
+  },
+  {
+    "id": "Mn-laboratory-001",
+    "name": "Permanganate titration of iron(II)",
+    "equation": "MnO4-(aq) + 5 Fe2+(aq) + 8 H+(aq) -> Mn2+(aq) + 5 Fe3+(aq) + 4 H2O(l)",
+    "equation_latex": "\\text{MnO}_4^-(aq) + 5\\,\\text{Fe}^{2+}(aq) + 8\\,\\text{H}^+(aq) \\rightarrow \\text{Mn}^{2+}(aq) + 5\\,\\text{Fe}^{3+}(aq) + 4\\,\\text{H}_2\\text{O}(l)",
+    "type": "redox titration",
+    "category": "laboratory",
+    "elements_involved": [
+      "Mn",
+      "Fe",
+      "O",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "KMnO4",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "FeSO4",
+        "moles": 5,
+        "state": "aq"
+      },
+      {
+        "formula": "H2SO4",
+        "moles": 4,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "MnSO4",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "Fe2(SO4)3",
+        "moles": 2.5,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 4,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": null
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "self-indicating; purple MnO4- decolorizes until endpoint"
+    },
+    "reversible": false,
+    "description": "Classic redox titration. MnO4- is its own indicator (purple to colorless)."
+  },
+  {
+    "id": "Cr-laboratory-001",
+    "name": "Dichromate titration of iron(II)",
+    "equation": "Cr2O7 2-(aq) + 6 Fe2+(aq) + 14 H+(aq) -> 2 Cr3+(aq) + 6 Fe3+(aq) + 7 H2O(l)",
+    "equation_latex": "\\text{Cr}_2\\text{O}_7^{2-}(aq) + 6\\,\\text{Fe}^{2+}(aq) + 14\\,\\text{H}^+(aq) \\rightarrow 2\\,\\text{Cr}^{3+}(aq) + 6\\,\\text{Fe}^{3+}(aq) + 7\\,\\text{H}_2\\text{O}(l)",
+    "type": "redox titration",
+    "category": "laboratory",
+    "elements_involved": [
+      "Cr",
+      "Fe",
+      "O",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "K2Cr2O7",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "FeSO4",
+        "moles": 6,
+        "state": "aq"
+      },
+      {
+        "formula": "H2SO4",
+        "moles": 7,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Cr2(SO4)3",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "Fe2(SO4)3",
+        "moles": 3,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 7,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": null
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "diphenylamine or ferroin indicator"
+    },
+    "reversible": false,
+    "description": "Dichromate is a primary standard (unlike permanganate). Orange to green color change."
+  },
+  {
+    "id": "I-laboratory-001",
+    "name": "Iodometric titration (thiosulfate)",
+    "equation": "I2(aq) + 2 Na2S2O3(aq) -> 2 NaI(aq) + Na2S4O6(aq)",
+    "equation_latex": "\\text{I}_2(aq) + 2\\,\\text{Na}_2\\text{S}_2\\text{O}_3(aq) \\rightarrow 2\\,\\text{NaI}(aq) + \\text{Na}_2\\text{S}_4\\text{O}_6(aq)",
+    "type": "redox titration",
+    "category": "laboratory",
+    "elements_involved": [
+      "I",
+      "Na",
+      "S",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "I2",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "Na2S2O3",
+        "moles": 2,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "NaI",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "Na2S4O6",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": null
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "starch indicator turns blue-black with I2"
+    },
+    "reversible": false,
+    "description": "Iodometric back-titration. Starch indicator; blue to colorless at endpoint."
+  },
+  {
+    "id": "Ag-laboratory-001",
+    "name": "Silver chloride precipitation",
+    "equation": "AgNO3(aq) + NaCl(aq) -> AgCl(s) + NaNO3(aq)",
+    "equation_latex": "\\text{AgNO}_3(aq) + \\text{NaCl}(aq) \\rightarrow \\text{AgCl}(s) + \\text{NaNO}_3(aq)",
+    "type": "precipitation",
+    "category": "laboratory",
+    "elements_involved": [
+      "Ag",
+      "N",
+      "O",
+      "Na",
+      "Cl"
+    ],
+    "reactants": [
+      {
+        "formula": "AgNO3",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "NaCl",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "AgCl",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "NaNO3",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -65.5,
+      "delta_g_kj": -55.7,
+      "delta_s_j_k": -33.0,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Classic precipitation. White curdy precipitate. Ksp = 1.77e-10. Used in chloride analysis."
+  },
+  {
+    "id": "Ba-laboratory-001",
+    "name": "Barium sulfate precipitation (sulfate test)",
+    "equation": "BaCl2(aq) + Na2SO4(aq) -> BaSO4(s) + 2 NaCl(aq)",
+    "equation_latex": "\\text{BaCl}_2(aq) + \\text{Na}_2\\text{SO}_4(aq) \\rightarrow \\text{BaSO}_4(s) + 2\\,\\text{NaCl}(aq)",
+    "type": "precipitation",
+    "category": "laboratory",
+    "elements_involved": [
+      "Ba",
+      "Cl",
+      "Na",
+      "S",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "BaCl2",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "Na2SO4",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "BaSO4",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "NaCl",
+        "moles": 2,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "add BaCl2 in dilute HCl to acidified sample"
+    },
+    "reversible": false,
+    "description": "Confirmatory test for sulfate ions. White precipitate insoluble in dilute HCl. Ksp = 1.1e-10."
+  },
+  {
+    "id": "Pb-laboratory-001",
+    "name": "Lead(II) iodide precipitation",
+    "equation": "Pb(NO3)2(aq) + 2 KI(aq) -> PbI2(s) + 2 KNO3(aq)",
+    "equation_latex": "\\text{Pb}(\\text{NO}_3)_2(aq) + 2\\,\\text{KI}(aq) \\rightarrow \\text{PbI}_2(s) + 2\\,\\text{KNO}_3(aq)",
+    "type": "precipitation",
+    "category": "laboratory",
+    "elements_involved": [
+      "Pb",
+      "N",
+      "O",
+      "K",
+      "I"
+    ],
+    "reactants": [
+      {
+        "formula": "Pb(NO3)2",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "KI",
+        "moles": 2,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "PbI2",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "KNO3",
+        "moles": 2,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "bright yellow precipitate; 'golden rain' demo when hot solution cooled"
+    },
+    "reversible": false,
+    "description": "Golden rain experiment. Bright yellow PbI2 crystallizes from hot solution on cooling."
+  },
+  {
+    "id": "Ca-laboratory-001",
+    "name": "Calcium carbonate precipitation",
+    "equation": "CaCl2(aq) + Na2CO3(aq) -> CaCO3(s) + 2 NaCl(aq)",
+    "equation_latex": "\\text{CaCl}_2(aq) + \\text{Na}_2\\text{CO}_3(aq) \\rightarrow \\text{CaCO}_3(s) + 2\\,\\text{NaCl}(aq)",
+    "type": "precipitation",
+    "category": "laboratory",
+    "elements_involved": [
+      "Ca",
+      "Cl",
+      "Na",
+      "C",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "CaCl2",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "Na2CO3",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CaCO3",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "NaCl",
+        "moles": 2,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "White precipitate of calcium carbonate. Dissolves in dilute acid with effervescence."
+  },
+  {
+    "id": "H-laboratory-004",
+    "name": "Hydrogen generation (Zn + HCl)",
+    "equation": "Zn(s) + 2 HCl(aq) -> ZnCl2(aq) + H2(g)",
+    "equation_latex": "\\text{Zn}(s) + 2\\,\\text{HCl}(aq) \\rightarrow \\text{ZnCl}_2(aq) + \\text{H}_2(g)",
+    "type": "single displacement",
+    "category": "laboratory",
+    "elements_involved": [
+      "Zn",
+      "H",
+      "Cl"
+    ],
+    "reactants": [
+      {
+        "formula": "Zn",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "HCl",
+        "moles": 2,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "ZnCl2",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "H2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -153,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Standard lab preparation of hydrogen gas. Collect by downward displacement of water."
+  },
+  {
+    "id": "C-laboratory-001",
+    "name": "CO2 generation (marble + HCl)",
+    "equation": "CaCO3(s) + 2 HCl(aq) -> CaCl2(aq) + H2O(l) + CO2(g)",
+    "equation_latex": "\\text{CaCO}_3(s) + 2\\,\\text{HCl}(aq) \\rightarrow \\text{CaCl}_2(aq) + \\text{H}_2\\text{O}(l) + \\text{CO}_2(g)",
+    "type": "acid-carbonate",
+    "category": "laboratory",
+    "elements_involved": [
+      "Ca",
+      "C",
+      "O",
+      "H",
+      "Cl"
+    ],
+    "reactants": [
+      {
+        "formula": "CaCO3",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "HCl",
+        "moles": 2,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CaCl2",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      },
+      {
+        "formula": "CO2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -16,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Reaction of marble chips (CaCO3) with hydrochloric acid. Common CO2 source in lab."
+  },
+  {
+    "id": "O-laboratory-001",
+    "name": "Oxygen from hydrogen peroxide",
+    "equation": "2 H2O2(aq) -> 2 H2O(l) + O2(g)",
+    "equation_latex": "2\\,\\text{H}_2\\text{O}_2(aq) \\rightarrow 2\\,\\text{H}_2\\text{O}(l) + \\text{O}_2(g)",
+    "type": "decomposition",
+    "category": "laboratory",
+    "elements_involved": [
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "H2O2",
+        "moles": 2,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      },
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -196,
+      "delta_g_kj": -233.6,
+      "delta_s_j_k": 126,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": "MnO2 (catalase enzyme in biology)",
+      "other": null
+    },
+    "reversible": false,
+    "description": "Catalytic decomposition of hydrogen peroxide. Elephant toothpaste demo uses concentrated H2O2 + KI."
+  },
+  {
+    "id": "Cl-laboratory-001",
+    "name": "Chlorine generation (MnO2 + HCl)",
+    "equation": "MnO2(s) + 4 HCl(aq) -> MnCl2(aq) + 2 H2O(l) + Cl2(g)",
+    "equation_latex": "\\text{MnO}_2(s) + 4\\,\\text{HCl}(aq) \\rightarrow \\text{MnCl}_2(aq) + 2\\,\\text{H}_2\\text{O}(l) + \\text{Cl}_2(g)",
+    "type": "oxidation",
+    "category": "laboratory",
+    "elements_involved": [
+      "Mn",
+      "Cl",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "MnO2",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "HCl",
+        "moles": 4,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "MnCl2",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      },
+      {
+        "formula": "Cl2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "use concentrated HCl; fume hood required"
+    },
+    "reversible": false,
+    "description": "Laboratory chlorine preparation. Scheele's original 1774 method."
+  },
+  {
+    "id": "N-laboratory-001",
+    "name": "Ammonia from ammonium salt + base",
+    "equation": "NH4Cl(s) + NaOH(s) -> NaCl(s) + H2O(l) + NH3(g)",
+    "equation_latex": "\\text{NH}_4\\text{Cl}(s) + \\text{NaOH}(s) \\rightarrow \\text{NaCl}(s) + \\text{H}_2\\text{O}(l) + \\text{NH}_3(g)",
+    "type": "base displacement",
+    "category": "laboratory",
+    "elements_involved": [
+      "N",
+      "H",
+      "Cl",
+      "Na",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "NH4Cl",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "NaOH",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "NaCl",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      },
+      {
+        "formula": "NH3",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "gentle heating"
+    },
+    "reversible": false,
+    "description": "Lab preparation of ammonia. Detected by moist red litmus turning blue."
+  },
+  {
+    "id": "S-laboratory-001",
+    "name": "Sulfur dioxide generation",
+    "equation": "Na2SO3(s) + H2SO4(aq) -> Na2SO4(aq) + H2O(l) + SO2(g)",
+    "equation_latex": "\\text{Na}_2\\text{SO}_3(s) + \\text{H}_2\\text{SO}_4(aq) \\rightarrow \\text{Na}_2\\text{SO}_4(aq) + \\text{H}_2\\text{O}(l) + \\text{SO}_2(g)",
+    "type": "acid-salt",
+    "category": "laboratory",
+    "elements_involved": [
+      "Na",
+      "S",
+      "O",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "Na2SO3",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "H2SO4",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Na2SO4",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      },
+      {
+        "formula": "SO2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "fume hood required; SO2 is toxic"
+    },
+    "reversible": false,
+    "description": "Lab preparation of SO2 from sulfite salt and acid. Bleaches damp litmus."
+  },
+  {
+    "id": "C-laboratory-002",
+    "name": "Fischer esterification",
+    "equation": "CH3COOH(l) + C2H5OH(l) <=> CH3COOC2H5(l) + H2O(l)",
+    "equation_latex": "\\text{CH}_3\\text{COOH}(l) + \\text{C}_2\\text{H}_5\\text{OH}(l) \\rightleftharpoons \\text{CH}_3\\text{COOC}_2\\text{H}_5(l) + \\text{H}_2\\text{O}(l)",
+    "type": "esterification",
+    "category": "laboratory",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "CH3COOH",
+        "moles": 1,
+        "state": "l"
+      },
+      {
+        "formula": "C2H5OH",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CH3COOC2H5",
+        "moles": 1,
+        "state": "l"
+      },
+      {
+        "formula": "H2O",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": null
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": "concentrated H2SO4",
+      "other": "reflux; equilibrium reaction"
+    },
+    "reversible": true,
+    "description": "Acid-catalyzed esterification. Ethyl acetate has fruity smell. Common teaching reaction."
+  },
+  {
+    "id": "C-laboratory-003",
+    "name": "Saponification (ester hydrolysis)",
+    "equation": "CH3COOC2H5(l) + NaOH(aq) -> CH3COONa(aq) + C2H5OH(aq)",
+    "equation_latex": "\\text{CH}_3\\text{COOC}_2\\text{H}_5(l) + \\text{NaOH}(aq) \\rightarrow \\text{CH}_3\\text{COONa}(aq) + \\text{C}_2\\text{H}_5\\text{OH}(aq)",
+    "type": "hydrolysis",
+    "category": "laboratory",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "Na"
+    ],
+    "reactants": [
+      {
+        "formula": "CH3COOC2H5",
+        "moles": 1,
+        "state": "l"
+      },
+      {
+        "formula": "NaOH",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CH3COONa",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "C2H5OH",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "heating; irreversible (OH- drives to completion)"
+    },
+    "reversible": false,
+    "description": "Base hydrolysis of an ester. Called saponification when applied to fats (soap making)."
+  },
+  {
+    "id": "C-laboratory-004",
+    "name": "Grignard reaction (general)",
+    "equation": "RMgBr(ether) + R'CHO(l) -> R'CH(OH)R(aq)",
+    "equation_latex": "\\text{RMgBr}(\\text{ether}) + \\text{R'CHO}(l) \\rightarrow \\text{R'CH(OH)R}(aq)",
+    "type": "addition",
+    "category": "laboratory",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "Mg",
+      "Br"
+    ],
+    "reactants": [
+      {
+        "formula": "RMgBr",
+        "moles": 1,
+        "state": "l"
+      },
+      {
+        "formula": "RCHO",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "RCH(OH)R",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "anhydrous diethyl ether; strictly dry glassware; N2 atmosphere"
+    },
+    "reversible": false,
+    "description": "Grignard reagent adds to carbonyl. Produces secondary alcohol from aldehyde. Nobel Prize 1912."
+  },
+  {
+    "id": "Br-laboratory-001",
+    "name": "Bromine water test for unsaturation",
+    "equation": "C2H4(g) + Br2(aq) -> C2H4Br2(l)",
+    "equation_latex": "\\text{C}_2\\text{H}_4(g) + \\text{Br}_2(aq) \\rightarrow \\text{C}_2\\text{H}_4\\text{Br}_2(l)",
+    "type": "addition",
+    "category": "laboratory",
+    "elements_involved": [
+      "C",
+      "H",
+      "Br"
+    ],
+    "reactants": [
+      {
+        "formula": "C2H4",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "Br2",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "C2H4Br2",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Decolorization of bromine water indicates C=C double bond. Classic qualitative test."
+  },
+  {
+    "id": "C-laboratory-005",
+    "name": "Aldol condensation",
+    "equation": "2 CH3CHO(l) -> CH3CH(OH)CH2CHO(l)",
+    "equation_latex": "2\\,\\text{CH}_3\\text{CHO}(l) \\rightarrow \\text{CH}_3\\text{CH}(\\text{OH})\\text{CH}_2\\text{CHO}(l)",
+    "type": "condensation",
+    "category": "laboratory",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "CH3CHO",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CH3CH(OH)CH2CHO",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": null
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": "NaOH (dilute)",
+      "other": "low temperature favors aldol; heat gives crotonaldehyde"
+    },
+    "reversible": true,
+    "description": "Aldol addition forms beta-hydroxy aldehyde. Cornerstone of organic synthesis."
+  },
+  {
+    "id": "C-laboratory-006",
+    "name": "Cannizzaro reaction (benzaldehyde)",
+    "equation": "2 C6H5CHO(l) + NaOH(aq) -> C6H5COONa(aq) + C6H5CH2OH(l)",
+    "equation_latex": "2\\,\\text{C}_6\\text{H}_5\\text{CHO}(l) + \\text{NaOH}(aq) \\rightarrow \\text{C}_6\\text{H}_5\\text{COONa}(aq) + \\text{C}_6\\text{H}_5\\text{CH}_2\\text{OH}(l)",
+    "type": "disproportionation",
+    "category": "laboratory",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "Na"
+    ],
+    "reactants": [
+      {
+        "formula": "C6H5CHO",
+        "moles": 2,
+        "state": "l"
+      },
+      {
+        "formula": "NaOH",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "C6H5COONa",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "C6H5CH2OH",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "concentrated NaOH; aldehydes without alpha-H"
+    },
+    "reversible": false,
+    "description": "Non-enolizable aldehyde disproportionation to acid + alcohol. Named for Stanislao Cannizzaro."
+  },
+  {
+    "id": "Zn-laboratory-001",
+    "name": "Daniell cell",
+    "equation": "Zn(s) + Cu2+(aq) -> Zn2+(aq) + Cu(s)",
+    "equation_latex": "\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\rightarrow \\text{Zn}^{2+}(aq) + \\text{Cu}(s)",
+    "type": "galvanic cell",
+    "category": "laboratory",
+    "elements_involved": [
+      "Zn",
+      "Cu"
+    ],
+    "reactants": [
+      {
+        "formula": "Zn",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "CuSO4",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "ZnSO4",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "Cu",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -212.6,
+      "delta_g_kj": -212.6,
+      "delta_s_j_k": 0.05,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "E_cell = +1.10 V; salt bridge required"
+    },
+    "reversible": false,
+    "description": "Classic galvanic cell. Zn anode oxidizes, Cu2+ deposits at cathode. E = 1.10V."
+  },
+  {
+    "id": "Cu-laboratory-001",
+    "name": "Copper electroplating",
+    "equation": "Cu2+(aq) + 2 e- -> Cu(s)",
+    "equation_latex": "\\text{Cu}^{2+}(aq) + 2\\,e^- \\rightarrow \\text{Cu}(s)",
+    "type": "electrolysis",
+    "category": "laboratory",
+    "elements_involved": [
+      "Cu"
+    ],
+    "reactants": [
+      {
+        "formula": "CuSO4",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Cu",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": null
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "CuSO4 electrolyte; object as cathode; Cu anode; ~0.5 A/dm2"
+    },
+    "reversible": false,
+    "description": "Electrodeposition of copper. Common introductory electrochemistry experiment."
+  },
+  {
+    "id": "Fe-laboratory-001",
+    "name": "Iron(III) thiocyanate test",
+    "equation": "Fe3+(aq) + 3 SCN-(aq) -> Fe(SCN)3(aq)",
+    "equation_latex": "\\text{Fe}^{3+}(aq) + 3\\,\\text{SCN}^-(aq) \\rightarrow \\text{Fe}(\\text{SCN})_3(aq)",
+    "type": "complexation",
+    "category": "laboratory",
+    "elements_involved": [
+      "Fe",
+      "S",
+      "C",
+      "N"
+    ],
+    "reactants": [
+      {
+        "formula": "FeCl3",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "KSCN",
+        "moles": 3,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Fe(SCN)3",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": null
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Blood-red color confirms Fe3+ ions. Very sensitive test. Used in equilibrium demonstrations."
+  },
+  {
+    "id": "Cu-laboratory-002",
+    "name": "Copper(II) ammonia complex (deep blue)",
+    "equation": "Cu2+(aq) + 4 NH3(aq) -> [Cu(NH3)4]2+(aq)",
+    "equation_latex": "\\text{Cu}^{2+}(aq) + 4\\,\\text{NH}_3(aq) \\rightarrow [\\text{Cu}(\\text{NH}_3)_4]^{2+}(aq)",
+    "type": "complexation",
+    "category": "laboratory",
+    "elements_involved": [
+      "Cu",
+      "N",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "CuSO4",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "NH3",
+        "moles": 4,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "[Cu(NH3)4]SO4",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "add excess ammonia to Cu2+ solution"
+    },
+    "reversible": false,
+    "description": "Tetraamminecopper(II) complex. Deep royal blue color. Confirms Cu2+ presence."
+  },
+  {
+    "id": "Fe-laboratory-002",
+    "name": "Prussian blue formation",
+    "equation": "4 Fe3+(aq) + 3 [Fe(CN)6]4-(aq) -> Fe4[Fe(CN)6]3(s)",
+    "equation_latex": "4\\,\\text{Fe}^{3+}(aq) + 3\\,[\\text{Fe}(\\text{CN})_6]^{4-}(aq) \\rightarrow \\text{Fe}_4[\\text{Fe}(\\text{CN})_6]_3(s)",
+    "type": "precipitation",
+    "category": "laboratory",
+    "elements_involved": [
+      "Fe",
+      "C",
+      "N"
+    ],
+    "reactants": [
+      {
+        "formula": "FeCl3",
+        "moles": 4,
+        "state": "aq"
+      },
+      {
+        "formula": "K4[Fe(CN)6]",
+        "moles": 3,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Fe4[Fe(CN)6]3",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Prussian blue: intense blue pigment. Historic iron detection test. Also used in art."
+  },
+  {
+    "id": "Na-laboratory-001",
+    "name": "Flame test (sodium)",
+    "equation": "Na(s) -> Na*(g) -> Na(g) + hv (589 nm)",
+    "equation_latex": "\\text{Na}(s) \\rightarrow \\text{Na}^*(g) \\rightarrow \\text{Na}(g) + h\\nu\\,(589\\,\\text{nm})",
+    "type": "emission",
+    "category": "laboratory",
+    "elements_involved": [
+      "Na"
+    ],
+    "reactants": [
+      {
+        "formula": "NaCl",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Na",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": null
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "nichrome wire dipped in conc. HCl then sample; Bunsen burner"
+    },
+    "reversible": false,
+    "description": "Intense persistent yellow flame. Sodium D-line at 589 nm. Masks other flame colors."
+  },
+  {
+    "id": "K-laboratory-001",
+    "name": "Flame test (potassium)",
+    "equation": "K(s) -> K*(g) -> K(g) + hv (766 nm)",
+    "equation_latex": "\\text{K}(s) \\rightarrow \\text{K}^*(g) \\rightarrow \\text{K}(g) + h\\nu\\,(766\\,\\text{nm})",
+    "type": "emission",
+    "category": "laboratory",
+    "elements_involved": [
+      "K"
+    ],
+    "reactants": [
+      {
+        "formula": "KCl",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "K",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": null
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "view through cobalt blue glass to filter out sodium yellow"
+    },
+    "reversible": false,
+    "description": "Lilac/violet flame for potassium. Best observed through blue cobalt glass."
+  },
+  {
+    "id": "Li-laboratory-001",
+    "name": "Flame test (lithium)",
+    "equation": "Li(s) -> Li*(g) -> Li(g) + hv (671 nm)",
+    "equation_latex": "\\text{Li}(s) \\rightarrow \\text{Li}^*(g) \\rightarrow \\text{Li}(g) + h\\nu\\,(671\\,\\text{nm})",
+    "type": "emission",
+    "category": "laboratory",
+    "elements_involved": [
+      "Li"
+    ],
+    "reactants": [
+      {
+        "formula": "LiCl",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Li",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": null
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "nichrome wire; Bunsen burner"
+    },
+    "reversible": false,
+    "description": "Crimson red flame for lithium at 671 nm."
+  },
+  {
+    "id": "Sr-laboratory-001",
+    "name": "Flame test (strontium)",
+    "equation": "Sr(s) -> Sr*(g) -> Sr(g) + hv (606 nm)",
+    "equation_latex": "\\text{Sr}(s) \\rightarrow \\text{Sr}^*(g) \\rightarrow \\text{Sr}(g) + h\\nu\\,(606\\,\\text{nm})",
+    "type": "emission",
+    "category": "laboratory",
+    "elements_involved": [
+      "Sr"
+    ],
+    "reactants": [
+      {
+        "formula": "SrCl2",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Sr",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": null
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "nichrome wire; Bunsen burner"
+    },
+    "reversible": false,
+    "description": "Bright red flame for strontium. Used in fireworks for red color."
+  },
+  {
+    "id": "Ba-laboratory-002",
+    "name": "Flame test (barium)",
+    "equation": "Ba(s) -> Ba*(g) -> Ba(g) + hv (524 nm)",
+    "equation_latex": "\\text{Ba}(s) \\rightarrow \\text{Ba}^*(g) \\rightarrow \\text{Ba}(g) + h\\nu\\,(524\\,\\text{nm})",
+    "type": "emission",
+    "category": "laboratory",
+    "elements_involved": [
+      "Ba"
+    ],
+    "reactants": [
+      {
+        "formula": "BaCl2",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Ba",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": null
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "nichrome wire; Bunsen burner"
+    },
+    "reversible": false,
+    "description": "Apple green flame for barium. Used in fireworks for green color."
+  },
+  {
+    "id": "C-laboratory-007",
+    "name": "Tollens' test (silver mirror)",
+    "equation": "RCHO(aq) + 2 [Ag(NH3)2]+(aq) + 2 OH-(aq) -> RCOO-(aq) + 2 Ag(s) + 4 NH3(aq) + H2O(l)",
+    "equation_latex": "\\text{RCHO}(aq) + 2\\,[\\text{Ag}(\\text{NH}_3)_2]^+(aq) + 2\\,\\text{OH}^-(aq) \\rightarrow \\text{RCOO}^-(aq) + 2\\,\\text{Ag}(s) + 4\\,\\text{NH}_3(aq) + \\text{H}_2\\text{O}(l)",
+    "type": "oxidation",
+    "category": "laboratory",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "Ag",
+      "N"
+    ],
+    "reactants": [
+      {
+        "formula": "RCHO",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "[Ag(NH3)2]OH",
+        "moles": 2,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "RCOONa",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "Ag",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "NH3",
+        "moles": 4,
+        "state": "aq"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "warm gently; silver deposits as mirror on clean glass"
+    },
+    "reversible": false,
+    "description": "Silver mirror test distinguishes aldehydes from ketones. Ag+ reduced to metallic silver."
+  },
+  {
+    "id": "C-laboratory-008",
+    "name": "Fehling's test (reducing sugars)",
+    "equation": "RCHO(aq) + 2 Cu2+(aq) + 5 OH-(aq) -> RCOO-(aq) + Cu2O(s) + 3 H2O(l)",
+    "equation_latex": "\\text{RCHO}(aq) + 2\\,\\text{Cu}^{2+}(aq) + 5\\,\\text{OH}^-(aq) \\rightarrow \\text{RCOO}^-(aq) + \\text{Cu}_2\\text{O}(s) + 3\\,\\text{H}_2\\text{O}(l)",
+    "type": "oxidation",
+    "category": "laboratory",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "Cu"
+    ],
+    "reactants": [
+      {
+        "formula": "RCHO",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "CuSO4",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "NaOH",
+        "moles": 5,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "RCOONa",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "Cu2O",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "H2O",
+        "moles": 3,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "heat to boiling; blue Cu2+ to brick-red Cu2O precipitate"
+    },
+    "reversible": false,
+    "description": "Brick-red Cu2O precipitate indicates reducing sugar or aldehyde. Blue to red color change."
+  },
+  {
+    "id": "K-laboratory-002",
+    "name": "Potassium chlorate decomposition",
+    "equation": "2 KClO3(s) -> 2 KCl(s) + 3 O2(g)",
+    "equation_latex": "2\\,\\text{KClO}_3(s) \\rightarrow 2\\,\\text{KCl}(s) + 3\\,\\text{O}_2(g)",
+    "type": "decomposition",
+    "category": "laboratory",
+    "elements_involved": [
+      "K",
+      "Cl",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "KClO3",
+        "moles": 2,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "KCl",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "O2",
+        "moles": 3,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -89.4,
+      "delta_g_kj": -225.4,
+      "delta_s_j_k": 456,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 673,
+      "pressure_atm": null,
+      "catalyst": "MnO2 lowers temperature to ~523K",
+      "other": null
+    },
+    "reversible": false,
+    "description": "Thermal decomposition accelerated by MnO2 catalyst. Historically used for O2 preparation."
+  },
+  {
+    "id": "N-laboratory-002",
+    "name": "Ammonium dichromate volcano",
+    "equation": "(NH4)2Cr2O7(s) -> N2(g) + Cr2O3(s) + 4 H2O(g)",
+    "equation_latex": "(\\text{NH}_4)_2\\text{Cr}_2\\text{O}_7(s) \\rightarrow \\text{N}_2(g) + \\text{Cr}_2\\text{O}_3(s) + 4\\,\\text{H}_2\\text{O}(g)",
+    "type": "decomposition",
+    "category": "laboratory",
+    "elements_involved": [
+      "N",
+      "H",
+      "Cr",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "(NH4)2Cr2O7",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "N2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "Cr2O3",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "H2O",
+        "moles": 4,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -429,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "ignite with match; spectacular volcanic eruption; toxic Cr(III) product"
+    },
+    "reversible": false,
+    "description": "Chemical volcano demonstration. Self-sustaining decomposition once ignited."
+  }
+]

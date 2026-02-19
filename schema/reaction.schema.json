@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "reaction.schema.json",
+  "title": "Chemical Reaction",
+  "description": "A chemical reaction with thermodynamic data and conditions",
+  "type": "object",
+  "required": ["id", "name", "equation", "type", "category", "elements_involved"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z][a-z]?-[a-z]+-[0-9]+$",
+      "description": "Unique reaction ID: Symbol-category-number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "equation": {
+      "type": "string",
+      "description": "Chemical equation with state symbols"
+    },
+    "equation_latex": {
+      "type": ["string", "null"],
+      "description": "LaTeX-formatted equation"
+    },
+    "type": {
+      "type": "string",
+      "description": "Reaction type (combustion, synthesis, decomposition, etc.)"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["industrial", "laboratory", "biological", "environmental", "notable"]
+    },
+    "elements_involved": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "description": "Element symbols involved in this reaction"
+    },
+    "reactants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["formula", "moles", "state"],
+        "properties": {
+          "formula": { "type": "string" },
+          "moles": { "type": "number" },
+          "state": {
+            "type": "string",
+            "enum": ["s", "l", "g", "aq"]
+          }
+        }
+      }
+    },
+    "products": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["formula", "moles", "state"],
+        "properties": {
+          "formula": { "type": "string" },
+          "moles": { "type": "number" },
+          "state": {
+            "type": "string",
+            "enum": ["s", "l", "g", "aq"]
+          }
+        }
+      }
+    },
+    "thermodynamics": {
+      "type": "object",
+      "properties": {
+        "delta_h_kj": { "type": ["number", "null"] },
+        "delta_g_kj": { "type": ["number", "null"] },
+        "delta_s_j_k": { "type": ["number", "null"] },
+        "exothermic": { "type": ["boolean", "null"] }
+      }
+    },
+    "conditions": {
+      "type": "object",
+      "properties": {
+        "temperature_k": { "type": ["number", "null"] },
+        "pressure_atm": { "type": ["number", "null"] },
+        "catalyst": { "type": ["string", "null"] },
+        "other": { "type": ["string", "null"] }
+      }
+    },
+    "reversible": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "name": "Niobium",
+  "symbol": "Nb",
+  "atomic_number": 41,
+  "atomic_mass_u": 92.906,
+  "atomic_mass_uncertainty_u": 0.001,
+  "classification": {
+    "group": 5,
+    "period": 5,
+    "block": "d",
+    "category": "transition metal",
+    "series": "transition metal",
+    "natural_occurrence": "primordial"
+  },
+  "atomic_structure": {
+    "electron_configuration": "[Kr] 4d4 5s1",
+    "electron_configuration_long": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d4 5s1",
+    "electron_shells": [
+      2,
+      8,
+      18,
+      12,
+      1
+    ],
+    "valence_electrons": 5,
+    "oxidation_states": [
+      -3,
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "common_oxidation_states": [
+      5
+    ],
+    "electronegativity_pauling": 1.6,
+    "ionization_energies_kj_mol": [
+      652.1
+    ],
+    "electron_affinity_kj_mol": 88.516,
+    "atomic_radius_pm": 198,
+    "covalent_radius_pm": 164,
+    "van_der_waals_radius_pm": null
+  },
+  "physical_properties": {
+    "phase_at_stp": "solid",
+    "melting_point_k": 2750.0,
+    "boiling_point_k": 5017.0,
+    "density_kg_m3": 8570.0,
+    "density_liquid_kg_m3": null,
+    "triple_point_k": null,
+    "triple_point_kpa": null,
+    "critical_point_k": null,
+    "critical_point_mpa": null,
+    "heat_of_fusion_kj_mol": 30.0,
+    "heat_of_vaporization_kj_mol": 689.9,
+    "molar_heat_capacity_j_mol_k": 24.6,
+    "color": "grey",
+    "crystal_structure": "body-centered cubic",
+    "magnetic_ordering": "paramagnetic",
+    "speed_of_sound_m_s": 3480,
+    "thermal_conductivity_w_m_k": 53.7,
+    "thermal_expansion_per_k": 7.3e-06,
+    "mohs_hardness": 6.0,
+    "bulk_modulus_gpa": 170,
+    "shear_modulus_gpa": 38,
+    "young_modulus_gpa": 105,
+    "poisson_ratio": 0.4
+  },
+  "nuclear_properties": {
+    "radioactive": false,
+    "half_life": null,
+    "decay_mode": null,
+    "stable_isotopes": [
+      93
+    ],
+    "isotopes": [
+      {
+        "mass_number": 93,
+        "symbol": "93Nb",
+        "name": null,
+        "neutrons": 52,
+        "abundance_percent": 100.0,
+        "mass_u": 92.906,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": null
+      }
+    ]
+  },
+  "abundance": {
+    "universe_percent": null,
+    "solar_percent": null,
+    "earth_crust_ppm": 20,
+    "ocean_ppm": null,
+    "human_body_percent": null
+  },
+  "discovery": {
+    "year": 1801,
+    "discoverers": [
+      "Charles Hatchett"
+    ],
+    "country": "England",
+    "named_by": "Heinrich Rose",
+    "name_origin": "Greek 'Niobe' (mythology)"
+  },
+  "applications": [
+    "Superalloys (jet engine)",
+    "Superconducting wire (NbTi, Nb3Sn)",
+    "Steel alloys (HSLA)",
+    "MRI magnets",
+    "Particle accelerators"
+  ],
+  "hazards": {
+    "ghs_pictograms": [
+      "GHS02"
+    ],
+    "signal_word": "Danger",
+    "nfpa_704": null,
+    "hazard_statements": [],
+    "autoignition_temp_k": null,
+    "flash_point_k": null,
+    "explosive_limits_percent": null
+  },
+  "reactions": []
+}

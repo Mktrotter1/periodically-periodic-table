@@ -1,0 +1,138 @@
+{
+  "name": "Ruthenium",
+  "symbol": "Ru",
+  "atomic_number": 44,
+  "atomic_mass_u": 101.07,
+  "atomic_mass_uncertainty_u": 0.02,
+  "classification": {
+    "group": 8,
+    "period": 5,
+    "block": "d",
+    "category": "transition metal",
+    "series": "transition metal",
+    "natural_occurrence": "primordial"
+  },
+  "atomic_structure": {
+    "electron_configuration": "[Kr] 4d7 5s1",
+    "electron_configuration_long": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d7 5s1",
+    "electron_shells": [
+      2,
+      8,
+      18,
+      15,
+      1
+    ],
+    "valence_electrons": 8,
+    "oxidation_states": [
+      -4,
+      -2,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "common_oxidation_states": [
+      3,
+      4
+    ],
+    "electronegativity_pauling": 2.2,
+    "ionization_energies_kj_mol": [
+      710.2
+    ],
+    "electron_affinity_kj_mol": 100.96,
+    "atomic_radius_pm": 178,
+    "covalent_radius_pm": 146,
+    "van_der_waals_radius_pm": null
+  },
+  "physical_properties": {
+    "phase_at_stp": "solid",
+    "melting_point_k": 2607.0,
+    "boiling_point_k": 4423.0,
+    "density_kg_m3": 12370.0,
+    "density_liquid_kg_m3": null,
+    "triple_point_k": null,
+    "triple_point_kpa": null,
+    "critical_point_k": null,
+    "critical_point_mpa": null,
+    "heat_of_fusion_kj_mol": 38.59,
+    "heat_of_vaporization_kj_mol": 619.0,
+    "molar_heat_capacity_j_mol_k": 24.06,
+    "color": "silvery-white",
+    "crystal_structure": "hexagonal close-packed",
+    "magnetic_ordering": "paramagnetic",
+    "speed_of_sound_m_s": 5970,
+    "thermal_conductivity_w_m_k": 117.0,
+    "thermal_expansion_per_k": 6.4e-06,
+    "mohs_hardness": 6.5,
+    "bulk_modulus_gpa": 220,
+    "shear_modulus_gpa": 173,
+    "young_modulus_gpa": 447,
+    "poisson_ratio": 0.3
+  },
+  "nuclear_properties": {
+    "radioactive": false,
+    "half_life": null,
+    "decay_mode": null,
+    "stable_isotopes": [
+      96,
+      98,
+      99,
+      100,
+      101,
+      102,
+      104
+    ],
+    "isotopes": [
+      {
+        "mass_number": 101,
+        "symbol": "101Ru",
+        "name": null,
+        "neutrons": 57,
+        "abundance_percent": null,
+        "mass_u": 101.07,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": null
+      }
+    ]
+  },
+  "abundance": {
+    "universe_percent": null,
+    "solar_percent": null,
+    "earth_crust_ppm": 0.001,
+    "ocean_ppm": null,
+    "human_body_percent": null
+  },
+  "discovery": {
+    "year": 1844,
+    "discoverers": [
+      "Karl Ernst Claus"
+    ],
+    "country": "Russia",
+    "named_by": "Karl Ernst Claus",
+    "name_origin": "Latin 'Ruthenia' (Russia)"
+  },
+  "applications": [
+    "Catalysts (organic chemistry)",
+    "Electrical contacts",
+    "Thick-film resistors",
+    "Solar cells (dye-sensitized)",
+    "Fountain pen tips"
+  ],
+  "hazards": {
+    "ghs_pictograms": [
+      "GHS02"
+    ],
+    "signal_word": "Danger",
+    "nfpa_704": null,
+    "hazard_statements": [],
+    "autoignition_temp_k": null,
+    "flash_point_k": null,
+    "explosive_limits_percent": null
+  },
+  "reactions": []
+}

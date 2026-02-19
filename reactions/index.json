@@ -1,0 +1,1730 @@
+{
+  "H-industrial-001": {
+    "name": "Hydrogen combustion",
+    "category": "industrial",
+    "type": "combustion",
+    "elements_involved": [
+      "H",
+      "O"
+    ],
+    "equation": "2 H2(g) + O2(g) -> 2 H2O(l)"
+  },
+  "N-industrial-001": {
+    "name": "Haber process (ammonia synthesis)",
+    "category": "industrial",
+    "type": "synthesis",
+    "elements_involved": [
+      "N",
+      "H"
+    ],
+    "equation": "N2(g) + 3 H2(g) <=> 2 NH3(g)"
+  },
+  "H-industrial-002": {
+    "name": "Steam methane reforming",
+    "category": "industrial",
+    "type": "reforming",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "equation": "CH4(g) + H2O(g) -> CO(g) + 3 H2(g)"
+  },
+  "H-industrial-003": {
+    "name": "Water-gas shift reaction",
+    "category": "industrial",
+    "type": "shift",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "equation": "CO(g) + H2O(g) <=> CO2(g) + H2(g)"
+  },
+  "H-industrial-004": {
+    "name": "Water electrolysis",
+    "category": "industrial",
+    "type": "electrolysis",
+    "elements_involved": [
+      "H",
+      "O"
+    ],
+    "equation": "2 H2O(l) -> 2 H2(g) + O2(g)"
+  },
+  "S-industrial-001": {
+    "name": "Contact process step 1 (sulfur combustion)",
+    "category": "industrial",
+    "type": "combustion",
+    "elements_involved": [
+      "S",
+      "O"
+    ],
+    "equation": "S(s) + O2(g) -> SO2(g)"
+  },
+  "S-industrial-002": {
+    "name": "Contact process step 2 (SO2 oxidation)",
+    "category": "industrial",
+    "type": "oxidation",
+    "elements_involved": [
+      "S",
+      "O"
+    ],
+    "equation": "2 SO2(g) + O2(g) <=> 2 SO3(g)"
+  },
+  "S-industrial-003": {
+    "name": "Contact process step 3 (oleum formation)",
+    "category": "industrial",
+    "type": "absorption",
+    "elements_involved": [
+      "S",
+      "O",
+      "H"
+    ],
+    "equation": "SO3(g) + H2SO4(l) -> H2S2O7(l)"
+  },
+  "S-industrial-004": {
+    "name": "Oleum dilution to sulfuric acid",
+    "category": "industrial",
+    "type": "hydrolysis",
+    "elements_involved": [
+      "S",
+      "O",
+      "H"
+    ],
+    "equation": "H2S2O7(l) + H2O(l) -> 2 H2SO4(l)"
+  },
+  "N-industrial-002": {
+    "name": "Ostwald process step 1 (ammonia oxidation)",
+    "category": "industrial",
+    "type": "oxidation",
+    "elements_involved": [
+      "N",
+      "H",
+      "O"
+    ],
+    "equation": "4 NH3(g) + 5 O2(g) -> 4 NO(g) + 6 H2O(g)"
+  },
+  "N-industrial-003": {
+    "name": "Ostwald process step 2 (NO oxidation)",
+    "category": "industrial",
+    "type": "oxidation",
+    "elements_involved": [
+      "N",
+      "O"
+    ],
+    "equation": "2 NO(g) + O2(g) -> 2 NO2(g)"
+  },
+  "N-industrial-004": {
+    "name": "Ostwald process step 3 (nitric acid formation)",
+    "category": "industrial",
+    "type": "disproportionation",
+    "elements_involved": [
+      "N",
+      "O",
+      "H"
+    ],
+    "equation": "3 NO2(g) + H2O(l) -> 2 HNO3(aq) + NO(g)"
+  },
+  "Na-industrial-001": {
+    "name": "Solvay process (overall)",
+    "category": "industrial",
+    "type": "double displacement",
+    "elements_involved": [
+      "Na",
+      "Cl",
+      "Ca",
+      "C",
+      "O"
+    ],
+    "equation": "2 NaCl(aq) + CaCO3(s) -> Na2CO3(s) + CaCl2(aq)"
+  },
+  "Na-industrial-002": {
+    "name": "Solvay process (key precipitation step)",
+    "category": "industrial",
+    "type": "precipitation",
+    "elements_involved": [
+      "Na",
+      "Cl",
+      "N",
+      "H",
+      "C",
+      "O"
+    ],
+    "equation": "NaCl(aq) + NH3(aq) + CO2(g) + H2O(l) -> NaHCO3(s) + NH4Cl(aq)"
+  },
+  "Al-industrial-001": {
+    "name": "Hall-Heroult process",
+    "category": "industrial",
+    "type": "electrolysis",
+    "elements_involved": [
+      "Al",
+      "O",
+      "C"
+    ],
+    "equation": "2 Al2O3(l) + 3 C(s) -> 4 Al(l) + 3 CO2(g)"
+  },
+  "Al-industrial-002": {
+    "name": "Bayer process (alumina extraction)",
+    "category": "industrial",
+    "type": "dissolution",
+    "elements_involved": [
+      "Al",
+      "O",
+      "Na",
+      "H"
+    ],
+    "equation": "Al2O3 * 3H2O(s) + 2 NaOH(aq) -> 2 NaAlO2(aq) + 4 H2O(l)"
+  },
+  "Fe-industrial-001": {
+    "name": "Blast furnace iron smelting (overall)",
+    "category": "industrial",
+    "type": "reduction",
+    "elements_involved": [
+      "Fe",
+      "O",
+      "C"
+    ],
+    "equation": "Fe2O3(s) + 3 CO(g) -> 2 Fe(l) + 3 CO2(g)"
+  },
+  "Fe-industrial-002": {
+    "name": "Coke combustion in blast furnace",
+    "category": "industrial",
+    "type": "combustion",
+    "elements_involved": [
+      "C",
+      "O"
+    ],
+    "equation": "2 C(s) + O2(g) -> 2 CO(g)"
+  },
+  "Fe-industrial-003": {
+    "name": "Basic oxygen steelmaking",
+    "category": "industrial",
+    "type": "oxidation",
+    "elements_involved": [
+      "C",
+      "O",
+      "Fe"
+    ],
+    "equation": "2 C(s) + O2(g) -> 2 CO(g)"
+  },
+  "Fe-industrial-004": {
+    "name": "Slag formation in steelmaking",
+    "category": "industrial",
+    "type": "fusion",
+    "elements_involved": [
+      "Ca",
+      "Si",
+      "O"
+    ],
+    "equation": "CaO(s) + SiO2(s) -> CaSiO3(l)"
+  },
+  "Cl-industrial-001": {
+    "name": "Chloralkali electrolysis",
+    "category": "industrial",
+    "type": "electrolysis",
+    "elements_involved": [
+      "Na",
+      "Cl",
+      "H",
+      "O"
+    ],
+    "equation": "2 NaCl(aq) + 2 H2O(l) -> Cl2(g) + 2 NaOH(aq) + H2(g)"
+  },
+  "Ti-industrial-001": {
+    "name": "Kroll process step 1 (chlorination)",
+    "category": "industrial",
+    "type": "chlorination",
+    "elements_involved": [
+      "Ti",
+      "Cl",
+      "O",
+      "C"
+    ],
+    "equation": "TiO2(s) + 2 Cl2(g) + 2 C(s) -> TiCl4(l) + 2 CO(g)"
+  },
+  "Ti-industrial-002": {
+    "name": "Kroll process step 2 (reduction)",
+    "category": "industrial",
+    "type": "reduction",
+    "elements_involved": [
+      "Ti",
+      "Cl",
+      "Mg"
+    ],
+    "equation": "TiCl4(l) + 2 Mg(l) -> Ti(s) + 2 MgCl2(l)"
+  },
+  "Cu-industrial-001": {
+    "name": "Copper matte smelting",
+    "category": "industrial",
+    "type": "roasting",
+    "elements_involved": [
+      "Cu",
+      "S",
+      "O"
+    ],
+    "equation": "2 Cu2S(s) + 3 O2(g) -> 2 Cu2O(s) + 2 SO2(g)"
+  },
+  "Cu-industrial-002": {
+    "name": "Copper blister formation",
+    "category": "industrial",
+    "type": "reduction",
+    "elements_involved": [
+      "Cu",
+      "S",
+      "O"
+    ],
+    "equation": "Cu2S(s) + 2 Cu2O(s) -> 6 Cu(l) + SO2(g)"
+  },
+  "Cu-industrial-003": {
+    "name": "Copper electrorefining",
+    "category": "industrial",
+    "type": "electrolysis",
+    "elements_involved": [
+      "Cu"
+    ],
+    "equation": "Cu(s, impure) -> Cu(s, pure)"
+  },
+  "Zn-industrial-001": {
+    "name": "Zinc roasting",
+    "category": "industrial",
+    "type": "roasting",
+    "elements_involved": [
+      "Zn",
+      "S",
+      "O"
+    ],
+    "equation": "2 ZnS(s) + 3 O2(g) -> 2 ZnO(s) + 2 SO2(g)"
+  },
+  "Zn-industrial-002": {
+    "name": "Zinc smelting (carbothermic reduction)",
+    "category": "industrial",
+    "type": "reduction",
+    "elements_involved": [
+      "Zn",
+      "O",
+      "C"
+    ],
+    "equation": "ZnO(s) + C(s) -> Zn(g) + CO(g)"
+  },
+  "S-industrial-005": {
+    "name": "Claus process (main reaction)",
+    "category": "industrial",
+    "type": "redox",
+    "elements_involved": [
+      "S",
+      "H",
+      "O"
+    ],
+    "equation": "2 H2S(g) + SO2(g) -> 3 S(s) + 2 H2O(g)"
+  },
+  "S-industrial-006": {
+    "name": "Frasch process sulfur melting",
+    "category": "industrial",
+    "type": "phase change",
+    "elements_involved": [
+      "S"
+    ],
+    "equation": "S(s) -> S(l)"
+  },
+  "C-industrial-001": {
+    "name": "Fischer-Tropsch synthesis (general)",
+    "category": "industrial",
+    "type": "synthesis",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "equation": "n CO(g) + (2n+1) H2(g) -> CnH(2n+2)(l) + n H2O(g)"
+  },
+  "C-industrial-002": {
+    "name": "Methanol synthesis",
+    "category": "industrial",
+    "type": "synthesis",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "equation": "CO(g) + 2 H2(g) <=> CH3OH(g)"
+  },
+  "C-industrial-003": {
+    "name": "Ethylene production (steam cracking)",
+    "category": "industrial",
+    "type": "cracking",
+    "elements_involved": [
+      "C",
+      "H"
+    ],
+    "equation": "C2H6(g) -> C2H4(g) + H2(g)"
+  },
+  "C-industrial-004": {
+    "name": "Polyethylene polymerization",
+    "category": "industrial",
+    "type": "polymerization",
+    "elements_involved": [
+      "C",
+      "H"
+    ],
+    "equation": "n C2H4(g) -> (C2H4)n(s)"
+  },
+  "Ca-industrial-001": {
+    "name": "Cement clinker formation (limestone calcination)",
+    "category": "industrial",
+    "type": "decomposition",
+    "elements_involved": [
+      "Ca",
+      "C",
+      "O"
+    ],
+    "equation": "CaCO3(s) -> CaO(s) + CO2(g)"
+  },
+  "Ca-industrial-002": {
+    "name": "Portland cement clinker (belite formation)",
+    "category": "industrial",
+    "type": "synthesis",
+    "elements_involved": [
+      "Ca",
+      "Si",
+      "O"
+    ],
+    "equation": "2 CaO(s) + SiO2(s) -> Ca2SiO4(s)"
+  },
+  "Si-industrial-001": {
+    "name": "Soda-lime glass production",
+    "category": "industrial",
+    "type": "fusion",
+    "elements_involved": [
+      "Na",
+      "Si",
+      "C",
+      "O"
+    ],
+    "equation": "Na2CO3(s) + SiO2(s) -> Na2SiO3(l) + CO2(g)"
+  },
+  "Si-industrial-002": {
+    "name": "Silicon production (carbothermic reduction)",
+    "category": "industrial",
+    "type": "reduction",
+    "elements_involved": [
+      "Si",
+      "O",
+      "C"
+    ],
+    "equation": "SiO2(s) + 2 C(s) -> Si(l) + 2 CO(g)"
+  },
+  "Cl-industrial-002": {
+    "name": "PVC production (vinyl chloride)",
+    "category": "industrial",
+    "type": "addition",
+    "elements_involved": [
+      "C",
+      "H",
+      "Cl"
+    ],
+    "equation": "C2H4(g) + Cl2(g) -> C2H4Cl2(l)"
+  },
+  "P-industrial-001": {
+    "name": "Phosphorus production (electric arc furnace)",
+    "category": "industrial",
+    "type": "reduction",
+    "elements_involved": [
+      "P",
+      "Ca",
+      "Si",
+      "O",
+      "C"
+    ],
+    "equation": "2 Ca3(PO4)2(s) + 6 SiO2(s) + 10 C(s) -> P4(g) + 6 CaSiO3(l) + 10 CO(g)"
+  },
+  "P-industrial-002": {
+    "name": "Phosphoric acid production (wet process)",
+    "category": "industrial",
+    "type": "acid digestion",
+    "elements_involved": [
+      "P",
+      "Ca",
+      "S",
+      "O",
+      "H"
+    ],
+    "equation": "Ca3(PO4)2(s) + 3 H2SO4(aq) -> 2 H3PO4(aq) + 3 CaSO4(s)"
+  },
+  "Na-industrial-003": {
+    "name": "Sodium hydroxide + CO2 (caustic scrubbing)",
+    "category": "industrial",
+    "type": "absorption",
+    "elements_involved": [
+      "Na",
+      "O",
+      "H",
+      "C"
+    ],
+    "equation": "2 NaOH(aq) + CO2(g) -> Na2CO3(aq) + H2O(l)"
+  },
+  "C-industrial-005": {
+    "name": "Catalytic cracking (general)",
+    "category": "industrial",
+    "type": "cracking",
+    "elements_involved": [
+      "C",
+      "H"
+    ],
+    "equation": "C16H34(l) -> C8H18(l) + C8H16(g)"
+  },
+  "C-industrial-006": {
+    "name": "Methane combustion",
+    "category": "industrial",
+    "type": "combustion",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "equation": "CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(g)"
+  },
+  "Mg-industrial-001": {
+    "name": "Pidgeon process (magnesium production)",
+    "category": "industrial",
+    "type": "reduction",
+    "elements_involved": [
+      "Mg",
+      "O",
+      "Si"
+    ],
+    "equation": "2 MgO(s) + Si(s) -> 2 Mg(g) + SiO2(s)"
+  },
+  "Cr-industrial-001": {
+    "name": "Chromium production (aluminothermic)",
+    "category": "industrial",
+    "type": "aluminothermic",
+    "elements_involved": [
+      "Cr",
+      "O",
+      "Al"
+    ],
+    "equation": "Cr2O3(s) + 2 Al(s) -> 2 Cr(s) + Al2O3(s)"
+  },
+  "N-industrial-005": {
+    "name": "Urea synthesis",
+    "category": "industrial",
+    "type": "synthesis",
+    "elements_involved": [
+      "N",
+      "H",
+      "C",
+      "O"
+    ],
+    "equation": "2 NH3(g) + CO2(g) <=> NH2CONH2(s) + H2O(l)"
+  },
+  "Li-industrial-001": {
+    "name": "Lithium carbonate to lithium metal",
+    "category": "industrial",
+    "type": "decomposition",
+    "elements_involved": [
+      "Li",
+      "C",
+      "O"
+    ],
+    "equation": "Li2CO3(s) -> Li2O(s) + CO2(g)"
+  },
+  "Mn-industrial-001": {
+    "name": "Manganese dioxide reduction (ferromanganese)",
+    "category": "industrial",
+    "type": "reduction",
+    "elements_involved": [
+      "Mn",
+      "O",
+      "C"
+    ],
+    "equation": "MnO2(s) + 2 C(s) -> Mn(s) + 2 CO(g)"
+  },
+  "Ni-industrial-001": {
+    "name": "Mond process (nickel purification)",
+    "category": "industrial",
+    "type": "carbonyl formation",
+    "elements_involved": [
+      "Ni",
+      "C",
+      "O"
+    ],
+    "equation": "Ni(s) + 4 CO(g) <=> Ni(CO)4(g)"
+  },
+  "Pb-industrial-001": {
+    "name": "Lead smelting",
+    "category": "industrial",
+    "type": "roasting",
+    "elements_involved": [
+      "Pb",
+      "S",
+      "O"
+    ],
+    "equation": "2 PbS(s) + 3 O2(g) -> 2 PbO(s) + 2 SO2(g)"
+  },
+  "Sn-industrial-001": {
+    "name": "Tin smelting",
+    "category": "industrial",
+    "type": "reduction",
+    "elements_involved": [
+      "Sn",
+      "O",
+      "C"
+    ],
+    "equation": "SnO2(s) + 2 C(s) -> Sn(l) + 2 CO(g)"
+  },
+  "H-laboratory-001": {
+    "name": "Strong acid-base neutralization (HCl + NaOH)",
+    "category": "laboratory",
+    "type": "neutralization",
+    "elements_involved": [
+      "H",
+      "Cl",
+      "Na",
+      "O"
+    ],
+    "equation": "HCl(aq) + NaOH(aq) -> NaCl(aq) + H2O(l)"
+  },
+  "H-laboratory-002": {
+    "name": "Sulfuric acid + sodium hydroxide",
+    "category": "laboratory",
+    "type": "neutralization",
+    "elements_involved": [
+      "H",
+      "S",
+      "O",
+      "Na"
+    ],
+    "equation": "H2SO4(aq) + 2 NaOH(aq) -> Na2SO4(aq) + 2 H2O(l)"
+  },
+  "H-laboratory-003": {
+    "name": "Acetic acid + NaOH (weak acid titration)",
+    "category": "laboratory",
+    "type": "neutralization",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "Na"
+    ],
+    "equation": "CH3COOH(aq) + NaOH(aq) -> CH3COONa(aq) + H2O(l)"
+  },
+  "Mn-laboratory-001": {
+    "name": "Permanganate titration of iron(II)",
+    "category": "laboratory",
+    "type": "redox titration",
+    "elements_involved": [
+      "Mn",
+      "Fe",
+      "O",
+      "H"
+    ],
+    "equation": "MnO4-(aq) + 5 Fe2+(aq) + 8 H+(aq) -> Mn2+(aq) + 5 Fe3+(aq) + 4 H2O(l)"
+  },
+  "Cr-laboratory-001": {
+    "name": "Dichromate titration of iron(II)",
+    "category": "laboratory",
+    "type": "redox titration",
+    "elements_involved": [
+      "Cr",
+      "Fe",
+      "O",
+      "H"
+    ],
+    "equation": "Cr2O7 2-(aq) + 6 Fe2+(aq) + 14 H+(aq) -> 2 Cr3+(aq) + 6 Fe3+(aq) + 7 H2O(l)"
+  },
+  "I-laboratory-001": {
+    "name": "Iodometric titration (thiosulfate)",
+    "category": "laboratory",
+    "type": "redox titration",
+    "elements_involved": [
+      "I",
+      "Na",
+      "S",
+      "O"
+    ],
+    "equation": "I2(aq) + 2 Na2S2O3(aq) -> 2 NaI(aq) + Na2S4O6(aq)"
+  },
+  "Ag-laboratory-001": {
+    "name": "Silver chloride precipitation",
+    "category": "laboratory",
+    "type": "precipitation",
+    "elements_involved": [
+      "Ag",
+      "N",
+      "O",
+      "Na",
+      "Cl"
+    ],
+    "equation": "AgNO3(aq) + NaCl(aq) -> AgCl(s) + NaNO3(aq)"
+  },
+  "Ba-laboratory-001": {
+    "name": "Barium sulfate precipitation (sulfate test)",
+    "category": "laboratory",
+    "type": "precipitation",
+    "elements_involved": [
+      "Ba",
+      "Cl",
+      "Na",
+      "S",
+      "O"
+    ],
+    "equation": "BaCl2(aq) + Na2SO4(aq) -> BaSO4(s) + 2 NaCl(aq)"
+  },
+  "Pb-laboratory-001": {
+    "name": "Lead(II) iodide precipitation",
+    "category": "laboratory",
+    "type": "precipitation",
+    "elements_involved": [
+      "Pb",
+      "N",
+      "O",
+      "K",
+      "I"
+    ],
+    "equation": "Pb(NO3)2(aq) + 2 KI(aq) -> PbI2(s) + 2 KNO3(aq)"
+  },
+  "Ca-laboratory-001": {
+    "name": "Calcium carbonate precipitation",
+    "category": "laboratory",
+    "type": "precipitation",
+    "elements_involved": [
+      "Ca",
+      "Cl",
+      "Na",
+      "C",
+      "O"
+    ],
+    "equation": "CaCl2(aq) + Na2CO3(aq) -> CaCO3(s) + 2 NaCl(aq)"
+  },
+  "H-laboratory-004": {
+    "name": "Hydrogen generation (Zn + HCl)",
+    "category": "laboratory",
+    "type": "single displacement",
+    "elements_involved": [
+      "Zn",
+      "H",
+      "Cl"
+    ],
+    "equation": "Zn(s) + 2 HCl(aq) -> ZnCl2(aq) + H2(g)"
+  },
+  "C-laboratory-001": {
+    "name": "CO2 generation (marble + HCl)",
+    "category": "laboratory",
+    "type": "acid-carbonate",
+    "elements_involved": [
+      "Ca",
+      "C",
+      "O",
+      "H",
+      "Cl"
+    ],
+    "equation": "CaCO3(s) + 2 HCl(aq) -> CaCl2(aq) + H2O(l) + CO2(g)"
+  },
+  "O-laboratory-001": {
+    "name": "Oxygen from hydrogen peroxide",
+    "category": "laboratory",
+    "type": "decomposition",
+    "elements_involved": [
+      "H",
+      "O"
+    ],
+    "equation": "2 H2O2(aq) -> 2 H2O(l) + O2(g)"
+  },
+  "Cl-laboratory-001": {
+    "name": "Chlorine generation (MnO2 + HCl)",
+    "category": "laboratory",
+    "type": "oxidation",
+    "elements_involved": [
+      "Mn",
+      "Cl",
+      "H",
+      "O"
+    ],
+    "equation": "MnO2(s) + 4 HCl(aq) -> MnCl2(aq) + 2 H2O(l) + Cl2(g)"
+  },
+  "N-laboratory-001": {
+    "name": "Ammonia from ammonium salt + base",
+    "category": "laboratory",
+    "type": "base displacement",
+    "elements_involved": [
+      "N",
+      "H",
+      "Cl",
+      "Na",
+      "O"
+    ],
+    "equation": "NH4Cl(s) + NaOH(s) -> NaCl(s) + H2O(l) + NH3(g)"
+  },
+  "S-laboratory-001": {
+    "name": "Sulfur dioxide generation",
+    "category": "laboratory",
+    "type": "acid-salt",
+    "elements_involved": [
+      "Na",
+      "S",
+      "O",
+      "H"
+    ],
+    "equation": "Na2SO3(s) + H2SO4(aq) -> Na2SO4(aq) + H2O(l) + SO2(g)"
+  },
+  "C-laboratory-002": {
+    "name": "Fischer esterification",
+    "category": "laboratory",
+    "type": "esterification",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "equation": "CH3COOH(l) + C2H5OH(l) <=> CH3COOC2H5(l) + H2O(l)"
+  },
+  "C-laboratory-003": {
+    "name": "Saponification (ester hydrolysis)",
+    "category": "laboratory",
+    "type": "hydrolysis",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "Na"
+    ],
+    "equation": "CH3COOC2H5(l) + NaOH(aq) -> CH3COONa(aq) + C2H5OH(aq)"
+  },
+  "C-laboratory-004": {
+    "name": "Grignard reaction (general)",
+    "category": "laboratory",
+    "type": "addition",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "Mg",
+      "Br"
+    ],
+    "equation": "RMgBr(ether) + R'CHO(l) -> R'CH(OH)R(aq)"
+  },
+  "Br-laboratory-001": {
+    "name": "Bromine water test for unsaturation",
+    "category": "laboratory",
+    "type": "addition",
+    "elements_involved": [
+      "C",
+      "H",
+      "Br"
+    ],
+    "equation": "C2H4(g) + Br2(aq) -> C2H4Br2(l)"
+  },
+  "C-laboratory-005": {
+    "name": "Aldol condensation",
+    "category": "laboratory",
+    "type": "condensation",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "equation": "2 CH3CHO(l) -> CH3CH(OH)CH2CHO(l)"
+  },
+  "C-laboratory-006": {
+    "name": "Cannizzaro reaction (benzaldehyde)",
+    "category": "laboratory",
+    "type": "disproportionation",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "Na"
+    ],
+    "equation": "2 C6H5CHO(l) + NaOH(aq) -> C6H5COONa(aq) + C6H5CH2OH(l)"
+  },
+  "Zn-laboratory-001": {
+    "name": "Daniell cell",
+    "category": "laboratory",
+    "type": "galvanic cell",
+    "elements_involved": [
+      "Zn",
+      "Cu"
+    ],
+    "equation": "Zn(s) + Cu2+(aq) -> Zn2+(aq) + Cu(s)"
+  },
+  "Cu-laboratory-001": {
+    "name": "Copper electroplating",
+    "category": "laboratory",
+    "type": "electrolysis",
+    "elements_involved": [
+      "Cu"
+    ],
+    "equation": "Cu2+(aq) + 2 e- -> Cu(s)"
+  },
+  "Fe-laboratory-001": {
+    "name": "Iron(III) thiocyanate test",
+    "category": "laboratory",
+    "type": "complexation",
+    "elements_involved": [
+      "Fe",
+      "S",
+      "C",
+      "N"
+    ],
+    "equation": "Fe3+(aq) + 3 SCN-(aq) -> Fe(SCN)3(aq)"
+  },
+  "Cu-laboratory-002": {
+    "name": "Copper(II) ammonia complex (deep blue)",
+    "category": "laboratory",
+    "type": "complexation",
+    "elements_involved": [
+      "Cu",
+      "N",
+      "H"
+    ],
+    "equation": "Cu2+(aq) + 4 NH3(aq) -> [Cu(NH3)4]2+(aq)"
+  },
+  "Fe-laboratory-002": {
+    "name": "Prussian blue formation",
+    "category": "laboratory",
+    "type": "precipitation",
+    "elements_involved": [
+      "Fe",
+      "C",
+      "N"
+    ],
+    "equation": "4 Fe3+(aq) + 3 [Fe(CN)6]4-(aq) -> Fe4[Fe(CN)6]3(s)"
+  },
+  "Na-laboratory-001": {
+    "name": "Flame test (sodium)",
+    "category": "laboratory",
+    "type": "emission",
+    "elements_involved": [
+      "Na"
+    ],
+    "equation": "Na(s) -> Na*(g) -> Na(g) + hv (589 nm)"
+  },
+  "K-laboratory-001": {
+    "name": "Flame test (potassium)",
+    "category": "laboratory",
+    "type": "emission",
+    "elements_involved": [
+      "K"
+    ],
+    "equation": "K(s) -> K*(g) -> K(g) + hv (766 nm)"
+  },
+  "Li-laboratory-001": {
+    "name": "Flame test (lithium)",
+    "category": "laboratory",
+    "type": "emission",
+    "elements_involved": [
+      "Li"
+    ],
+    "equation": "Li(s) -> Li*(g) -> Li(g) + hv (671 nm)"
+  },
+  "Sr-laboratory-001": {
+    "name": "Flame test (strontium)",
+    "category": "laboratory",
+    "type": "emission",
+    "elements_involved": [
+      "Sr"
+    ],
+    "equation": "Sr(s) -> Sr*(g) -> Sr(g) + hv (606 nm)"
+  },
+  "Ba-laboratory-002": {
+    "name": "Flame test (barium)",
+    "category": "laboratory",
+    "type": "emission",
+    "elements_involved": [
+      "Ba"
+    ],
+    "equation": "Ba(s) -> Ba*(g) -> Ba(g) + hv (524 nm)"
+  },
+  "C-laboratory-007": {
+    "name": "Tollens' test (silver mirror)",
+    "category": "laboratory",
+    "type": "oxidation",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "Ag",
+      "N"
+    ],
+    "equation": "RCHO(aq) + 2 [Ag(NH3)2]+(aq) + 2 OH-(aq) -> RCOO-(aq) + 2 Ag(s) + 4 NH3(aq) + H2O(l)"
+  },
+  "C-laboratory-008": {
+    "name": "Fehling's test (reducing sugars)",
+    "category": "laboratory",
+    "type": "oxidation",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "Cu"
+    ],
+    "equation": "RCHO(aq) + 2 Cu2+(aq) + 5 OH-(aq) -> RCOO-(aq) + Cu2O(s) + 3 H2O(l)"
+  },
+  "K-laboratory-002": {
+    "name": "Potassium chlorate decomposition",
+    "category": "laboratory",
+    "type": "decomposition",
+    "elements_involved": [
+      "K",
+      "Cl",
+      "O"
+    ],
+    "equation": "2 KClO3(s) -> 2 KCl(s) + 3 O2(g)"
+  },
+  "N-laboratory-002": {
+    "name": "Ammonium dichromate volcano",
+    "category": "laboratory",
+    "type": "decomposition",
+    "elements_involved": [
+      "N",
+      "H",
+      "Cr",
+      "O"
+    ],
+    "equation": "(NH4)2Cr2O7(s) -> N2(g) + Cr2O3(s) + 4 H2O(g)"
+  },
+  "C-biological-001": {
+    "name": "Photosynthesis (overall)",
+    "category": "biological",
+    "type": "photosynthesis",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "equation": "6 CO2(g) + 6 H2O(l) -> C6H12O6(s) + 6 O2(g)"
+  },
+  "C-biological-002": {
+    "name": "Photosynthesis light reaction (water splitting)",
+    "category": "biological",
+    "type": "oxidation",
+    "elements_involved": [
+      "H",
+      "O"
+    ],
+    "equation": "2 H2O(l) -> O2(g) + 4 H+(aq) + 4 e-"
+  },
+  "C-biological-003": {
+    "name": "Cellular respiration (overall)",
+    "category": "biological",
+    "type": "respiration",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "equation": "C6H12O6(s) + 6 O2(g) -> 6 CO2(g) + 6 H2O(l)"
+  },
+  "C-biological-004": {
+    "name": "Glycolysis (net reaction)",
+    "category": "biological",
+    "type": "glycolysis",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "N",
+      "P"
+    ],
+    "equation": "C6H12O6(s) + 2 NAD+(aq) + 2 ADP(aq) + 2 Pi(aq) -> 2 CH3COCOO-(aq) + 2 NADH(aq) + 2 ATP(aq) + 2 H2O(l)"
+  },
+  "P-biological-001": {
+    "name": "ATP hydrolysis",
+    "category": "biological",
+    "type": "hydrolysis",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "N",
+      "P"
+    ],
+    "equation": "ATP(aq) + H2O(l) -> ADP(aq) + Pi(aq) + H+(aq)"
+  },
+  "P-biological-002": {
+    "name": "ATP synthesis (oxidative phosphorylation)",
+    "category": "biological",
+    "type": "phosphorylation",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "N",
+      "P"
+    ],
+    "equation": "ADP(aq) + Pi(aq) + H+(aq) -> ATP(aq) + H2O(l)"
+  },
+  "N-biological-001": {
+    "name": "Biological nitrogen fixation",
+    "category": "biological",
+    "type": "nitrogen fixation",
+    "elements_involved": [
+      "N",
+      "H",
+      "Fe",
+      "Mo"
+    ],
+    "equation": "N2(g) + 8 H+(aq) + 8 e- + 16 ATP(aq) -> 2 NH3(aq) + H2(g) + 16 ADP(aq) + 16 Pi(aq)"
+  },
+  "Fe-biological-001": {
+    "name": "Hemoglobin oxygen binding",
+    "category": "biological",
+    "type": "binding",
+    "elements_involved": [
+      "Fe",
+      "O",
+      "C",
+      "N",
+      "H"
+    ],
+    "equation": "Hb(aq) + 4 O2(g) <=> Hb(O2)4(aq)"
+  },
+  "C-biological-005": {
+    "name": "Ethanol fermentation",
+    "category": "biological",
+    "type": "fermentation",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "equation": "C6H12O6(s) -> 2 C2H5OH(l) + 2 CO2(g)"
+  },
+  "C-biological-006": {
+    "name": "Lactic acid fermentation",
+    "category": "biological",
+    "type": "fermentation",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "equation": "C6H12O6(s) -> 2 CH3CH(OH)COOH(aq)"
+  },
+  "C-biological-007": {
+    "name": "Krebs cycle (overall per acetyl-CoA)",
+    "category": "biological",
+    "type": "oxidative cycle",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "N",
+      "S",
+      "P"
+    ],
+    "equation": "Acetyl-CoA + 3 NAD+ + FAD + GDP + Pi + 2 H2O -> CoA-SH + 2 CO2 + 3 NADH + FADH2 + GTP"
+  },
+  "Fe-biological-002": {
+    "name": "Cytochrome c oxidase (Complex IV)",
+    "category": "biological",
+    "type": "electron transfer",
+    "elements_involved": [
+      "Fe",
+      "Cu",
+      "O",
+      "H"
+    ],
+    "equation": "4 cytochrome c (Fe2+) + O2 + 8 H+(matrix) -> 4 cytochrome c (Fe3+) + 2 H2O + 4 H+(IMS)"
+  },
+  "N-biological-002": {
+    "name": "Urease catalysis",
+    "category": "biological",
+    "type": "enzyme catalysis",
+    "elements_involved": [
+      "N",
+      "H",
+      "C",
+      "O",
+      "Ni"
+    ],
+    "equation": "NH2CONH2(aq) + H2O(l) -> 2 NH3(aq) + CO2(g)"
+  },
+  "Zn-biological-001": {
+    "name": "Carbonic anhydrase",
+    "category": "biological",
+    "type": "enzyme catalysis",
+    "elements_involved": [
+      "C",
+      "O",
+      "H",
+      "Zn"
+    ],
+    "equation": "CO2(g) + H2O(l) <=> HCO3-(aq) + H+(aq)"
+  },
+  "Mg-biological-001": {
+    "name": "Chlorophyll light absorption",
+    "category": "biological",
+    "type": "photoexcitation",
+    "elements_involved": [
+      "Mg",
+      "C",
+      "N",
+      "H",
+      "O"
+    ],
+    "equation": "Chl + hv -> Chl*"
+  },
+  "S-biological-001": {
+    "name": "Disulfide bond formation (protein folding)",
+    "category": "biological",
+    "type": "oxidation",
+    "elements_involved": [
+      "S",
+      "C",
+      "H",
+      "O",
+      "N"
+    ],
+    "equation": "2 R-SH -> R-S-S-R + 2 H+ + 2 e-"
+  },
+  "C-biological-008": {
+    "name": "Beta-oxidation of fatty acids (per cycle)",
+    "category": "biological",
+    "type": "oxidation",
+    "elements_involved": [
+      "C",
+      "H",
+      "O",
+      "S",
+      "N"
+    ],
+    "equation": "Acyl-CoA(Cn) + FAD + NAD+ + CoA-SH + H2O -> Acyl-CoA(Cn-2) + FADH2 + NADH + Acetyl-CoA"
+  },
+  "Ca-biological-001": {
+    "name": "Hydroxyapatite formation (bone mineralization)",
+    "category": "biological",
+    "type": "mineralization",
+    "elements_involved": [
+      "Ca",
+      "P",
+      "O",
+      "H"
+    ],
+    "equation": "10 Ca2+(aq) + 6 PO4 3-(aq) + 2 OH-(aq) -> Ca10(PO4)6(OH)2(s)"
+  },
+  "O-environmental-001": {
+    "name": "Ozone formation (stratospheric)",
+    "category": "environmental",
+    "type": "photochemical",
+    "elements_involved": [
+      "O"
+    ],
+    "equation": "3 O2(g) -> 2 O3(g)"
+  },
+  "O-environmental-002": {
+    "name": "Ozone depletion by CFCs",
+    "category": "environmental",
+    "type": "catalytic destruction",
+    "elements_involved": [
+      "O",
+      "Cl"
+    ],
+    "equation": "O3(g) + Cl(g) -> O2(g) + ClO(g)"
+  },
+  "N-environmental-001": {
+    "name": "Acid rain from NO2",
+    "category": "environmental",
+    "type": "acid rain",
+    "elements_involved": [
+      "N",
+      "O",
+      "H"
+    ],
+    "equation": "4 NO2(g) + O2(g) + 2 H2O(l) -> 4 HNO3(aq)"
+  },
+  "S-environmental-001": {
+    "name": "Acid rain from SO2",
+    "category": "environmental",
+    "type": "acid rain",
+    "elements_involved": [
+      "S",
+      "O",
+      "H"
+    ],
+    "equation": "2 SO2(g) + O2(g) + 2 H2O(l) -> 2 H2SO4(aq)"
+  },
+  "C-environmental-001": {
+    "name": "Ocean acidification",
+    "category": "environmental",
+    "type": "acidification",
+    "elements_involved": [
+      "C",
+      "O",
+      "H"
+    ],
+    "equation": "CO2(g) + H2O(l) <=> H2CO3(aq) <=> HCO3-(aq) + H+(aq)"
+  },
+  "Ca-environmental-001": {
+    "name": "Chemical weathering of limestone",
+    "category": "environmental",
+    "type": "weathering",
+    "elements_involved": [
+      "Ca",
+      "C",
+      "O",
+      "H"
+    ],
+    "equation": "CaCO3(s) + CO2(g) + H2O(l) -> Ca(HCO3)2(aq)"
+  },
+  "Si-environmental-001": {
+    "name": "Silicate weathering (CO2 sink)",
+    "category": "environmental",
+    "type": "weathering",
+    "elements_involved": [
+      "Ca",
+      "Si",
+      "C",
+      "O",
+      "H"
+    ],
+    "equation": "CaSiO3(s) + 2 CO2(g) + 3 H2O(l) -> Ca2+(aq) + 2 HCO3-(aq) + H4SiO4(aq)"
+  },
+  "Fe-environmental-001": {
+    "name": "Iron rusting",
+    "category": "environmental",
+    "type": "corrosion",
+    "elements_involved": [
+      "Fe",
+      "O",
+      "H"
+    ],
+    "equation": "4 Fe(s) + 3 O2(g) + 6 H2O(l) -> 4 Fe(OH)3(s)"
+  },
+  "Fe-environmental-002": {
+    "name": "Rust dehydration",
+    "category": "environmental",
+    "type": "dehydration",
+    "elements_involved": [
+      "Fe",
+      "O",
+      "H"
+    ],
+    "equation": "2 Fe(OH)3(s) -> Fe2O3 * H2O(s) + 2 H2O(l)"
+  },
+  "N-environmental-002": {
+    "name": "Nitrogen fixation by lightning",
+    "category": "environmental",
+    "type": "fixation",
+    "elements_involved": [
+      "N",
+      "O"
+    ],
+    "equation": "N2(g) + O2(g) -> 2 NO(g)"
+  },
+  "N-environmental-003": {
+    "name": "Denitrification",
+    "category": "environmental",
+    "type": "denitrification",
+    "elements_involved": [
+      "N",
+      "O",
+      "H"
+    ],
+    "equation": "2 NO3-(aq) + 10 e- + 12 H+(aq) -> N2(g) + 6 H2O(l)"
+  },
+  "N-environmental-004": {
+    "name": "Nitrification (ammonia to nitrate)",
+    "category": "environmental",
+    "type": "nitrification",
+    "elements_involved": [
+      "N",
+      "H",
+      "O"
+    ],
+    "equation": "NH3(aq) + 2 O2(g) -> NO3-(aq) + H2O(l) + H+(aq)"
+  },
+  "C-environmental-002": {
+    "name": "Methanogenesis",
+    "category": "environmental",
+    "type": "methanogenesis",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "equation": "CO2(g) + 4 H2(g) -> CH4(g) + 2 H2O(l)"
+  },
+  "C-environmental-003": {
+    "name": "Methane oxidation (atmospheric sink)",
+    "category": "environmental",
+    "type": "oxidation",
+    "elements_involved": [
+      "C",
+      "H",
+      "O"
+    ],
+    "equation": "CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(g)"
+  },
+  "S-environmental-002": {
+    "name": "Sulfate reduction (deep ocean)",
+    "category": "environmental",
+    "type": "sulfate reduction",
+    "elements_involved": [
+      "S",
+      "O",
+      "C",
+      "H"
+    ],
+    "equation": "SO4 2-(aq) + 2 CH2O(s) -> H2S(g) + 2 HCO3-(aq)"
+  },
+  "O-environmental-003": {
+    "name": "Tropospheric ozone formation (smog)",
+    "category": "environmental",
+    "type": "photochemical",
+    "elements_involved": [
+      "N",
+      "O"
+    ],
+    "equation": "NO2(g) + hv -> NO(g) + O(g); O(g) + O2(g) -> O3(g)"
+  },
+  "Pb-environmental-001": {
+    "name": "Lead pipe corrosion (historical)",
+    "category": "environmental",
+    "type": "corrosion",
+    "elements_involved": [
+      "Pb",
+      "O",
+      "H"
+    ],
+    "equation": "Pb(s) + 1/2 O2(g) + H2O(l) -> Pb(OH)2(s)"
+  },
+  "Hg-environmental-001": {
+    "name": "Mercury methylation (bioaccumulation)",
+    "category": "environmental",
+    "type": "methylation",
+    "elements_involved": [
+      "Hg",
+      "C",
+      "H"
+    ],
+    "equation": "Hg2+(aq) + CH3-(aq) -> CH3Hg+(aq)"
+  },
+  "Fe-notable-001": {
+    "name": "Thermite reaction",
+    "category": "notable",
+    "type": "aluminothermic",
+    "elements_involved": [
+      "Al",
+      "Fe",
+      "O"
+    ],
+    "equation": "2 Al(s) + Fe2O3(s) -> Al2O3(s) + 2 Fe(l)"
+  },
+  "Na-notable-001": {
+    "name": "Sodium in water",
+    "category": "notable",
+    "type": "single displacement",
+    "elements_involved": [
+      "Na",
+      "H",
+      "O"
+    ],
+    "equation": "2 Na(s) + 2 H2O(l) -> 2 NaOH(aq) + H2(g)"
+  },
+  "K-notable-001": {
+    "name": "Potassium in water",
+    "category": "notable",
+    "type": "single displacement",
+    "elements_involved": [
+      "K",
+      "H",
+      "O"
+    ],
+    "equation": "2 K(s) + 2 H2O(l) -> 2 KOH(aq) + H2(g)"
+  },
+  "Li-notable-001": {
+    "name": "Lithium in water",
+    "category": "notable",
+    "type": "single displacement",
+    "elements_involved": [
+      "Li",
+      "H",
+      "O"
+    ],
+    "equation": "2 Li(s) + 2 H2O(l) -> 2 LiOH(aq) + H2(g)"
+  },
+  "Rb-notable-001": {
+    "name": "Rubidium in water",
+    "category": "notable",
+    "type": "single displacement",
+    "elements_involved": [
+      "Rb",
+      "H",
+      "O"
+    ],
+    "equation": "2 Rb(s) + 2 H2O(l) -> 2 RbOH(aq) + H2(g)"
+  },
+  "Cs-notable-001": {
+    "name": "Caesium in water",
+    "category": "notable",
+    "type": "single displacement",
+    "elements_involved": [
+      "Cs",
+      "H",
+      "O"
+    ],
+    "equation": "2 Cs(s) + 2 H2O(l) -> 2 CsOH(aq) + H2(g)"
+  },
+  "Xe-notable-001": {
+    "name": "Xenon hexafluoroplatinate (first noble gas compound)",
+    "category": "notable",
+    "type": "synthesis",
+    "elements_involved": [
+      "Xe",
+      "Pt",
+      "F"
+    ],
+    "equation": "Xe(g) + PtF6(g) -> [XePtF6](s)"
+  },
+  "Xe-notable-002": {
+    "name": "Xenon difluoride synthesis",
+    "category": "notable",
+    "type": "synthesis",
+    "elements_involved": [
+      "Xe",
+      "F"
+    ],
+    "equation": "Xe(g) + F2(g) -> XeF2(s)"
+  },
+  "U-notable-001": {
+    "name": "Uranium-235 nuclear fission",
+    "category": "notable",
+    "type": "nuclear fission",
+    "elements_involved": [
+      "U",
+      "Ba",
+      "Kr"
+    ],
+    "equation": "U-235 + n -> Ba-141 + Kr-92 + 3 n"
+  },
+  "H-notable-001": {
+    "name": "Hydrogen fusion (proton-proton chain)",
+    "category": "notable",
+    "type": "nuclear fusion",
+    "elements_involved": [
+      "H",
+      "He"
+    ],
+    "equation": "4 H-1 -> He-4 + 2 e+ + 2 ve + energy"
+  },
+  "H-notable-002": {
+    "name": "Deuterium-tritium fusion (ITER target)",
+    "category": "notable",
+    "type": "nuclear fusion",
+    "elements_involved": [
+      "H",
+      "He"
+    ],
+    "equation": "D + T -> He-4 + n + 17.6 MeV"
+  },
+  "N-notable-001": {
+    "name": "Nitrogen triiodide detonation",
+    "category": "notable",
+    "type": "decomposition",
+    "elements_involved": [
+      "N",
+      "I"
+    ],
+    "equation": "2 NI3(s) -> N2(g) + 3 I2(g)"
+  },
+  "Mg-notable-001": {
+    "name": "Magnesium ribbon burning",
+    "category": "notable",
+    "type": "combustion",
+    "elements_involved": [
+      "Mg",
+      "O"
+    ],
+    "equation": "2 Mg(s) + O2(g) -> 2 MgO(s)"
+  },
+  "Mg-notable-002": {
+    "name": "Magnesium in dry ice",
+    "category": "notable",
+    "type": "combustion",
+    "elements_involved": [
+      "Mg",
+      "C",
+      "O"
+    ],
+    "equation": "2 Mg(s) + CO2(g) -> 2 MgO(s) + C(s)"
+  },
+  "P-notable-001": {
+    "name": "White phosphorus spontaneous combustion",
+    "category": "notable",
+    "type": "combustion",
+    "elements_involved": [
+      "P",
+      "O"
+    ],
+    "equation": "P4(s) + 5 O2(g) -> P4O10(s)"
+  },
+  "F-notable-001": {
+    "name": "Fluorine + water",
+    "category": "notable",
+    "type": "oxidation",
+    "elements_involved": [
+      "F",
+      "H",
+      "O"
+    ],
+    "equation": "2 F2(g) + 2 H2O(l) -> 4 HF(aq) + O2(g)"
+  },
+  "Au-notable-001": {
+    "name": "Gold dissolution in aqua regia",
+    "category": "notable",
+    "type": "dissolution",
+    "elements_involved": [
+      "Au",
+      "H",
+      "Cl",
+      "N",
+      "O"
+    ],
+    "equation": "Au(s) + 3 HCl(aq) + HNO3(aq) -> HAuCl4(aq) + NO(g) + 2 H2O(l)"
+  },
+  "Pt-notable-001": {
+    "name": "Platinum dissolution in aqua regia",
+    "category": "notable",
+    "type": "dissolution",
+    "elements_involved": [
+      "Pt",
+      "H",
+      "N",
+      "O",
+      "Cl"
+    ],
+    "equation": "3 Pt(s) + 4 HNO3(aq) + 12 HCl(aq) -> 3 H2PtCl4(aq) + 4 NO(g) + 8 H2O(l)"
+  },
+  "Hg-notable-001": {
+    "name": "Mercury(II) oxide decomposition (Priestley's experiment)",
+    "category": "notable",
+    "type": "decomposition",
+    "elements_involved": [
+      "Hg",
+      "O"
+    ],
+    "equation": "2 HgO(s) -> 2 Hg(l) + O2(g)"
+  },
+  "Cu-notable-001": {
+    "name": "Copper sulfate + iron (tree of Diana)",
+    "category": "notable",
+    "type": "single displacement",
+    "elements_involved": [
+      "Fe",
+      "Cu",
+      "S",
+      "O"
+    ],
+    "equation": "Fe(s) + CuSO4(aq) -> FeSO4(aq) + Cu(s)"
+  },
+  "C-notable-001": {
+    "name": "Elephant toothpaste",
+    "category": "notable",
+    "type": "decomposition",
+    "elements_involved": [
+      "H",
+      "O"
+    ],
+    "equation": "2 H2O2(aq) -> 2 H2O(l) + O2(g)"
+  },
+  "C-notable-002": {
+    "name": "Barking dog reaction",
+    "category": "notable",
+    "type": "combustion",
+    "elements_involved": [
+      "C",
+      "S",
+      "N",
+      "O"
+    ],
+    "equation": "2 CS2(l) + 6 N2O(g) -> 2 CO2(g) + 6 N2(g) + 4 SO2(g)"
+  },
+  "Mn-notable-001": {
+    "name": "Briggs-Rauscher oscillating reaction",
+    "category": "notable",
+    "type": "oscillating",
+    "elements_involved": [
+      "I",
+      "O",
+      "H",
+      "C",
+      "Mn"
+    ],
+    "equation": "IO3-(aq) + 2 H2O2(aq) + CH2(COOH)2(aq) + H+(aq) -> ICH(COOH)2(aq) + 2 O2(g) + 3 H2O(l)"
+  },
+  "N-notable-002": {
+    "name": "Ammonium nitrate decomposition (explosive)",
+    "category": "notable",
+    "type": "decomposition",
+    "elements_involved": [
+      "N",
+      "H",
+      "O"
+    ],
+    "equation": "2 NH4NO3(s) -> 2 N2(g) + O2(g) + 4 H2O(g)"
+  },
+  "W-notable-001": {
+    "name": "Tungsten highest melting point metal",
+    "category": "notable",
+    "type": "reduction",
+    "elements_involved": [
+      "W",
+      "O",
+      "H"
+    ],
+    "equation": "WO3(s) + 3 H2(g) -> W(s) + 3 H2O(g)"
+  },
+  "B-notable-001": {
+    "name": "Boron green flame",
+    "category": "notable",
+    "type": "combustion",
+    "elements_involved": [
+      "B",
+      "O"
+    ],
+    "equation": "4 B(s) + 3 O2(g) -> 2 B2O3(s)"
+  },
+  "Ga-notable-001": {
+    "name": "Gallium melts in hand",
+    "category": "notable",
+    "type": "phase change",
+    "elements_involved": [
+      "Ga"
+    ],
+    "equation": "Ga(s) -> Ga(l)"
+  },
+  "Pu-notable-001": {
+    "name": "Plutonium-239 fission",
+    "category": "notable",
+    "type": "nuclear fission",
+    "elements_involved": [
+      "Pu",
+      "Ba",
+      "Sr"
+    ],
+    "equation": "Pu-239 + n -> Ba-146 + Sr-91 + 3 n"
+  },
+  "Bi-notable-001": {
+    "name": "Bismuth subsalicylate (Pepto-Bismol pink)",
+    "category": "notable",
+    "type": "acid dissolution",
+    "elements_involved": [
+      "Bi",
+      "O",
+      "H",
+      "Cl"
+    ],
+    "equation": "Bi2O3(s) + 6 HCl(aq) -> 2 BiCl3(aq) + 3 H2O(l)"
+  },
+  "Os-notable-001": {
+    "name": "Osmium tetroxide formation",
+    "category": "notable",
+    "type": "oxidation",
+    "elements_involved": [
+      "Os",
+      "O"
+    ],
+    "equation": "Os(s) + 2 O2(g) -> OsO4(s)"
+  }
+}

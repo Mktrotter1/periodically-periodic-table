@@ -1,0 +1,522 @@
+{
+  "name": "Nitrogen",
+  "symbol": "N",
+  "atomic_number": 7,
+  "atomic_mass_u": 14.007,
+  "atomic_mass_uncertainty_u": 0.001,
+  "classification": {
+    "group": 15,
+    "period": 2,
+    "block": "p",
+    "category": "reactive nonmetal",
+    "series": "nonmetal",
+    "natural_occurrence": "primordial"
+  },
+  "atomic_structure": {
+    "electron_configuration": "[He] 2s2 2p3",
+    "electron_configuration_long": "1s2 2s2 2p3",
+    "electron_shells": [
+      2,
+      5
+    ],
+    "valence_electrons": 5,
+    "oxidation_states": [
+      -3,
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "common_oxidation_states": [
+      -3,
+      3,
+      5
+    ],
+    "electronegativity_pauling": 3.04,
+    "ionization_energies_kj_mol": [
+      1402.3
+    ],
+    "electron_affinity_kj_mol": -6.8,
+    "atomic_radius_pm": 56,
+    "covalent_radius_pm": 71,
+    "van_der_waals_radius_pm": 155
+  },
+  "physical_properties": {
+    "phase_at_stp": "gas",
+    "melting_point_k": 63.15,
+    "boiling_point_k": 77.36,
+    "density_kg_m3": 1.251,
+    "density_liquid_kg_m3": 808.0,
+    "triple_point_k": 63.151,
+    "triple_point_kpa": 12.53,
+    "critical_point_k": 126.21,
+    "critical_point_mpa": 3.39,
+    "heat_of_fusion_kj_mol": 0.72,
+    "heat_of_vaporization_kj_mol": 5.57,
+    "molar_heat_capacity_j_mol_k": 29.124,
+    "color": "colorless",
+    "crystal_structure": "hexagonal",
+    "magnetic_ordering": "diamagnetic",
+    "speed_of_sound_m_s": 353,
+    "thermal_conductivity_w_m_k": 0.02583,
+    "thermal_expansion_per_k": null,
+    "mohs_hardness": null,
+    "bulk_modulus_gpa": null,
+    "shear_modulus_gpa": null,
+    "young_modulus_gpa": null,
+    "poisson_ratio": null
+  },
+  "nuclear_properties": {
+    "radioactive": false,
+    "half_life": null,
+    "decay_mode": null,
+    "stable_isotopes": [
+      14,
+      15
+    ],
+    "isotopes": [
+      {
+        "mass_number": 14,
+        "symbol": "14N",
+        "name": null,
+        "neutrons": 7,
+        "abundance_percent": 99.636,
+        "mass_u": 14.003074,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": "1+"
+      },
+      {
+        "mass_number": 15,
+        "symbol": "15N",
+        "name": null,
+        "neutrons": 8,
+        "abundance_percent": 0.364,
+        "mass_u": 15.000109,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": "1/2-"
+      }
+    ]
+  },
+  "abundance": {
+    "universe_percent": 0.1,
+    "solar_percent": 0.1,
+    "earth_crust_ppm": 19,
+    "ocean_ppm": 0.5,
+    "human_body_percent": 3.3
+  },
+  "discovery": {
+    "year": 1772,
+    "discoverers": [
+      "Daniel Rutherford"
+    ],
+    "country": "Scotland",
+    "named_by": "Jean-Antoine Chaptal",
+    "name_origin": "Greek 'nitron' + 'genes' (niter-forming)"
+  },
+  "applications": [
+    "Ammonia production (Haber process)",
+    "Fertilizers (ammonium nitrate, urea)",
+    "Explosives (TNT, nitroglycerin)",
+    "Cryopreservation (liquid nitrogen)",
+    "Food packaging (modified atmosphere)",
+    "Semiconductor manufacturing",
+    "Pressurizing beer kegs"
+  ],
+  "hazards": {
+    "ghs_pictograms": [
+      "GHS04"
+    ],
+    "signal_word": "Warning",
+    "nfpa_704": {
+      "health": 0,
+      "flammability": 0,
+      "reactivity": 0,
+      "special": "SA"
+    },
+    "hazard_statements": [],
+    "autoignition_temp_k": null,
+    "flash_point_k": null,
+    "explosive_limits_percent": null
+  },
+  "reactions": [
+    {
+      "id": "C-biological-004",
+      "name": "Glycolysis (net reaction)",
+      "equation": "C6H12O6(s) + 2 NAD+(aq) + 2 ADP(aq) + 2 Pi(aq) -> 2 CH3COCOO-(aq) + 2 NADH(aq) + 2 ATP(aq) + 2 H2O(l)",
+      "type": "glycolysis",
+      "category": "biological",
+      "delta_h_kj": -74,
+      "conditions": "cytoplasm; 10 enzyme-catalyzed steps",
+      "description": "Glucose to 2 pyruvate. Net 2 ATP + 2 NADH. Universal pathway in all domains of life.",
+      "reversible": false
+    },
+    {
+      "id": "C-biological-007",
+      "name": "Krebs cycle (overall per acetyl-CoA)",
+      "equation": "Acetyl-CoA + 3 NAD+ + FAD + GDP + Pi + 2 H2O -> CoA-SH + 2 CO2 + 3 NADH + FADH2 + GTP",
+      "type": "oxidative cycle",
+      "category": "biological",
+      "delta_h_kj": null,
+      "conditions": "mitochondrial matrix; 8 enzyme-catalyzed steps; regulated by [ATP]/[ADP]",
+      "description": "Central metabolic hub. Oxidizes acetyl groups to CO2, generating electron carriers for ETC.",
+      "reversible": false
+    },
+    {
+      "id": "C-biological-008",
+      "name": "Beta-oxidation of fatty acids (per cycle)",
+      "equation": "Acyl-CoA(Cn) + FAD + NAD+ + CoA-SH + H2O -> Acyl-CoA(Cn-2) + FADH2 + NADH + Acetyl-CoA",
+      "type": "oxidation",
+      "category": "biological",
+      "delta_h_kj": null,
+      "conditions": "mitochondrial matrix; 4 enzymes per cycle; each cycle removes 2 carbons",
+      "description": "Fatty acid catabolism. Each cycle yields 1 FADH2, 1 NADH, 1 acetyl-CoA (~14 ATP per cycle).",
+      "reversible": false
+    },
+    {
+      "id": "Fe-biological-001",
+      "name": "Hemoglobin oxygen binding",
+      "equation": "Hb(aq) + 4 O2(g) <=> Hb(O2)4(aq)",
+      "type": "binding",
+      "category": "biological",
+      "delta_h_kj": -67,
+      "conditions": "cooperative binding (sigmoidal curve); Fe2+ in heme porphyrin; P50 = 26 mmHg",
+      "description": "Cooperative O2 binding to hemoglobin's four heme groups. Fe2+ does NOT oxidize to Fe3+.",
+      "reversible": true
+    },
+    {
+      "id": "Mg-biological-001",
+      "name": "Chlorophyll light absorption",
+      "equation": "Chl + hv -> Chl*",
+      "type": "photoexcitation",
+      "category": "biological",
+      "delta_h_kj": null,
+      "conditions": "absorbs red (680 nm) and blue (430 nm); Mg2+ coordinated by porphyrin ring",
+      "description": "Chlorophyll absorbs light via Mg-porphyrin chromophore. Excited electron enters photosystem.",
+      "reversible": false
+    },
+    {
+      "id": "N-biological-001",
+      "name": "Biological nitrogen fixation",
+      "equation": "N2(g) + 8 H+(aq) + 8 e- + 16 ATP(aq) -> 2 NH3(aq) + H2(g) + 16 ADP(aq) + 16 Pi(aq)",
+      "type": "nitrogen fixation",
+      "category": "biological",
+      "delta_h_kj": null,
+      "conditions": "nitrogenase (Fe-Mo cofactor); obligate anaerobic conditions for enzyme; Rhizobium in legume root nodules",
+      "description": "Nitrogenase reduces N2 to NH3 at ambient conditions. Requires 16 ATP per N2. FeMo cofactor active site.",
+      "reversible": false
+    },
+    {
+      "id": "N-biological-002",
+      "name": "Urease catalysis",
+      "equation": "NH2CONH2(aq) + H2O(l) -> 2 NH3(aq) + CO2(g)",
+      "type": "enzyme catalysis",
+      "category": "biological",
+      "delta_h_kj": -40,
+      "conditions": "urease (Ni2+ active site); rate enhancement: 10^14 over uncatalyzed",
+      "description": "Urease was the first enzyme crystallized (Sumner, 1926). Contains dinuclear Ni center.",
+      "reversible": false
+    },
+    {
+      "id": "P-biological-001",
+      "name": "ATP hydrolysis",
+      "equation": "ATP(aq) + H2O(l) -> ADP(aq) + Pi(aq) + H+(aq)",
+      "type": "hydrolysis",
+      "category": "biological",
+      "delta_h_kj": -30.5,
+      "conditions": "Mg2+ cofactor; standard biochemical conditions (pH 7, 1mM)",
+      "description": "Universal energy currency of life. Drives endergonic reactions by coupling. ~100 kg ATP recycled/day in humans.",
+      "reversible": false
+    },
+    {
+      "id": "P-biological-002",
+      "name": "ATP synthesis (oxidative phosphorylation)",
+      "equation": "ADP(aq) + Pi(aq) + H+(aq) -> ATP(aq) + H2O(l)",
+      "type": "phosphorylation",
+      "category": "biological",
+      "delta_h_kj": 30.5,
+      "conditions": "ATP synthase (Complex V); proton motive force across inner mitochondrial membrane",
+      "description": "Chemiosmotic synthesis of ATP. F1Fo-ATP synthase rotary motor. ~26-28 ATP from one glucose.",
+      "reversible": false
+    },
+    {
+      "id": "S-biological-001",
+      "name": "Disulfide bond formation (protein folding)",
+      "equation": "2 R-SH -> R-S-S-R + 2 H+ + 2 e-",
+      "type": "oxidation",
+      "category": "biological",
+      "delta_h_kj": null,
+      "conditions": "endoplasmic reticulum; protein disulfide isomerase (PDI)",
+      "description": "Cysteine disulfide bridges stabilize protein tertiary structure. Oxidizing environment of ER.",
+      "reversible": true
+    },
+    {
+      "id": "N-environmental-001",
+      "name": "Acid rain from NO2",
+      "equation": "4 NO2(g) + O2(g) + 2 H2O(l) -> 4 HNO3(aq)",
+      "type": "acid rain",
+      "category": "environmental",
+      "delta_h_kj": null,
+      "conditions": "atmospheric; NOx from combustion engines and power plants",
+      "description": "NOx forms nitric acid in atmosphere. Contributes to acid rain (pH < 5.6).",
+      "reversible": false
+    },
+    {
+      "id": "N-environmental-002",
+      "name": "Nitrogen fixation by lightning",
+      "equation": "N2(g) + O2(g) -> 2 NO(g)",
+      "type": "fixation",
+      "category": "environmental",
+      "delta_h_kj": 180.6,
+      "conditions": "3000 K; lightning provides extreme local temperature; ~5-8 Tg N/year globally",
+      "description": "Lightning fixes ~5-8 Tg N/year. High activation energy overcome by >30,000 K plasma temperature.",
+      "reversible": false
+    },
+    {
+      "id": "N-environmental-003",
+      "name": "Denitrification",
+      "equation": "2 NO3-(aq) + 10 e- + 12 H+(aq) -> N2(g) + 6 H2O(l)",
+      "type": "denitrification",
+      "category": "environmental",
+      "delta_h_kj": null,
+      "conditions": "anaerobic bacteria (Pseudomonas); wetlands; wastewater treatment",
+      "description": "Microbial conversion of nitrate back to N2. Closes the nitrogen cycle. Important in wastewater treatment.",
+      "reversible": false
+    },
+    {
+      "id": "N-environmental-004",
+      "name": "Nitrification (ammonia to nitrate)",
+      "equation": "NH3(aq) + 2 O2(g) -> NO3-(aq) + H2O(l) + H+(aq)",
+      "type": "nitrification",
+      "category": "environmental",
+      "delta_h_kj": -349,
+      "conditions": "two-step: Nitrosomonas (NH3->NO2-) then Nitrobacter (NO2-->NO3-); aerobic soil",
+      "description": "Two-step microbial oxidation. Converts ammonium fertilizer to plant-available nitrate.",
+      "reversible": false
+    },
+    {
+      "id": "O-environmental-003",
+      "name": "Tropospheric ozone formation (smog)",
+      "equation": "NO2(g) + hv -> NO(g) + O(g); O(g) + O2(g) -> O3(g)",
+      "type": "photochemical",
+      "category": "environmental",
+      "delta_h_kj": null,
+      "conditions": "UV light; VOCs sustain cycle by converting NO back to NO2 without consuming O3",
+      "description": "Ground-level ozone is a harmful pollutant (photochemical smog). Good up high, bad nearby.",
+      "reversible": false
+    },
+    {
+      "id": "N-industrial-001",
+      "name": "Haber process (ammonia synthesis)",
+      "equation": "N2(g) + 3 H2(g) <=> 2 NH3(g)",
+      "type": "synthesis",
+      "category": "industrial",
+      "delta_h_kj": -92.2,
+      "conditions": "723 K; 200 atm; iron with K2O/Al2O3 promoters",
+      "description": "Primary industrial route to ammonia. ~150 million tonnes/year globally.",
+      "reversible": true
+    },
+    {
+      "id": "N-industrial-002",
+      "name": "Ostwald process step 1 (ammonia oxidation)",
+      "equation": "4 NH3(g) + 5 O2(g) -> 4 NO(g) + 6 H2O(g)",
+      "type": "oxidation",
+      "category": "industrial",
+      "delta_h_kj": -905.2,
+      "conditions": "1100 K; platinum-rhodium gauze (90% Pt / 10% Rh)",
+      "description": "First step of Ostwald process for nitric acid. ~95% yield with Pt-Rh catalyst.",
+      "reversible": false
+    },
+    {
+      "id": "N-industrial-003",
+      "name": "Ostwald process step 2 (NO oxidation)",
+      "equation": "2 NO(g) + O2(g) -> 2 NO2(g)",
+      "type": "oxidation",
+      "category": "industrial",
+      "delta_h_kj": -114,
+      "conditions": null,
+      "description": "Spontaneous oxidation of nitric oxide to nitrogen dioxide.",
+      "reversible": false
+    },
+    {
+      "id": "N-industrial-004",
+      "name": "Ostwald process step 3 (nitric acid formation)",
+      "equation": "3 NO2(g) + H2O(l) -> 2 HNO3(aq) + NO(g)",
+      "type": "disproportionation",
+      "category": "industrial",
+      "delta_h_kj": -138,
+      "conditions": null,
+      "description": "Final step producing nitric acid. The NO byproduct is recycled to step 2.",
+      "reversible": false
+    },
+    {
+      "id": "N-industrial-005",
+      "name": "Urea synthesis",
+      "equation": "2 NH3(g) + CO2(g) <=> NH2CONH2(s) + H2O(l)",
+      "type": "synthesis",
+      "category": "industrial",
+      "delta_h_kj": -103.5,
+      "conditions": "458 K; 175 atm; two-step via ammonium carbamate",
+      "description": "Bosch-Meiser process. World's most-produced chemical by mass (~180 Mt/y). Fertilizer.",
+      "reversible": true
+    },
+    {
+      "id": "Na-industrial-002",
+      "name": "Solvay process (key precipitation step)",
+      "equation": "NaCl(aq) + NH3(aq) + CO2(g) + H2O(l) -> NaHCO3(s) + NH4Cl(aq)",
+      "type": "precipitation",
+      "category": "industrial",
+      "delta_h_kj": null,
+      "conditions": "288 K; CO2 bubbled through ammoniacal brine",
+      "description": "NaHCO3 precipitates due to low solubility. Filtered and calcined to Na2CO3.",
+      "reversible": false
+    },
+    {
+      "id": "Ag-laboratory-001",
+      "name": "Silver chloride precipitation",
+      "equation": "AgNO3(aq) + NaCl(aq) -> AgCl(s) + NaNO3(aq)",
+      "type": "precipitation",
+      "category": "laboratory",
+      "delta_h_kj": -65.5,
+      "conditions": null,
+      "description": "Classic precipitation. White curdy precipitate. Ksp = 1.77e-10. Used in chloride analysis.",
+      "reversible": false
+    },
+    {
+      "id": "C-laboratory-007",
+      "name": "Tollens' test (silver mirror)",
+      "equation": "RCHO(aq) + 2 [Ag(NH3)2]+(aq) + 2 OH-(aq) -> RCOO-(aq) + 2 Ag(s) + 4 NH3(aq) + H2O(l)",
+      "type": "oxidation",
+      "category": "laboratory",
+      "delta_h_kj": null,
+      "conditions": "warm gently; silver deposits as mirror on clean glass",
+      "description": "Silver mirror test distinguishes aldehydes from ketones. Ag+ reduced to metallic silver.",
+      "reversible": false
+    },
+    {
+      "id": "Cu-laboratory-002",
+      "name": "Copper(II) ammonia complex (deep blue)",
+      "equation": "Cu2+(aq) + 4 NH3(aq) -> [Cu(NH3)4]2+(aq)",
+      "type": "complexation",
+      "category": "laboratory",
+      "delta_h_kj": null,
+      "conditions": "add excess ammonia to Cu2+ solution",
+      "description": "Tetraamminecopper(II) complex. Deep royal blue color. Confirms Cu2+ presence.",
+      "reversible": false
+    },
+    {
+      "id": "Fe-laboratory-001",
+      "name": "Iron(III) thiocyanate test",
+      "equation": "Fe3+(aq) + 3 SCN-(aq) -> Fe(SCN)3(aq)",
+      "type": "complexation",
+      "category": "laboratory",
+      "delta_h_kj": null,
+      "conditions": null,
+      "description": "Blood-red color confirms Fe3+ ions. Very sensitive test. Used in equilibrium demonstrations.",
+      "reversible": false
+    },
+    {
+      "id": "Fe-laboratory-002",
+      "name": "Prussian blue formation",
+      "equation": "4 Fe3+(aq) + 3 [Fe(CN)6]4-(aq) -> Fe4[Fe(CN)6]3(s)",
+      "type": "precipitation",
+      "category": "laboratory",
+      "delta_h_kj": null,
+      "conditions": null,
+      "description": "Prussian blue: intense blue pigment. Historic iron detection test. Also used in art.",
+      "reversible": false
+    },
+    {
+      "id": "N-laboratory-001",
+      "name": "Ammonia from ammonium salt + base",
+      "equation": "NH4Cl(s) + NaOH(s) -> NaCl(s) + H2O(l) + NH3(g)",
+      "type": "base displacement",
+      "category": "laboratory",
+      "delta_h_kj": null,
+      "conditions": "gentle heating",
+      "description": "Lab preparation of ammonia. Detected by moist red litmus turning blue.",
+      "reversible": false
+    },
+    {
+      "id": "N-laboratory-002",
+      "name": "Ammonium dichromate volcano",
+      "equation": "(NH4)2Cr2O7(s) -> N2(g) + Cr2O3(s) + 4 H2O(g)",
+      "type": "decomposition",
+      "category": "laboratory",
+      "delta_h_kj": -429,
+      "conditions": "ignite with match; spectacular volcanic eruption; toxic Cr(III) product",
+      "description": "Chemical volcano demonstration. Self-sustaining decomposition once ignited.",
+      "reversible": false
+    },
+    {
+      "id": "Pb-laboratory-001",
+      "name": "Lead(II) iodide precipitation",
+      "equation": "Pb(NO3)2(aq) + 2 KI(aq) -> PbI2(s) + 2 KNO3(aq)",
+      "type": "precipitation",
+      "category": "laboratory",
+      "delta_h_kj": null,
+      "conditions": "bright yellow precipitate; 'golden rain' demo when hot solution cooled",
+      "description": "Golden rain experiment. Bright yellow PbI2 crystallizes from hot solution on cooling.",
+      "reversible": false
+    },
+    {
+      "id": "Au-notable-001",
+      "name": "Gold dissolution in aqua regia",
+      "equation": "Au(s) + 3 HCl(aq) + HNO3(aq) -> HAuCl4(aq) + NO(g) + 2 H2O(l)",
+      "type": "dissolution",
+      "category": "notable",
+      "delta_h_kj": null,
+      "conditions": "3:1 HCl:HNO3 mixture; chloride complexation drives dissolution",
+      "description": "Aqua regia dissolves gold. Neither acid alone works. Cl- complexation (AuCl4-) shifts equilibrium. de Hevesy saved Nobel medals this way in WWII.",
+      "reversible": false
+    },
+    {
+      "id": "C-notable-002",
+      "name": "Barking dog reaction",
+      "equation": "2 CS2(l) + 6 N2O(g) -> 2 CO2(g) + 6 N2(g) + 4 SO2(g)",
+      "type": "combustion",
+      "category": "notable",
+      "delta_h_kj": null,
+      "conditions": "ignite CS2/N2O mixture in long tube; blue flame + barking sound",
+      "description": "CS2 vapor and N2O combust with distinctive barking sound and blue flash. Popular demonstration.",
+      "reversible": false
+    },
+    {
+      "id": "N-notable-001",
+      "name": "Nitrogen triiodide detonation",
+      "equation": "2 NI3(s) -> N2(g) + 3 I2(g)",
+      "type": "decomposition",
+      "category": "notable",
+      "delta_h_kj": -290,
+      "conditions": "contact-sensitive when dry; detonates from slightest touch; purple I2 cloud",
+      "description": "Extremely sensitive contact explosive. Detonates when dry from a feather touch. Purple iodine cloud produced.",
+      "reversible": false
+    },
+    {
+      "id": "N-notable-002",
+      "name": "Ammonium nitrate decomposition (explosive)",
+      "equation": "2 NH4NO3(s) -> 2 N2(g) + O2(g) + 4 H2O(g)",
+      "type": "decomposition",
+      "category": "notable",
+      "delta_h_kj": -236,
+      "conditions": "detonation >270C; Beirut 2020 (2750 tonnes); Texas City 1947; Oppau 1921",
+      "description": "Ammonium nitrate detonation. Responsible for numerous industrial disasters. Also a common fertilizer.",
+      "reversible": false
+    },
+    {
+      "id": "Pt-notable-001",
+      "name": "Platinum dissolution in aqua regia",
+      "equation": "3 Pt(s) + 4 HNO3(aq) + 12 HCl(aq) -> 3 H2PtCl4(aq) + 4 NO(g) + 8 H2O(l)",
+      "type": "dissolution",
+      "category": "notable",
+      "delta_h_kj": null,
+      "conditions": "aqua regia ('royal water') named for dissolving noble metals",
+      "description": "Aqua regia dissolves platinum. Named 'royal water' by alchemists. Only method for dissolving Pt.",
+      "reversible": false
+    }
+  ]
+}

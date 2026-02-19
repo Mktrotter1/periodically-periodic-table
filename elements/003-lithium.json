@@ -1,0 +1,174 @@
+{
+  "name": "Lithium",
+  "symbol": "Li",
+  "atomic_number": 3,
+  "atomic_mass_u": 6.941,
+  "atomic_mass_uncertainty_u": 0.002,
+  "classification": {
+    "group": 1,
+    "period": 2,
+    "block": "s",
+    "category": "alkali metal",
+    "series": "alkali metal",
+    "natural_occurrence": "primordial"
+  },
+  "atomic_structure": {
+    "electron_configuration": "[He] 2s1",
+    "electron_configuration_long": "1s2 2s1",
+    "electron_shells": [
+      2,
+      1
+    ],
+    "valence_electrons": 1,
+    "oxidation_states": [
+      1
+    ],
+    "common_oxidation_states": [
+      1
+    ],
+    "electronegativity_pauling": 0.98,
+    "ionization_energies_kj_mol": [
+      520.2
+    ],
+    "electron_affinity_kj_mol": 59.633,
+    "atomic_radius_pm": 167,
+    "covalent_radius_pm": 128,
+    "van_der_waals_radius_pm": 182
+  },
+  "physical_properties": {
+    "phase_at_stp": "solid",
+    "melting_point_k": 453.65,
+    "boiling_point_k": 1603.0,
+    "density_kg_m3": 534.0,
+    "density_liquid_kg_m3": 512.0,
+    "triple_point_k": null,
+    "triple_point_kpa": null,
+    "critical_point_k": null,
+    "critical_point_mpa": null,
+    "heat_of_fusion_kj_mol": 3.0,
+    "heat_of_vaporization_kj_mol": 136.0,
+    "molar_heat_capacity_j_mol_k": 24.86,
+    "color": "silvery-white",
+    "crystal_structure": "body-centered cubic",
+    "magnetic_ordering": "paramagnetic",
+    "speed_of_sound_m_s": 6000,
+    "thermal_conductivity_w_m_k": 84.8,
+    "thermal_expansion_per_k": 4.6e-05,
+    "mohs_hardness": 0.6,
+    "bulk_modulus_gpa": 11,
+    "shear_modulus_gpa": null,
+    "young_modulus_gpa": null,
+    "poisson_ratio": null
+  },
+  "nuclear_properties": {
+    "radioactive": false,
+    "half_life": null,
+    "decay_mode": null,
+    "stable_isotopes": [
+      6,
+      7
+    ],
+    "isotopes": [
+      {
+        "mass_number": 6,
+        "symbol": "6Li",
+        "name": null,
+        "neutrons": 3,
+        "abundance_percent": 7.59,
+        "mass_u": 6.015122795,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": "1+"
+      },
+      {
+        "mass_number": 7,
+        "symbol": "7Li",
+        "name": null,
+        "neutrons": 4,
+        "abundance_percent": 92.41,
+        "mass_u": 7.01600455,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": "3/2-"
+      }
+    ]
+  },
+  "abundance": {
+    "universe_percent": 6e-07,
+    "solar_percent": 6e-07,
+    "earth_crust_ppm": 20,
+    "ocean_ppm": 0.18,
+    "human_body_percent": 3e-06
+  },
+  "discovery": {
+    "year": 1817,
+    "discoverers": [
+      "Johan August Arfwedson"
+    ],
+    "country": "Sweden",
+    "named_by": "Jons Jacob Berzelius",
+    "name_origin": "Greek 'lithos' (stone)"
+  },
+  "applications": [
+    "Lithium-ion batteries",
+    "Lithium-polymer batteries",
+    "Psychiatric medication (lithium carbonate)",
+    "Ceramics and glass (lithium oxide)",
+    "Aluminum smelting flux",
+    "Nuclear fusion fuel (6Li + neutron)",
+    "Grease lubricants (lithium stearate)",
+    "Air treatment (CO2 absorption in spacecraft)"
+  ],
+  "hazards": {
+    "ghs_pictograms": [
+      "GHS02",
+      "GHS05"
+    ],
+    "signal_word": "Danger",
+    "nfpa_704": {
+      "health": 3,
+      "flammability": 2,
+      "reactivity": 2,
+      "special": "W"
+    },
+    "hazard_statements": [],
+    "autoignition_temp_k": 453,
+    "flash_point_k": null,
+    "explosive_limits_percent": null
+  },
+  "reactions": [
+    {
+      "id": "Li-industrial-001",
+      "name": "Lithium carbonate to lithium metal",
+      "equation": "Li2CO3(s) -> Li2O(s) + CO2(g)",
+      "type": "decomposition",
+      "category": "industrial",
+      "delta_h_kj": 234,
+      "conditions": "1583 K",
+      "description": "Thermal decomposition of lithium carbonate. Precursor to lithium metal electrolysis.",
+      "reversible": false
+    },
+    {
+      "id": "Li-laboratory-001",
+      "name": "Flame test (lithium)",
+      "equation": "Li(s) -> Li*(g) -> Li(g) + hv (671 nm)",
+      "type": "emission",
+      "category": "laboratory",
+      "delta_h_kj": null,
+      "conditions": "nichrome wire; Bunsen burner",
+      "description": "Crimson red flame for lithium at 671 nm.",
+      "reversible": false
+    },
+    {
+      "id": "Li-notable-001",
+      "name": "Lithium in water",
+      "equation": "2 Li(s) + 2 H2O(l) -> 2 LiOH(aq) + H2(g)",
+      "type": "single displacement",
+      "category": "notable",
+      "delta_h_kj": -446,
+      "conditions": "gentle fizzing; lithium floats and slowly dissolves; crimson specks",
+      "description": "Least violent alkali metal + water. Gentle fizzing. Li has highest ionization energy of group 1.",
+      "reversible": false
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "name": "Strontium",
+  "symbol": "Sr",
+  "atomic_number": 38,
+  "atomic_mass_u": 87.62,
+  "atomic_mass_uncertainty_u": 0.01,
+  "classification": {
+    "group": 2,
+    "period": 5,
+    "block": "s",
+    "category": "alkaline earth metal",
+    "series": "alkaline earth metal",
+    "natural_occurrence": "primordial"
+  },
+  "atomic_structure": {
+    "electron_configuration": "[Kr] 5s2",
+    "electron_configuration_long": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 5s2",
+    "electron_shells": [
+      2,
+      8,
+      18,
+      8,
+      2
+    ],
+    "valence_electrons": 2,
+    "oxidation_states": [
+      1,
+      2
+    ],
+    "common_oxidation_states": [
+      2
+    ],
+    "electronegativity_pauling": 0.95,
+    "ionization_energies_kj_mol": [
+      549.5
+    ],
+    "electron_affinity_kj_mol": 5.023,
+    "atomic_radius_pm": 219,
+    "covalent_radius_pm": 195,
+    "van_der_waals_radius_pm": 249
+  },
+  "physical_properties": {
+    "phase_at_stp": "solid",
+    "melting_point_k": 1050.0,
+    "boiling_point_k": 1650.0,
+    "density_kg_m3": 2640.0,
+    "density_liquid_kg_m3": null,
+    "triple_point_k": null,
+    "triple_point_kpa": null,
+    "critical_point_k": null,
+    "critical_point_mpa": null,
+    "heat_of_fusion_kj_mol": 7.43,
+    "heat_of_vaporization_kj_mol": 141.0,
+    "molar_heat_capacity_j_mol_k": 26.4,
+    "color": "silvery-white",
+    "crystal_structure": "face-centered cubic",
+    "magnetic_ordering": "paramagnetic",
+    "speed_of_sound_m_s": null,
+    "thermal_conductivity_w_m_k": 35.4,
+    "thermal_expansion_per_k": 2.25e-05,
+    "mohs_hardness": 1.5,
+    "bulk_modulus_gpa": 12,
+    "shear_modulus_gpa": null,
+    "young_modulus_gpa": null,
+    "poisson_ratio": null
+  },
+  "nuclear_properties": {
+    "radioactive": false,
+    "half_life": null,
+    "decay_mode": null,
+    "stable_isotopes": [
+      84,
+      86,
+      87,
+      88
+    ],
+    "isotopes": [
+      {
+        "mass_number": 88,
+        "symbol": "88Sr",
+        "name": null,
+        "neutrons": 50,
+        "abundance_percent": null,
+        "mass_u": 87.62,
+        "half_life": "stable",
+        "decay_mode": null,
+        "spin": null
+      }
+    ]
+  },
+  "abundance": {
+    "universe_percent": null,
+    "solar_percent": null,
+    "earth_crust_ppm": 370,
+    "ocean_ppm": null,
+    "human_body_percent": 0.00046
+  },
+  "discovery": {
+    "year": 1790,
+    "discoverers": [
+      "Adair Crawford"
+    ],
+    "country": "Scotland",
+    "named_by": "Humphry Davy",
+    "name_origin": "Strontian, Scotland"
+  },
+  "applications": [
+    "Fireworks (red flame)",
+    "Ferrite magnets (SrFe12O19)",
+    "CRT cathode ray tubes (historical)",
+    "Radioactive dating (87Sr/86Sr)"
+  ],
+  "hazards": {
+    "ghs_pictograms": [],
+    "signal_word": null,
+    "nfpa_704": null,
+    "hazard_statements": [],
+    "autoignition_temp_k": null,
+    "flash_point_k": null,
+    "explosive_limits_percent": null
+  },
+  "reactions": [
+    {
+      "id": "Sr-laboratory-001",
+      "name": "Flame test (strontium)",
+      "equation": "Sr(s) -> Sr*(g) -> Sr(g) + hv (606 nm)",
+      "type": "emission",
+      "category": "laboratory",
+      "delta_h_kj": null,
+      "conditions": "nichrome wire; Bunsen burner",
+      "description": "Bright red flame for strontium. Used in fireworks for red color.",
+      "reversible": false
+    },
+    {
+      "id": "Pu-notable-001",
+      "name": "Plutonium-239 fission",
+      "equation": "Pu-239 + n -> Ba-146 + Sr-91 + 3 n",
+      "type": "nuclear fission",
+      "category": "notable",
+      "delta_h_kj": null,
+      "conditions": "thermal neutron capture; ~210 MeV per fission; bred from U-238 in reactors",
+      "description": "Plutonium fission. Pu-239 bred from U-238 by neutron capture. Used in breeder reactors and weapons.",
+      "reversible": false
+    }
+  ]
+}

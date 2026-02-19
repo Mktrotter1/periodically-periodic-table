@@ -1,0 +1,1489 @@
+[
+  {
+    "id": "Fe-notable-001",
+    "name": "Thermite reaction",
+    "equation": "2 Al(s) + Fe2O3(s) -> Al2O3(s) + 2 Fe(l)",
+    "equation_latex": "2\\,\\text{Al}(s) + \\text{Fe}_2\\text{O}_3(s) \\rightarrow \\text{Al}_2\\text{O}_3(s) + 2\\,\\text{Fe}(l)",
+    "type": "aluminothermic",
+    "category": "notable",
+    "elements_involved": [
+      "Al",
+      "Fe",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "Al",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "Fe2O3",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Al2O3",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "Fe",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -851.5,
+      "delta_g_kj": -818.4,
+      "delta_s_j_k": -111,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "ignited with Mg ribbon; reaches ~2500C; used for rail welding"
+    },
+    "reversible": false,
+    "description": "Extremely exothermic aluminothermic reaction. Produces molten iron at >2500C. Used to weld railroad rails."
+  },
+  {
+    "id": "Na-notable-001",
+    "name": "Sodium in water",
+    "equation": "2 Na(s) + 2 H2O(l) -> 2 NaOH(aq) + H2(g)",
+    "equation_latex": "2\\,\\text{Na}(s) + 2\\,\\text{H}_2\\text{O}(l) \\rightarrow 2\\,\\text{NaOH}(aq) + \\text{H}_2(g)",
+    "type": "single displacement",
+    "category": "notable",
+    "elements_involved": [
+      "Na",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "Na",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "NaOH",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "H2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -368,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "violent; Na melts and skates on water surface; H2 may ignite with yellow flame"
+    },
+    "reversible": false,
+    "description": "Alkali metal reacts violently with water. Na melts into a ball, dashes across surface. H2 may ignite."
+  },
+  {
+    "id": "K-notable-001",
+    "name": "Potassium in water",
+    "equation": "2 K(s) + 2 H2O(l) -> 2 KOH(aq) + H2(g)",
+    "equation_latex": "2\\,\\text{K}(s) + 2\\,\\text{H}_2\\text{O}(l) \\rightarrow 2\\,\\text{KOH}(aq) + \\text{H}_2(g)",
+    "type": "single displacement",
+    "category": "notable",
+    "elements_involved": [
+      "K",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "K",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "KOH",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "H2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -392,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "more violent than Na; lilac flame from K vapor; may explode"
+    },
+    "reversible": false,
+    "description": "Even more violent than sodium. H2 always ignites with lilac flame. Can explode."
+  },
+  {
+    "id": "Li-notable-001",
+    "name": "Lithium in water",
+    "equation": "2 Li(s) + 2 H2O(l) -> 2 LiOH(aq) + H2(g)",
+    "equation_latex": "2\\,\\text{Li}(s) + 2\\,\\text{H}_2\\text{O}(l) \\rightarrow 2\\,\\text{LiOH}(aq) + \\text{H}_2(g)",
+    "type": "single displacement",
+    "category": "notable",
+    "elements_involved": [
+      "Li",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "Li",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "LiOH",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "H2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -446,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "gentle fizzing; lithium floats and slowly dissolves; crimson specks"
+    },
+    "reversible": false,
+    "description": "Least violent alkali metal + water. Gentle fizzing. Li has highest ionization energy of group 1."
+  },
+  {
+    "id": "Rb-notable-001",
+    "name": "Rubidium in water",
+    "equation": "2 Rb(s) + 2 H2O(l) -> 2 RbOH(aq) + H2(g)",
+    "equation_latex": "2\\,\\text{Rb}(s) + 2\\,\\text{H}_2\\text{O}(l) \\rightarrow 2\\,\\text{RbOH}(aq) + \\text{H}_2(g)",
+    "type": "single displacement",
+    "category": "notable",
+    "elements_involved": [
+      "Rb",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "Rb",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "RbOH",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "H2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "extremely violent; spontaneous ignition of H2; handled only in inert atmosphere"
+    },
+    "reversible": false,
+    "description": "Extremely violent reaction. Ignites immediately on contact with water. Must handle under argon."
+  },
+  {
+    "id": "Cs-notable-001",
+    "name": "Caesium in water",
+    "equation": "2 Cs(s) + 2 H2O(l) -> 2 CsOH(aq) + H2(g)",
+    "equation_latex": "2\\,\\text{Cs}(s) + 2\\,\\text{H}_2\\text{O}(l) \\rightarrow 2\\,\\text{CsOH}(aq) + \\text{H}_2(g)",
+    "type": "single displacement",
+    "category": "notable",
+    "elements_involved": [
+      "Cs",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "Cs",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CsOH",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "H2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "explosive; shatters glass container; Coulomb explosion (2015 Nature Chemistry)"
+    },
+    "reversible": false,
+    "description": "Most violent alkali metal + water. Explodes instantly. 2015 study showed Coulomb explosion mechanism."
+  },
+  {
+    "id": "Xe-notable-001",
+    "name": "Xenon hexafluoroplatinate (first noble gas compound)",
+    "equation": "Xe(g) + PtF6(g) -> [XePtF6](s)",
+    "equation_latex": "\\text{Xe}(g) + \\text{PtF}_6(g) \\rightarrow [\\text{XePtF}_6](s)",
+    "type": "synthesis",
+    "category": "notable",
+    "elements_involved": [
+      "Xe",
+      "Pt",
+      "F"
+    ],
+    "reactants": [
+      {
+        "formula": "Xe",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "PtF6",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "XePtF6",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "Neil Bartlett, 1962; orange-yellow solid"
+    },
+    "reversible": false,
+    "description": "First noble gas compound. Neil Bartlett (1962) shattered the 'noble gases are inert' dogma."
+  },
+  {
+    "id": "Xe-notable-002",
+    "name": "Xenon difluoride synthesis",
+    "equation": "Xe(g) + F2(g) -> XeF2(s)",
+    "equation_latex": "\\text{Xe}(g) + \\text{F}_2(g) \\rightarrow \\text{XeF}_2(s)",
+    "type": "synthesis",
+    "category": "notable",
+    "elements_involved": [
+      "Xe",
+      "F"
+    ],
+    "reactants": [
+      {
+        "formula": "Xe",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "F2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "XeF2",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -108,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "UV irradiation or high pressure; colorless crystals; used in semiconductor etching"
+    },
+    "reversible": false,
+    "description": "Simplest noble gas compound made synthetically. Linear molecule. Used in semiconductor fabrication."
+  },
+  {
+    "id": "U-notable-001",
+    "name": "Uranium-235 nuclear fission",
+    "equation": "U-235 + n -> Ba-141 + Kr-92 + 3 n",
+    "equation_latex": "{}^{235}\\text{U} + n \\rightarrow {}^{141}\\text{Ba} + {}^{92}\\text{Kr} + 3\\,n",
+    "type": "nuclear fission",
+    "category": "notable",
+    "elements_involved": [
+      "U",
+      "Ba",
+      "Kr"
+    ],
+    "reactants": [
+      {
+        "formula": "U-235",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Ba-141",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "Kr-92",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "thermal neutron capture; ~200 MeV per fission; chain reaction if k >= 1"
+    },
+    "reversible": false,
+    "description": "Nuclear fission of U-235. ~200 MeV per event. Powers nuclear reactors and weapons. Discovered 1938 by Hahn & Strassmann."
+  },
+  {
+    "id": "H-notable-001",
+    "name": "Hydrogen fusion (proton-proton chain)",
+    "equation": "4 H-1 -> He-4 + 2 e+ + 2 ve + energy",
+    "equation_latex": "4\\,{}^1\\text{H} \\rightarrow {}^4\\text{He} + 2\\,e^+ + 2\\,\\nu_e + \\text{energy}",
+    "type": "nuclear fusion",
+    "category": "notable",
+    "elements_involved": [
+      "H",
+      "He"
+    ],
+    "reactants": [
+      {
+        "formula": "H-1",
+        "moles": 4,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "He-4",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 15000000,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "stellar core; requires ~15 million K to overcome Coulomb barrier"
+    },
+    "reversible": false,
+    "description": "Powers the Sun and main-sequence stars. Converts 4 protons to helium-4. E = mc^2: 0.7% mass converted to energy."
+  },
+  {
+    "id": "H-notable-002",
+    "name": "Deuterium-tritium fusion (ITER target)",
+    "equation": "D + T -> He-4 + n + 17.6 MeV",
+    "equation_latex": "{}^2\\text{H} + {}^3\\text{H} \\rightarrow {}^4\\text{He} + n + 17.6\\,\\text{MeV}",
+    "type": "nuclear fusion",
+    "category": "notable",
+    "elements_involved": [
+      "H",
+      "He"
+    ],
+    "reactants": [
+      {
+        "formula": "D",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "T",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "He-4",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": 100000000,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "tokamak magnetic confinement; ITER target: Q >= 10"
+    },
+    "reversible": false,
+    "description": "Easiest fusion reaction to achieve. 17.6 MeV per event. ITER aims for net energy gain."
+  },
+  {
+    "id": "N-notable-001",
+    "name": "Nitrogen triiodide detonation",
+    "equation": "2 NI3(s) -> N2(g) + 3 I2(g)",
+    "equation_latex": "2\\,\\text{NI}_3(s) \\rightarrow \\text{N}_2(g) + 3\\,\\text{I}_2(g)",
+    "type": "decomposition",
+    "category": "notable",
+    "elements_involved": [
+      "N",
+      "I"
+    ],
+    "reactants": [
+      {
+        "formula": "NI3",
+        "moles": 2,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "N2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "I2",
+        "moles": 3,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -290,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "contact-sensitive when dry; detonates from slightest touch; purple I2 cloud"
+    },
+    "reversible": false,
+    "description": "Extremely sensitive contact explosive. Detonates when dry from a feather touch. Purple iodine cloud produced."
+  },
+  {
+    "id": "Mg-notable-001",
+    "name": "Magnesium ribbon burning",
+    "equation": "2 Mg(s) + O2(g) -> 2 MgO(s)",
+    "equation_latex": "2\\,\\text{Mg}(s) + \\text{O}_2(g) \\rightarrow 2\\,\\text{MgO}(s)",
+    "type": "combustion",
+    "category": "notable",
+    "elements_involved": [
+      "Mg",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "Mg",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "MgO",
+        "moles": 2,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -1204,
+      "delta_g_kj": -1138,
+      "delta_s_j_k": -216.6,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "brilliant white light; do not look directly; burns at ~3100C; cannot be extinguished with water"
+    },
+    "reversible": false,
+    "description": "Brilliant white flame used in fireworks and flares. Burns hot enough to ignite in CO2 and N2."
+  },
+  {
+    "id": "Mg-notable-002",
+    "name": "Magnesium in dry ice",
+    "equation": "2 Mg(s) + CO2(g) -> 2 MgO(s) + C(s)",
+    "equation_latex": "2\\,\\text{Mg}(s) + \\text{CO}_2(g) \\rightarrow 2\\,\\text{MgO}(s) + \\text{C}(s)",
+    "type": "combustion",
+    "category": "notable",
+    "elements_involved": [
+      "Mg",
+      "C",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "Mg",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "CO2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "MgO",
+        "moles": 2,
+        "state": "s"
+      },
+      {
+        "formula": "C",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "Mg ribbon burns inside CO2; demonstrates that CO2 fire extinguisher fails for Mg fires"
+    },
+    "reversible": false,
+    "description": "Magnesium burns in CO2, reducing it to carbon. Demonstrates that CO2 extinguishers are useless for metal fires."
+  },
+  {
+    "id": "P-notable-001",
+    "name": "White phosphorus spontaneous combustion",
+    "equation": "P4(s) + 5 O2(g) -> P4O10(s)",
+    "equation_latex": "\\text{P}_4(s) + 5\\,\\text{O}_2(g) \\rightarrow \\text{P}_4\\text{O}_{10}(s)",
+    "type": "combustion",
+    "category": "notable",
+    "elements_involved": [
+      "P",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "P4",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "O2",
+        "moles": 5,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "P4O10",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -2984,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "pyrophoric; ignites spontaneously in air above ~30C; stored under water"
+    },
+    "reversible": false,
+    "description": "White phosphorus is pyrophoric. Ignites spontaneously in air. Must be stored under water. Extremely toxic."
+  },
+  {
+    "id": "F-notable-001",
+    "name": "Fluorine + water",
+    "equation": "2 F2(g) + 2 H2O(l) -> 4 HF(aq) + O2(g)",
+    "equation_latex": "2\\,\\text{F}_2(g) + 2\\,\\text{H}_2\\text{O}(l) \\rightarrow 4\\,\\text{HF}(aq) + \\text{O}_2(g)",
+    "type": "oxidation",
+    "category": "notable",
+    "elements_involved": [
+      "F",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "F2",
+        "moles": 2,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "products": [
+      {
+        "formula": "HF",
+        "moles": 4,
+        "state": "aq"
+      },
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -758,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "fluorine oxidizes water (unique among halogens); extremely dangerous"
+    },
+    "reversible": false,
+    "description": "Fluorine is the only element that oxidizes water at room temperature. Most reactive element."
+  },
+  {
+    "id": "Au-notable-001",
+    "name": "Gold dissolution in aqua regia",
+    "equation": "Au(s) + 3 HCl(aq) + HNO3(aq) -> HAuCl4(aq) + NO(g) + 2 H2O(l)",
+    "equation_latex": "\\text{Au}(s) + 3\\,\\text{HCl}(aq) + \\text{HNO}_3(aq) \\rightarrow \\text{HAuCl}_4(aq) + \\text{NO}(g) + 2\\,\\text{H}_2\\text{O}(l)",
+    "type": "dissolution",
+    "category": "notable",
+    "elements_involved": [
+      "Au",
+      "H",
+      "Cl",
+      "N",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "Au",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "HCl",
+        "moles": 3,
+        "state": "aq"
+      },
+      {
+        "formula": "HNO3",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "HAuCl4",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "NO",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "3:1 HCl:HNO3 mixture; chloride complexation drives dissolution"
+    },
+    "reversible": false,
+    "description": "Aqua regia dissolves gold. Neither acid alone works. Cl- complexation (AuCl4-) shifts equilibrium. de Hevesy saved Nobel medals this way in WWII."
+  },
+  {
+    "id": "Pt-notable-001",
+    "name": "Platinum dissolution in aqua regia",
+    "equation": "3 Pt(s) + 4 HNO3(aq) + 12 HCl(aq) -> 3 H2PtCl4(aq) + 4 NO(g) + 8 H2O(l)",
+    "equation_latex": "3\\,\\text{Pt}(s) + 4\\,\\text{HNO}_3(aq) + 12\\,\\text{HCl}(aq) \\rightarrow 3\\,\\text{H}_2\\text{PtCl}_4(aq) + 4\\,\\text{NO}(g) + 8\\,\\text{H}_2\\text{O}(l)",
+    "type": "dissolution",
+    "category": "notable",
+    "elements_involved": [
+      "Pt",
+      "H",
+      "N",
+      "O",
+      "Cl"
+    ],
+    "reactants": [
+      {
+        "formula": "Pt",
+        "moles": 3,
+        "state": "s"
+      },
+      {
+        "formula": "HNO3",
+        "moles": 4,
+        "state": "aq"
+      },
+      {
+        "formula": "HCl",
+        "moles": 12,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "H2PtCl4",
+        "moles": 3,
+        "state": "aq"
+      },
+      {
+        "formula": "NO",
+        "moles": 4,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 8,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "aqua regia ('royal water') named for dissolving noble metals"
+    },
+    "reversible": false,
+    "description": "Aqua regia dissolves platinum. Named 'royal water' by alchemists. Only method for dissolving Pt."
+  },
+  {
+    "id": "Hg-notable-001",
+    "name": "Mercury(II) oxide decomposition (Priestley's experiment)",
+    "equation": "2 HgO(s) -> 2 Hg(l) + O2(g)",
+    "equation_latex": "2\\,\\text{HgO}(s) \\rightarrow 2\\,\\text{Hg}(l) + \\text{O}_2(g)",
+    "type": "decomposition",
+    "category": "notable",
+    "elements_involved": [
+      "Hg",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "HgO",
+        "moles": 2,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Hg",
+        "moles": 2,
+        "state": "l"
+      },
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": 181.6,
+      "delta_g_kj": 118.2,
+      "delta_s_j_k": 213,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": 773,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "Priestley (1774) and Scheele independently discovered O2 this way"
+    },
+    "reversible": false,
+    "description": "How oxygen was discovered. Priestley heated HgO with a lens and collected 'dephlogisticated air'."
+  },
+  {
+    "id": "Cu-notable-001",
+    "name": "Copper sulfate + iron (tree of Diana)",
+    "equation": "Fe(s) + CuSO4(aq) -> FeSO4(aq) + Cu(s)",
+    "equation_latex": "\\text{Fe}(s) + \\text{CuSO}_4(aq) \\rightarrow \\text{FeSO}_4(aq) + \\text{Cu}(s)",
+    "type": "single displacement",
+    "category": "notable",
+    "elements_involved": [
+      "Fe",
+      "Cu",
+      "S",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "Fe",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "CuSO4",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "FeSO4",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "Cu",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -153,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "iron nail in CuSO4 solution; copper plates out as reddish deposit"
+    },
+    "reversible": false,
+    "description": "Iron displaces copper from solution. Classic activity series demonstration. Reddish copper deposits on iron."
+  },
+  {
+    "id": "C-notable-001",
+    "name": "Elephant toothpaste",
+    "equation": "2 H2O2(aq) -> 2 H2O(l) + O2(g)",
+    "equation_latex": "2\\,\\text{H}_2\\text{O}_2(aq) \\rightarrow 2\\,\\text{H}_2\\text{O}(l) + \\text{O}_2(g)",
+    "type": "decomposition",
+    "category": "notable",
+    "elements_involved": [
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "H2O2",
+        "moles": 2,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "H2O",
+        "moles": 2,
+        "state": "l"
+      },
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -196,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": "KI or MnO2",
+      "other": "30% H2O2 + dish soap + KI; massive foam eruption"
+    },
+    "reversible": false,
+    "description": "Rapid catalytic decomposition of concentrated H2O2. O2 trapped in soap creates massive foam column."
+  },
+  {
+    "id": "C-notable-002",
+    "name": "Barking dog reaction",
+    "equation": "2 CS2(l) + 6 N2O(g) -> 2 CO2(g) + 6 N2(g) + 4 SO2(g)",
+    "equation_latex": "2\\,\\text{CS}_2(l) + 6\\,\\text{N}_2\\text{O}(g) \\rightarrow 2\\,\\text{CO}_2(g) + 6\\,\\text{N}_2(g) + 4\\,\\text{SO}_2(g)",
+    "type": "combustion",
+    "category": "notable",
+    "elements_involved": [
+      "C",
+      "S",
+      "N",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "CS2",
+        "moles": 2,
+        "state": "l"
+      },
+      {
+        "formula": "N2O",
+        "moles": 6,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "moles": 2,
+        "state": "g"
+      },
+      {
+        "formula": "N2",
+        "moles": 6,
+        "state": "g"
+      },
+      {
+        "formula": "SO2",
+        "moles": 4,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "ignite CS2/N2O mixture in long tube; blue flame + barking sound"
+    },
+    "reversible": false,
+    "description": "CS2 vapor and N2O combust with distinctive barking sound and blue flash. Popular demonstration."
+  },
+  {
+    "id": "Mn-notable-001",
+    "name": "Briggs-Rauscher oscillating reaction",
+    "equation": "IO3-(aq) + 2 H2O2(aq) + CH2(COOH)2(aq) + H+(aq) -> ICH(COOH)2(aq) + 2 O2(g) + 3 H2O(l)",
+    "equation_latex": "\\text{IO}_3^-(aq) + 2\\,\\text{H}_2\\text{O}_2(aq) + \\text{CH}_2(\\text{COOH})_2(aq) + \\text{H}^+(aq) \\rightarrow \\text{ICH}(\\text{COOH})_2(aq) + 2\\,\\text{O}_2(g) + 3\\,\\text{H}_2\\text{O}(l)",
+    "type": "oscillating",
+    "category": "notable",
+    "elements_involved": [
+      "I",
+      "O",
+      "H",
+      "C",
+      "Mn"
+    ],
+    "reactants": [
+      {
+        "formula": "KIO3",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O2",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "CH2(COOH)2",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "H2SO4",
+        "moles": 1,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "ICH(COOH)2",
+        "moles": 1,
+        "state": "aq"
+      },
+      {
+        "formula": "O2",
+        "moles": 2,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 3,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": "MnSO4",
+      "other": "oscillates amber -> blue -> colorless for ~10 cycles"
+    },
+    "reversible": false,
+    "description": "Chemical oscillator. Color cycles amber -> blue -> colorless repeatedly. Non-equilibrium thermodynamics."
+  },
+  {
+    "id": "N-notable-002",
+    "name": "Ammonium nitrate decomposition (explosive)",
+    "equation": "2 NH4NO3(s) -> 2 N2(g) + O2(g) + 4 H2O(g)",
+    "equation_latex": "2\\,\\text{NH}_4\\text{NO}_3(s) \\rightarrow 2\\,\\text{N}_2(g) + \\text{O}_2(g) + 4\\,\\text{H}_2\\text{O}(g)",
+    "type": "decomposition",
+    "category": "notable",
+    "elements_involved": [
+      "N",
+      "H",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "NH4NO3",
+        "moles": 2,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "N2",
+        "moles": 2,
+        "state": "g"
+      },
+      {
+        "formula": "O2",
+        "moles": 1,
+        "state": "g"
+      },
+      {
+        "formula": "H2O",
+        "moles": 4,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -236,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "detonation >270C; Beirut 2020 (2750 tonnes); Texas City 1947; Oppau 1921"
+    },
+    "reversible": false,
+    "description": "Ammonium nitrate detonation. Responsible for numerous industrial disasters. Also a common fertilizer."
+  },
+  {
+    "id": "W-notable-001",
+    "name": "Tungsten highest melting point metal",
+    "equation": "WO3(s) + 3 H2(g) -> W(s) + 3 H2O(g)",
+    "equation_latex": "\\text{WO}_3(s) + 3\\,\\text{H}_2(g) \\rightarrow \\text{W}(s) + 3\\,\\text{H}_2\\text{O}(g)",
+    "type": "reduction",
+    "category": "notable",
+    "elements_involved": [
+      "W",
+      "O",
+      "H"
+    ],
+    "reactants": [
+      {
+        "formula": "WO3",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "H2",
+        "moles": 3,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "W",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "H2O",
+        "moles": 3,
+        "state": "g"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": 117.3,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": 1073,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "hydrogen reduction of tungsten trioxide; used for light bulb filaments"
+    },
+    "reversible": false,
+    "description": "Production of tungsten metal. Highest melting point of any element (3695K). Used in light bulb filaments."
+  },
+  {
+    "id": "B-notable-001",
+    "name": "Boron green flame",
+    "equation": "4 B(s) + 3 O2(g) -> 2 B2O3(s)",
+    "equation_latex": "4\\,\\text{B}(s) + 3\\,\\text{O}_2(g) \\rightarrow 2\\,\\text{B}_2\\text{O}_3(s)",
+    "type": "combustion",
+    "category": "notable",
+    "elements_involved": [
+      "B",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "B",
+        "moles": 4,
+        "state": "s"
+      },
+      {
+        "formula": "O2",
+        "moles": 3,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "B2O3",
+        "moles": 2,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": -2546,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "brilliant green flame; boron compounds used in fireworks for green color"
+    },
+    "reversible": false,
+    "description": "Boron burns with a distinctive bright green flame. Boric acid used in firework coloring."
+  },
+  {
+    "id": "Ga-notable-001",
+    "name": "Gallium melts in hand",
+    "equation": "Ga(s) -> Ga(l)",
+    "equation_latex": "\\text{Ga}(s) \\rightarrow \\text{Ga}(l)",
+    "type": "phase change",
+    "category": "notable",
+    "elements_involved": [
+      "Ga"
+    ],
+    "reactants": [
+      {
+        "formula": "Ga",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Ga",
+        "moles": 1,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": 5.59,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": false
+    },
+    "conditions": {
+      "temperature_k": 302.91,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "melting point 29.76C; melts from body heat; 'disappearing spoon' trick"
+    },
+    "reversible": false,
+    "description": "Gallium melts just above room temperature (29.76C). 'Disappearing spoon' demonstration."
+  },
+  {
+    "id": "Pu-notable-001",
+    "name": "Plutonium-239 fission",
+    "equation": "Pu-239 + n -> Ba-146 + Sr-91 + 3 n",
+    "equation_latex": "{}^{239}\\text{Pu} + n \\rightarrow {}^{146}\\text{Ba} + {}^{91}\\text{Sr} + 3\\,n",
+    "type": "nuclear fission",
+    "category": "notable",
+    "elements_involved": [
+      "Pu",
+      "Ba",
+      "Sr"
+    ],
+    "reactants": [
+      {
+        "formula": "Pu-239",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "products": [
+      {
+        "formula": "Ba-146",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "Sr-91",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "thermal neutron capture; ~210 MeV per fission; bred from U-238 in reactors"
+    },
+    "reversible": false,
+    "description": "Plutonium fission. Pu-239 bred from U-238 by neutron capture. Used in breeder reactors and weapons."
+  },
+  {
+    "id": "Bi-notable-001",
+    "name": "Bismuth subsalicylate (Pepto-Bismol pink)",
+    "equation": "Bi2O3(s) + 6 HCl(aq) -> 2 BiCl3(aq) + 3 H2O(l)",
+    "equation_latex": "\\text{Bi}_2\\text{O}_3(s) + 6\\,\\text{HCl}(aq) \\rightarrow 2\\,\\text{BiCl}_3(aq) + 3\\,\\text{H}_2\\text{O}(l)",
+    "type": "acid dissolution",
+    "category": "notable",
+    "elements_involved": [
+      "Bi",
+      "O",
+      "H",
+      "Cl"
+    ],
+    "reactants": [
+      {
+        "formula": "Bi2O3",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "HCl",
+        "moles": 6,
+        "state": "aq"
+      }
+    ],
+    "products": [
+      {
+        "formula": "BiCl3",
+        "moles": 2,
+        "state": "aq"
+      },
+      {
+        "formula": "H2O",
+        "moles": 3,
+        "state": "l"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": null
+    },
+    "reversible": false,
+    "description": "Bismuth is the heaviest non-radioactive element used in medicine. Pepto-Bismol's pink active ingredient."
+  },
+  {
+    "id": "Os-notable-001",
+    "name": "Osmium tetroxide formation",
+    "equation": "Os(s) + 2 O2(g) -> OsO4(s)",
+    "equation_latex": "\\text{Os}(s) + 2\\,\\text{O}_2(g) \\rightarrow \\text{OsO}_4(s)",
+    "type": "oxidation",
+    "category": "notable",
+    "elements_involved": [
+      "Os",
+      "O"
+    ],
+    "reactants": [
+      {
+        "formula": "Os",
+        "moles": 1,
+        "state": "s"
+      },
+      {
+        "formula": "O2",
+        "moles": 2,
+        "state": "g"
+      }
+    ],
+    "products": [
+      {
+        "formula": "OsO4",
+        "moles": 1,
+        "state": "s"
+      }
+    ],
+    "thermodynamics": {
+      "delta_h_kj": null,
+      "delta_g_kj": null,
+      "delta_s_j_k": null,
+      "exothermic": true
+    },
+    "conditions": {
+      "temperature_k": null,
+      "pressure_atm": null,
+      "catalyst": null,
+      "other": "OsO4 is volatile, extremely toxic; powerful oxidizer used in organic chemistry for dihydroxylation"
+    },
+    "reversible": false,
+    "description": "Osmium forms volatile, highly toxic OsO4. Used in organic synthesis (Sharpless dihydroxylation, Nobel 2001). Densest element."
+  }
+]
