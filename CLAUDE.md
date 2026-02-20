@@ -1,11 +1,6 @@
 # Periodically — Machine-Readable Periodic Table Knowledge Base
 
-## What This Is
-Comprehensive JSON database of all 118 chemical elements with atomic structure, physical/chemical/thermodynamic/nuclear properties, isotopes, and categorized chemical reactions.
-
-## Dual Purpose
-1. **LLM context injection** — load one element file, get complete knowledge for chemistry questions
-2. **Programmatic queries** — search elements by property, find reactions, compare materials via Python CLI
+Comprehensive JSON database of all 118 chemical elements with atomic structure, physical/chemical/thermodynamic/nuclear properties, isotopes, and categorized chemical reactions. Dual-purpose: LLM context injection and programmatic queries via Python CLI.
 
 ## Architecture
 - `elements/NNN-name.json` — One file per element (118 total), single source of truth after generation
@@ -25,8 +20,7 @@ query.py              →  CLI search/compare tool
 
 ## Key Commands
 ```bash
-# Activate venv first
-source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+source .venv/bin/activate
 
 # Regenerate everything
 python scripts/generate_elements.py
@@ -50,13 +44,7 @@ python scripts/query.py compare H He Li
 - Distance: picometers (pm) for atomic radii
 - Pressure: kPa or MPa (critical points), atm (reactions)
 - Abundance: percent or ppm as standard for each context
-- Null values for unknown/unmeasured properties
 
 ## Tech Stack
 - Python 3.13
-- jsonschema (validation)
-- tabulate (CLI output formatting)
-
-## File Naming
-- Elements: `NNN-name.json` (e.g., `001-hydrogen.json`, `026-iron.json`)
-- Zero-padded 3-digit atomic number + lowercase element name
+- Element files: `NNN-name.json` (zero-padded 3-digit atomic number + lowercase name)
