@@ -2,3 +2,5 @@
 elements/
 reactions/
 indexes/
+# Python
+.venv/
